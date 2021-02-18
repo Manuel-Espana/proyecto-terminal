@@ -1,4 +1,61 @@
 {%extends 'base.html'%}
 {%block content%}
-  <h1> Esta es la página de Visitantes</h1>
+  <h2 align="center">Visitantes</h2>
+        <form>
+          <div class="card">
+            <div class="card-body">
+            <label for="formGroupExampleInput">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserte su nombre">
+
+            <label for="formGroupExampleInput2">Apellidos</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Inserte sus apellidos">
+
+          <div class="form-row">
+            <div class="col">
+              <label>Hora de Ingreso</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col">
+              <label>Hora de Salida</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="inputState">Tipo de usuario</label>
+            <select id="inputState" class="form-control">
+              <option selected>Colaborador</option>
+              <option>Recursos Humanos</option>
+              <option>Servicios Escolares</option>
+              <option>Control y Evaluación</option>
+              <option>Proveedor</option>
+              <option>Abogados y Consultores</option>
+              <option>Trabajador Externo</option>
+              <option>Rectoría</option>
+              <option>Visitante</option>
+            </select>
+          </div>
+        
+          <div class="form-group">
+            <label for="inputState">Área</label>
+            <select id="inputState" class="form-control">
+              <option selected>Servicios Escolares</option>
+              <option>Biblioteca</option>
+              <option>Vinculación</option>
+              <option>Rectoría</option>
+              <option>Cafetería</option>
+              <option>Laboratorios</option>
+              <option>SAC</option>
+            </select>
+            </div>
+      
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Descripción(Opcional)</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div> 
+          <button type="submit" class="btn btn-primary">Subir</button>
+        </div>
+      </div>   
+        </form>
 {%endblock%}
