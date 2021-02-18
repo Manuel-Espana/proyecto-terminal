@@ -1,4 +1,52 @@
 {% extends 'base.html' %}
 {% block content %}
-  <h2 class="text-center">BITACORA</h2>
+  <h2 class="text-center">Bitácora</h2>
+  <div class="container text-center py-1">
+    <label for="fecha-bitacora">Fecha:</label>
+    <input type="date" id="fecha-bitacora" name="fecha-bitacora" min="2021-01-01" max="2021-02-16">
+  </div>
+  <div class="col-auto container">          
+    <table class="table table-striped table-bordered text-center">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>H.E.</th>
+          <th>H.S.</th>
+          <th>Motivo ing.</th>
+          <th>Dep. visitado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Jose Francisco</td>
+          <td>Peralta Ramos</td>
+          <td>15:55</td>
+          <td>21:12</td>
+          <td>Clases</td>
+          <td>Edificio de ingenierías</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Anselmo</td>
+          <td>Calderón Paez</td>
+          <td>16:02</td>
+          <td>21:33</td>
+          <td>Clases</td>
+          <td>Edificio de ingenierías</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Jesus Manuel</td>
+          <td>España Tzec</td>
+          <td>16:10</td>
+          <td>21:50</td>
+          <td>Clases</td>
+          <td>Edificio de ingenierías</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 {%endblock%}
