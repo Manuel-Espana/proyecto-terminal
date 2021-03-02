@@ -1,14 +1,25 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2 class="text-center py-5">Escanee Código QR</h2>
-    <div class="container text-center py-5">
-      <a id="btn-scan-qr">
-        <img src="/static/img/CPETSC.svg" style="height: min-content; width: min-content;">
-      </a>
-      <canvas hidden="" id="qr-canvas"></canvas>
-      <div id="qr-result" hidden="">
-        <b>Respuesta: </b> <span id="outputData"></span>
-      </div>   
+    <h2 class="text-center">Escanee Código QR</h2>
+    <div class="d-flex align-content-center flex-wrap">
+      <div class="container text-center py-5 ">
+        <a id="btn-scan-qr">
+          <img src="/static/img/CPETSC.svg" style="height: min-content; width: min-content;">
+        </a>
+        <canvas hidden="" id="qr-canvas"></canvas>
+        <div id="qr-result" hidden="">
+          <b>Respuesta: </b> <span id="outputData"></span>
+        </div>
+      </div>
+      <div class="container text-center py-5 input-group">
+        <input type="search" class="form-control" placeholder="Buscar Comunidad Universitaria">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div> 
     </div>
+    
 {%endblock%}
