@@ -6,11 +6,11 @@
     <form>
       <div class="card">
         <div class="card-body">
-          <label for="formGroupExampleInput">Nombre</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserte su nombre">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Inserte su nombre">
   
-          <label for="formGroupExampleInput2">Apellidos</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Inserte sus apellidos">
+          <label for="last_name">Apellidos</label>
+          <input type="text" class="form-control" id="last_name" placeholder="Inserte sus apellidos">
   
           <div class="form-row">
             <div class="col">
@@ -22,33 +22,40 @@
               <input type="text" class="form-control">
             </div>
           </div>
-  
-  
           <div class="form-group">
             <label for="inputState">Tipo de usuario</label>
             <select id="inputState" class="form-control">
-              <option selected>Colaborador</option>
-              <option>Recursos Humanos</option>
-              <option>Servicios Escolares</option>
-              <option>Control y Evaluación</option>
-              <option>Proveedor</option>
-              <option>Abogados y Consultores</option>
-              <option>Trabajador Externo</option>
-              <option>Rectoría</option>
+              <option selected>Colaborador/Estudiante</option>
               <option>Visitante</option>
             </select>
           </div>
+          
+<script>
+let seleccionar = document.querySelector('select');
+seleccionar.addEventListener('change', estatus);
+function estatus() {
+  let eleccion = seleccionar.value;
+
+  if (eleccion === 'Colaborador/Estudiante') 
+  {
+    inputState.disabled=true;
+  } 
+  else if (eleccion === 'Visitante')
+  {
+    inputState.disabled=false;
+  } 
+}
+</script>
       
           <div class="form-group">
             <label for="inputState">Área</label>
-            <select id="inputState" class="form-control">
+            <select class="custom-select">
               <option selected>Servicios Escolares</option>
-              <option>Biblioteca</option>
-              <option>Vinculación</option>
-              <option>Rectoría</option>
-              <option>Cafetería</option>
-              <option>Laboratorios</option>
-              <option>SAC</option>
+              <option value="1">Vinculación</option>
+              <option value="2">Rectoría</option>
+              <option value="3">Cafetería</option>
+              <option value="4">Laboratorios</option>
+              <option value="5">SAC</option>
             </select>
           </div>
   
