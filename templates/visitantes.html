@@ -22,26 +22,18 @@
               <input type="text" class="form-control">
             </div>
           </div>
-  
-  
+
           <div class="form-group">
-            <label for="inputState">Tipo de usuario</label>
-            <select id="inputState" class="form-control">
-              <option selected>Colaborador</option>
-              <option>Recursos Humanos</option>
-              <option>Servicios Escolares</option>
-              <option>Control y Evaluación</option>
-              <option>Proveedor</option>
-              <option>Abogados y Consultores</option>
-              <option>Trabajador Externo</option>
-              <option>Rectoría</option>
-              <option>Visitante</option>
+            <label for="tipoUsuario">Tipo de usuario</label>
+            <select id="tipoUsuario" class="form-control">
+              <option value = "estudiante" selected>Estudiante/Colaborador</option>
+              <option value = "visitante">Visitante</option>
             </select>
           </div>
       
-          <div class="form-group">
-            <label for="inputState">Área</label>
-            <select id="inputState" class="form-control">
+          <div class="form-group" id="areaDiv">
+            <label for="areaVisitada">Área</label>
+            <select id="areaVisitada" class="form-control">
               <option selected>Servicios Escolares</option>
               <option>Biblioteca</option>
               <option>Vinculación</option>
@@ -49,16 +41,22 @@
               <option>Cafetería</option>
               <option>Laboratorios</option>
               <option>SAC</option>
+              <option>Evento</option>
             </select>
           </div>
   
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Descripción(Opcional)</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="form-group" id="descripcionDiv">
+            <label for="descripcion">Descripción (Opcional)</label>
+            <textarea class="form-control" id="descripcion" rows="3"></textarea>
           </div> 
+
           <button type="submit" class="btn btn-primary">Subir</button>
         </div>
       </div>   
     </form>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="/static/js/visitanteOpcion.js"></script>
+
   </div>
 {%endblock%}
