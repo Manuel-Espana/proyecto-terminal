@@ -1,14 +1,14 @@
-from flask import Flask, render_template, url_for, redirect
+from flask import Flask, render_template, url_for, redirect, flash, request
 from flask_mysqldb import MySQL
+import datetime
 
 app = Flask(__name__)
 
-app.config['MYSQL_HOST'] = 'localhost:3000'
+app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_db'] = 'bitacora'
-
-mysql = MySQL()
+app.config['MYSQL_PASSWORD'] = 'anselmo10'
+app.config['MYSQL_DB'] = 'bitacora'
+mysql = MySQL(app)
 
 
 @app.route('/')
@@ -21,9 +21,27 @@ def resultados():
     return render_template('resultados.html')
 
 
-@app.route('/visitantes.html')
+@app.route('/visitantes.html', methods=['POST'])
 def visitantes():
-    return render_template('visitantes.html')
+    date = datetime.date.today()
+    if request.method == 'POST':
+        nombre = request.form['name']
+        apellido = request.form['last_name']
+        hora_e = request.form['he']
+        hora_s = request.form['hs']
+        tipo_usuario = request.form['tipo_usuario']
+        departamento = request.form['departamento']
+        descripcion = request.form['descripcion']
+        cur = mysql.connection.cursor()
+        cur.execute('INSERT INTO registro (nombre,apellido,he,hs,motivo_ingreso,departamento,descripcion,fecha)  VALUES (%s,%s,%s,%s,%s,%s,%s,%s)',
+                    (nombre, apellido, hora_e, hora_s, tipo_usuario, departamento, descripcion, date))
+        mysql.connection.commit()
+        return redirect(url_for('visitantes'))
+
+
+@app.route('/visitantes.html', methods=['GET'])
+def visitantes_get():
+    return render_template('/visitantes.html')
 
 
 @app.route('/bitacora.html')

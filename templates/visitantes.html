@@ -1,31 +1,31 @@
 {%extends 'base.html'%}
 
 {%block content%}
-  <h2 class="text-center">Visitantes</h2>
+<h2 class="text-center">Visitantes</h2>
   <div class="container">
-    <form>
+    <form action="/visitantes.html" method="POST">
       <div class="card">
         <div class="card-body">
           <label for="name">Nombre</label>
-          <input type="text" class="form-control" id="name" placeholder="Inserte su nombre">
+          <input type="text" class="form-control" name="name" placeholder="Inserte su nombre">
   
           <label for="last_name">Apellidos</label>
-          <input type="text" class="form-control" id="last_name" placeholder="Inserte sus apellidos">
+          <input type="text" class="form-control" name="last_name" placeholder="Inserte sus apellidos">
   
           <div class="form-row">
             <div class="col">
               <label>Hora de Ingreso</label>
-              <input type="text" class="form-control">
+              <input type="text" name="he" class="form-control">
             </div>
             <div class="col">
               <label>Hora de Salida</label>
-              <input type="text" class="form-control">
+              <input type="text" name="hs" class="form-control">
             </div>
           </div>
 
           <div class="form-group">
             <label for="tipoUsuario">Tipo de usuario</label>
-            <select id="tipoUsuario" class="form-control">
+            <select id="tipoUsuario" name="tipo_usuario" class="form-control">
               <option value = "estudiante" selected>Estudiante/Colaborador</option>
               <option value = "visitante">Visitante</option>
             </select>
@@ -50,7 +50,7 @@ function estatus() {
       
           <div class="form-group" id="areaDiv">
             <label for="areaVisitada">Área</label>
-            <select id="areaVisitada" class="form-control">
+            <select id="areaVisitada" name="departamento" class="form-control">
               <option selected>Servicios Escolares</option>
               <option>Biblioteca</option>
               <option>Vinculación</option>
@@ -64,16 +64,15 @@ function estatus() {
   
           <div class="form-group" id="descripcionDiv">
             <label for="descripcion">Descripción (Opcional)</label>
-            <textarea class="form-control" id="descripcion" rows="3"></textarea>
+            <textarea class="form-control" name="descripcion" rows="3"></textarea>
           </div> 
 
           <button type="submit" class="btn btn-primary">Subir</button>
         </div>
       </div>   
     </form>
-    
+  
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="/static/js/visitanteOpcion.js"></script>
-
   </div>
 {%endblock%}
