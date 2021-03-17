@@ -3,51 +3,42 @@
 {% block content %}
   <h2 class="text-center">Bitácora</h2>
   <div class="container text-center py-1">
-    <label for="fecha-bitacora">Fecha:</label>
-    <input type="date" id="fecha-bitacora" name="fecha-bitacora" min="2021-01-01" max="2021-02-16">
+    <form action="/filtrar_fecha" method="POST">
+      <label for="fecha-inicio">Fecha inicio:</label>
+      <input type="date" id="fecha-inicio" name="fecha-inicio" min="2021-01-01" required="true">
+      <label for="fecha-fin">Fecha fin:</label>
+      <input type="date" id="fecha-fin" name="fecha-fin" min="2021-01-01">
+      <button type="submit" class="btn btn-primary">Filtrar</button>
+    </form>
   </div>
-  <div class="container">
+  <div class="container" style="margin-bottom: 7rem;">
     <div class="table-responsive-sm text-center">         
-      <table class="table table-striped table-bordered">
+      <table class="table table-striped table-bordered table-sm">
         <thead>
           <tr>
-            <th>#</th>
             <th>Nombres</th>
             <th>Apellidos</th>
+            <th>Fecha</th>
             <th>H.E.</th>
             <th>H.S.</th>
             <th>Motivo ing.</th>
             <th>Dep. visitado</th>
+            <th>Opciones</th>
           </tr>
         </thead>
         <tbody>
+          {% for registro in registros %}
           <tr>
-            <th>1</th>
-            <td>Jose Francisco</td>
-            <td>Peralta Ramos</td>
-            <td>15:55</td>
-            <td>21:12</td>
-            <td>Clases</td>
-            <td>Edificio de ingenierías</td>
+            <td>{{registro.1}}</td>
+            <td>{{registro.2}}</td>
+            <td>{{registro.8}}</td>
+            <td>{{registro.3}}</td>
+            <td>{{registro.4}}</td>
+            <td>{{registro.5}}</td>
+            <td>{{registro.6}}</td>
+            <td> {% if registro.4 == None%} <a href="/exit/{{registro.0}}" class="btn btn-danger btn-delete">Salida</a> {% else %} - {% endif %} </td>
           </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Anselmo</td>
-            <td>Calderón Paez</td>
-            <td>16:02</td>
-            <td>21:33</td>
-            <td>Clases</td>
-            <td>Edificio de ingenierías</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Jesus Manuel</td>
-            <td>España Tzec</td>
-            <td>16:10</td>
-            <td>21:50</td>
-            <td>Clases</td>
-            <td>Edificio de ingenierías</td>
-          </tr>
+          {% endfor %}
         </tbody>
       </table>
     </div>

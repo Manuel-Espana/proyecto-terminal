@@ -11,47 +11,20 @@
   
           <label for="last_name">Apellidos</label>
           <input type="text" class="form-control" name="last_name" placeholder="Inserte sus apellidos">
-  
-          <div class="form-row">
-            <div class="col">
-              <label>Hora de Ingreso</label>
-              <input type="text" name="he" class="form-control">
-            </div>
-            <div class="col">
-              <label>Hora de Salida</label>
-              <input type="text" name="hs" class="form-control">
-            </div>
-          </div>
 
           <div class="form-group">
             <label for="tipoUsuario">Tipo de usuario</label>
             <select id="tipoUsuario" name="tipo_usuario" class="form-control">
-              <option value = "estudiante" selected>Estudiante/Colaborador</option>
-              <option value = "visitante">Visitante</option>
+              <option value = "Estudiante" selected>Estudiante/Colaborador</option>
+              <option value = "Visitante">Visitante</option>
             </select>
           </div>
-          
-<script>
-let seleccionar = document.querySelector('select');
-seleccionar.addEventListener('change', estatus);
-function estatus() {
-  let eleccion = seleccionar.value;
-
-  if (eleccion === 'Colaborador/Estudiante') 
-  {
-    inputState.disabled=true;
-  } 
-  else if (eleccion === 'Visitante')
-  {
-    inputState.disabled=false;
-  } 
-}
-</script>
       
           <div class="form-group" id="areaDiv">
             <label for="areaVisitada">Área</label>
             <select id="areaVisitada" name="departamento" class="form-control">
-              <option selected>Servicios Escolares</option>
+              <option selected label = "Selecciona departamento"></option>
+              <option>Servicios Escolares</option>
               <option>Biblioteca</option>
               <option>Vinculación</option>
               <option>Rectoría</option>
@@ -61,7 +34,7 @@ function estatus() {
               <option>Evento</option>
             </select>
           </div>
-  
+
           <div class="form-group" id="descripcionDiv">
             <label for="descripcion">Descripción (Opcional)</label>
             <textarea class="form-control" name="descripcion" rows="3"></textarea>

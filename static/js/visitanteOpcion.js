@@ -1,5 +1,5 @@
 $("#tipoUsuario").change(function() {
-    if ($(this).val() == "visitante") {
+    if ($(this).val() == "Visitante") {
       $('#areaDiv').show();
       $('#areaVisitada').attr('required', '');
       $('#areaVisitada').attr('data-error', 'This field is required.');
