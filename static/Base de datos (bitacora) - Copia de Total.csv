@@ -1,0 +1,1609 @@
+id,nombre,apellido,he,hs,fecha,día,motivo_ingreso,departamento,descripcion
+1,Otilio,Guevara Diaz,6:54:00,15:00:00,2021/01/04,lunes,Colaborador,Mantenimiento,
+2,Carmen,Rodriguez,6:54:00,15:00:00,2021/01/04,lunes,Colaborador,Limpieza,
+3,Olga Lilia,Velazquez Santiago,6:54:00,13:00:00,2021/01/04,lunes,Colaborador,Limpieza,
+4,Delio,Perez Silva,7:20:00,14:03:00,2021/01/04,lunes,Colaborador,Limpieza,
+5,Flor,Sanchez Gonzalez,7:48:00,14:15:00,2021/01/04,lunes,Colaborador,Limpieza,
+6,Francisco,Zurita Sastre,7:54:00,14:55:00,2021/01/04,lunes,Colaborador,Apoyo a la docencia,
+7,Gabriela,Martinez Vazquez,7:57:00,15:00:00,2021/01/04,lunes,Colaborador,Jardineria,
+8,Adrian,Arseño Dzib,7:57:00,14:55:00,2021/01/04,lunes,Colaborador,Apoyo a la docencia,
+9,Jose,Chan,7:59:00,17:56:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+10,Jorge Luis,Perez Pool,8:01:00,17:57:00,2021/01/04,lunes,Colaborador,Apoyo a la docencia,
+11,Edwin Jesus,Sangino Garcia,8:02:00,17:56:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+12,Rafael,Chan,8:03:00,14:55:00,2021/01/04,lunes,Colaborador,Apoyo a la docencia,
+13,Jose Luis,Corral Carrasco,8:09:00,9:06:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+14,Jorge,Arevalo,8:11:00,8:45:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+15,Gilberto,Gomez Gomez,8:11:00,17:56:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+16,Neila Dessiree,Luzardo Lameda,8:16:00,15:00:00,2021/01/04,lunes,Colaborador,Jardineria,
+17,Alan,Robles,8:16:00,17:56:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+18,Gilberto,Hernandez Gil,8:16:00,15:14:00,2021/01/04,lunes,Colaborador,Mantenimiento,
+19,Juan Carlos,Valdez Rodriguez,8:28:00,18:17:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+20,Eusebio,Pacheco Flores,8:28:00,18:17:00,2021/01/04,lunes,Visitante,,Ing. Francisco
+21,Hector,Romero Ibarra,9:08:00,14:55:00,2021/01/04,lunes,Colaborador,Gastronomia,
+22,Silvio Manuel,Herrera Dzul,11:03:00,14:21:00,2021/01/04,lunes,Colaborador,Planeacion y Desarrollo,
+23,Rodrigo,Morales Camara,11:10:00,15:08:00,2021/01/04,lunes,Colaborador,Planeacion y Desarrollo,
+24,Abigail,Castillo Martinez,11:23:00,15:37:00,2021/01/04,lunes,Colaborador,Planeacion y Desarrollo,
+25,Gaspar,Sansores Perez,12:37:00,12:45:00,2021/01/04,lunes,Colaborador,Mantenimiento,
+26,Mario Alan,Larios Balam,14:37:00,17:49:00,2021/01/04,lunes,Visitante,,"Trabajador Ing. Tomas, Impermeabilizador"
+27,Yovany Yair,Larios Balam,14:37:00,17:49:00,2021/01/04,lunes,Visitante,,"Trabajador Ing. Tomas, Impermeabilizador"
+28,Mario Alan,Larios Balam,14:37:00,17:49:00,2021/01/04,lunes,Visitante,,"Trabajador Ing. Tomas, Impermeabilizador"
+29,Javier,Gil Martinez,14:47:00,17:49:00,2021/01/04,lunes,Visitante,,"Trabajador Ing. Tomas, Impermeabilizador"
+30,Michelle,Elias Hernandez,14:47:00,17:49:00,2021/01/04,lunes,Visitante,,"Trabajador Ing. Tomas, Impermeabilizador"
+31,Enrique,Sanchez,14:47:00,17:49:00,2021/01/04,lunes,Visitante,,"Trabajador Ing. Tomas, Impermeabilizador"
+32,Alejandro,Perera Avalos,13:00:00,15:14:00,2021/01/04,lunes,Colaborador,Coordinacion,
+33,Juan,Diaz,15:00:00,16:48:00,2021/01/04,lunes,Visitante,,"Posible andamios pagados, con Ing. Tomas"
+34,Gaspar,Sansores Perez,15:32:00,19:08:00,2021/01/04,lunes,Colaborador,Mantenimiento,
+35,Armando,Gongora,16:37:00,16:44:00,2021/01/04,lunes,Colaborador,,"Guardia, Supervision Total Guard"
+36,Otilio,Guevara Diaz,7:00:00,15:00:00,2021/01/05,martes,Colaborador,Mantenimiento,
+37,Pedro de Jesus,Tuz Uc,7:30:00,15:00:00,2021/01/05,martes,Colaborador,Mantenimiento,
+38,Gabriela,Martinez Vazquez,7:30:00,15:00:00,2021/01/05,martes,Colaborador,Jardineria,
+39,Francisco,Zurita Sastre,7:50:00,15:00:00,2021/01/05,martes,Colaborador,Apoyo a la docencia,
+40,Alan,Robles,7:58:00,17:30:00,2021/01/05,martes,Visitante,,Colaborador Ing. Francisco
+41,Gilberto,Gomez Gomez,7:59:00,17:30:00,2021/01/05,martes,Visitante,,"Colaborador Ing. Francisco, Reparacion"
+42,Adrian,Arseño Dzib,8:00:00,15:20:00,2021/01/05,martes,Colaborador,Apoyo a la docencia,
+43,Jorge Luis,Perez Pool,8:02:00,12:15:00,2021/01/05,martes,Colaborador,Apoyo a la docencia,
+44,Neila Dessiree,Luzardo Lameda,8:05:00,17:55:00,2021/01/05,martes,Colaborador,Jardineria,
+45,Jesus,Sanguino,8:05:00,17:30:00,2021/01/05,martes,Visitante,,"Colaborador Ing. Francisco, Reparacion"
+46,Juan Carlos,Valdez Rodriguez,8:10:00,17:30:00,2021/01/05,martes,Visitante,,"Colaborador Ing. Camacho, Electricista"
+47,Eusebio,Pacheco Flores,8:10:00,17:30:00,2021/01/05,martes,Visitante,,"Colaborador Ing. Camacho, Electricista"
+48,Jose Luis,Corral Carrasco,8:13:00,17:30:00,2021/01/05,martes,Visitante,,"Colaborador Ing. Francisco, Impermeabilizador"
+49,Jose Luis,Chan Alcala,8:20:00,17:30:00,2021/01/05,martes,Visitante,,"Personal Ing. Francisco, Maestro de obra"
+50,Gilberto,Hernandez Gil,8:20:00,15:00:00,2021/01/05,martes,Colaborador,Mantenimiento,
+51,Hermelindo,Can Chan,8:28:00,16:15:00,2021/01/05,martes,Colaborador,Mantenimiento,
+52,Saul,Chan,8:40:00,17:30:00,2021/01/05,martes,Visitante,,"Personal Ing. Francisco, Reparacion"
+53,Artemio,Bernal,8:48:00,17:30:00,2021/01/05,martes,Visitante,,"Personal Ing. Francisco, Impermeabilizador"
+54,Melecio,Fernandez,8:48:00,9:23:00,2021/01/05,martes,Visitante,,"Personal Ing. Francisco, Impermeabilizador"
+55,Francisco,Huy Notl,8:50:00,14:55:00,2021/01/05,martes,Colaborador,Gastronomia,
+56,Jorge,Arevalo,8:55:00,18:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Francisco, Impermeabilizador"
+57,Yovany Yair,Larios Balam,9:10:00,18:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Impermeabilizador"
+58,Mario Alan,Larios Balam,9:10:00,12:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Impermeabilizador"
+59,Michelle,Elias Hernandez,9:10:00,18:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Impermeabilizador"
+60,Enrique,Sanchez,9:10:00,18:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Impermeabilizador"
+61,Javier,Gil Martinez,9:10:00,18:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Impermeabilizador"
+62,Bernardo,Luna Cervantes,9:15:00,10:33:00,2021/01/05,martes,Colaborador,Limpieza,Firma de contrato
+63,Safiro,Luna,9:15:00,10:33:00,2021/01/05,martes,Colaborador,Limpieza,Firma de contrato
+64,Diana Laura,Sanchez Camacho,9:15:00,10:33:00,2021/01/05,martes,Colaborador,Recursos Humanos,
+65,Hector,Romero Ibarra,9:16:00,14:55:00,2021/01/05,martes,Colaborador,Gastronomia,
+66,Juan,Diaz,9:46:00,10:00:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Maestro de obra"
+67,Karina,Carrillo Perez,9:54:00,13:37:00,2021/01/05,martes,Colaborador,Tesoreria,
+68,Cristian Elizabeth,Rivera Romero,9:57:00,14:50:00,2021/01/05,martes,Colaborador,Compras,
+69,Alejandro,Perera Avalos,9:57:00,14:53:00,2021/01/05,martes,Colaborador,Coordinacion,
+70,Rodrigo,Morales Camara,10:00:00,17:15:00,2021/01/05,martes,Colaborador,Planeacion y Desarrollo,
+71,Claudia,Silverio Cabrera,10:09:00,15:00:00,2021/01/05,martes,Colaborador,Contabilidad,
+72,Silvio Manuel,Herrera Dzul,10:13:00,13:57:00,2021/01/05,martes,Colaborador,Planeacion y Desarrollo,
+73,Vicente Manuel,Pech Bacab,10:13:00,17:40:00,2021/01/05,martes,Colaborador,Compras,
+74,Bernardina,Cap Palomo,10:13:00,13:40:00,2021/01/05,martes,Colaborador,Recursos Humanos,
+75,Zoyla Maria,Garcia Cen,10:13:00,17:42:00,2021/01/05,martes,Colaborador,Administracion,
+76,Zury Lizbeth,Perez Flores,10:20:00,16:16:00,2021/01/05,martes,Colaborador,Compras,
+77,Magdalena,Dzul Tuz,10:31:00,16:12:00,2021/01/05,martes,Colaborador,Recursos Humanos,
+78,Maria Cristina,Canul Pech,11:07:00,16:50:00,2021/01/05,martes,Colaborador,Control Presupuestal,
+79,Mirna,Torres Argaes,11:08:00,14:00:00,2021/01/05,martes,Colaborador,Recursos Humanos,
+80,Mario Alan,Larios Balam,11:22:00,16:22:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, Impermeabilizador"
+81,Julio Cesar,Alvarado,11:50:00,14:24:00,2021/01/05,martes,Visitante,Rectoria,Juridico
+82,Juan Jose,Lopez,14:29:00,14:33:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, trae carretilla"
+83,Santiago,Ramirez Alvarez,14:29:00,14:33:00,2021/01/05,martes,Visitante,,"Personal Ing. Tomas, trae carretilla"
+84,Abigail,Castillo Martinez,14:35:00,17:15:00,2021/01/05,martes,Colaborador,Planeacion y Desarrollo,
+85,Carmen,Rodriguez,6:55:00,14:27:00,2021/01/06,miercoles,Colaborador,Limpieza,
+86,Olga Lilia,Velazquez Santiago,7:15:00,14:27:00,2021/01/06,miercoles,Colaborador,Limpieza,
+87,Otilio,Guevara Diaz,7:15:00,15:10:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+88,Gabriela,Martinez Vazquez,7:22:00,15:07:00,2021/01/06,miercoles,Colaborador,Jardineria,
+89,Pedro de Jesus,Tuz Uc,7:30:00,16:00:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+90,Francisco,Zurita Sastre,7:42:00,14:51:00,2021/01/06,miercoles,Colaborador,Apoyo a la docencia,
+91,Alan,Robles,7:50:00,17:30:00,2021/01/06,miercoles,Visitante,,Colaborador Ing. Francisco
+92,Maria Flor,Sanchez Gonzalez,7:55:00,15:00:00,2021/01/06,miercoles,Colaborador,Limpieza,
+93,Adrian,Arseño Dzib,7:57:00,14:51:00,2021/01/06,miercoles,Colaborador,Apoyo a la docencia,
+94,Gilberto,Gomez Gomez,8:00:00,12:54:00,2021/01/06,miercoles,Visitante,,Colaborador Ing. Francisco
+95,Jorge Luis,Perez Pool,8:00:00,14:51:00,2021/01/06,miercoles,Colaborador,Apoyo a la docencia,
+96,Jorge,Azueta Ruiz,8:05:00,14:54:00,2021/01/06,miercoles,Colaborador,Apoyo a la docencia,
+97,Jose Manuel,Dominguez Santos,8:05:00,14:51:00,2021/01/06,miercoles,Colaborador,Apoyo a la docencia,
+98,Mario,Dominguez,8:10:00,14:50:00,2021/01/06,miercoles,Colaborador,Apoyo a la docencia,
+99,Luis,Corral,8:10:00,10:00:00,2021/01/06,miercoles,Visitante,,Colaborador Ing. Francisco
+100,Hermelindo,Can Chan,8:10:00,16:00:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+101,Neila Dessiree,Luzardo Lameda,8:11:00,14:44:00,2021/01/06,miercoles,Colaborador,Jardineria,
+102,Gilberto,Hernandez Gil,8:17:00,15:10:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+103,Delio,Perez Silva,8:31:00,14:17:00,2021/01/06,miercoles,Colaborador,Limpieza,
+104,Juan Carlos,Valdez Rodriguez,8:40:00,15:05:00,2021/01/06,miercoles,Visitante,,Trabajos en la azotea
+105,Eusebio,Pacheco Flores,8:40:00,15:05:00,2021/01/06,miercoles,Visitante,,Trabajos en la azotea
+106,Saul,Chan,8:43:00,17:30:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Francisco, Ciclopista e impermeabilización"
+107,Luis Angel,Rosado Bautista,8:43:00,11:00:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Francisco, Ciclopista e impermeabilización"
+108,William Ferneli,Tun Cap,8:43:00,15:40:00,2021/01/06,miercoles,Colaborador,Gastronomia,
+109,Fernando,Gonzalez Alarcon,8:44:00,15:10:00,2021/01/06,miercoles,Colaborador,Gastronomia,
+110,Jose,Chan,8:44:00,17:00:00,2021/01/06,miercoles,Visitante,,Colaborador Ing. Francisco
+111,Viviana,Catzin Escamilla,9:05:00,14:55:00,2021/01/06,miercoles,Colaborador,Sistemas,
+112,Yovany Yair,Larios Balam,9:10:00,15:15:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Tomas, Azotea Edificio ""D"""
+113,Alan,Larios Balam,9:10:00,15:15:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Tomas, Azotea Edificio ""D"""
+114,Michelle,Elias Hernandez,9:10:00,15:15:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Tomas, Azotea Edificio ""D"""
+115,Enrique,Sanchez,9:10:00,15:15:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Tomas, Azotea Edificio ""D"""
+116,Javier Ulises,Gil Martinez,9:10:00,15:15:00,2021/01/06,miercoles,Visitante,,"Colaborador Ing. Tomas, Azotea Edificio ""D"""
+117,Luis Gerardo,Tec Sanchez,9:18:00,15:00:00,2021/01/06,miercoles,Colaborador,Rectoria,
+118,Hector,Romero Ibarra,9:18:00,15:16:00,2021/01/06,miercoles,Colaborador,Gastronomia,
+119,Luis,Dzib Chuc,9:22:00,15:10:00,2021/01/06,miercoles,Colaborador,Gastronomia,
+120,Edsel,Baltierra Medel,9:26:00,14:10:00,2021/01/06,miercoles,Colaborador,Inventarios,
+121,Claudia,Silverio Cabrera,9:44:00,15:00:00,2021/01/06,miercoles,Colaborador,Contabilidad,
+122,Zoyla Maria,Garcia Cen,9:46:00,16:47:00,2021/01/06,miercoles,Colaborador,Administracion,
+123,Ana Priscila,Sosa Ferreira,9:48:00,14:49:00,2021/01/06,miercoles,Colaborador,Rectoria,
+124,Alejandro,Perera Balam,9:53:00,10:30:00,2021/01/06,miercoles,Colaborador,Administracion,
+125,Cristian Elizabeth,Rivera Romero,10:04:00,18:42:00,2021/01/06,miercoles,Colaborador,Compras,
+126,Julio Cesar,Basto Canto,10:08:00,13:55:00,2021/01/06,miercoles,Colaborador,Unidad y Transparencia,
+127,Gaspar,Sosa Cap,10:08:00,13:55:00,2021/01/06,miercoles,Colaborador,Recursos Humanos,
+128,Bernardina,Cap Palomo,10:08:00,13:55:00,2021/01/06,miercoles,Colaborador,Secretaria Academica,
+129,Edgar Alberto,Pech Pech,10:10:00,16:00:00,2021/01/06,miercoles,Colaborador,Inventarios,
+130,Yessica,Hernandez,10:16:00,15:13:00,2021/01/06,miercoles,Colaborador,Servicios Escolares,
+131,Sinai Yudith,Prado Godinez,10:24:00,14:08:00,2021/01/06,miercoles,Colaborador,Recursos Humanos,
+132,Vicente Manuel,Pech Bacab,10:24:00,16:54:00,2021/01/06,miercoles,Colaborador,Control Presupuestal,
+133,Nayeli del Rosario,Pech May,10:24:00,17:47:00,2021/01/06,miercoles,Colaborador,Recursos Humanos,
+134,Zury Lizbeth,Perez Flores,10:31:00,16:42:00,2021/01/06,miercoles,Colaborador,Compras,
+135,Magdalena,Dzul Tuz,10:32:00,16:34:00,2021/01/06,miercoles,Colaborador,Recursos Humanos,
+136,Silvio Manuel,Herrera Dzul,10:32:00,15:35:00,2021/01/06,miercoles,Colaborador,Planeacion y Desarrollo,
+137,Elizabeth,Aranda Garcia,10:43:00,16:54:00,2021/01/06,miercoles,Colaborador,Control Presupuestal,
+138,Maria Cristina,Canul Pech,10:45:00,16:10:00,2021/01/06,miercoles,Colaborador,Planeacion y Desarrollo,
+139,Mirna,Torres Argaes,10:45:00,17:47:00,2021/01/06,miercoles,Colaborador,Recursos Humanos,
+140,Dulce,Leyva Dominguez,10:52:00,13:00:00,2021/01/06,miercoles,Colaborador,Recursos Humanos,
+141,Guillermina,Pech Pech,10:52:00,17:07:00,2021/01/06,miercoles,Colaborador,Rectoria,
+142,Luis,Pool,10:56:00,11:30:00,2021/01/06,miercoles,Visitante,,
+143,Jorge,Yam,10:56:00,11:30:00,2021/01/06,miercoles,Visitante,,
+144,Guillermo,Guillen Breton,11:01:00,20:12:00,2021/01/06,miercoles,Colaborador,Servicios Escolares,
+145,Rodrigo,Morales Camara,11:01:00,16:44:00,2021/01/06,miercoles,Colaborador,Planeacion y Desarrollo,
+146,Leonildo,Tun Caamal,11:04:00,17:26:00,2021/01/06,miercoles,Colaborador,Administracion,
+147,Luis,Dominguez,11:08:00,16:10:00,2021/01/06,miercoles,Colaborador,Control y Evaluacion,
+148,Paola,Ortega Santillan,11:28:00,11:30:00,2021/01/06,miercoles,Visitante,Limpieza,Star Clean
+149,Francisco,Osorio,11:33:00,13:55:00,2021/01/06,miercoles,Visitante,,
+150,Nathanael,Chi Chan,12:34:00,18:52:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+151,Eduard,Vazquez Rodriguez,13:33:00,18:52:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+152,Juan Carlos,Mendoza,14:01:00,14:15:00,2021/01/06,miercoles,Visitante,Inventarios,Torners
+153,Gaspar,Sansores Perez,15:13:00,18:52:00,2021/01/06,miercoles,Colaborador,Mantenimiento,
+154,Pedro de Jesus,Tuz Uc,7:25:00,16:50:00,2021/01/07,jueves,Colaborador,Mantenimiento,
+155,Gabriela,Martinez Vazquez,7:25:00,16:08:00,2021/01/07,jueves,Colaborador,Jardineria,
+156,Edwin Jesus,Sangino Garcia,8:00:00,8:30:00,2021/01/07,jueves,Visitante,,Ing. Francisco
+157,Jose Luis,Corral Carrasco,8:00:00,10:00:00,2021/01/07,jueves,Visitante,,Ing. Francisco
+158,Luis,Azueta Ruiz,8:08:00,14:00:00,2021/01/07,jueves,Colaborador,Apoyo a la docencia,
+159,Neila Dessiree,Luzardo Lameda,8:10:00,14:00:00,2021/01/07,jueves,Colaborador,Jardineria,
+160,Jose Manuel,Dominguez Santos,8:12:00,14:55:00,2021/01/07,jueves,Colaborador,Apoyo a la docencia,
+161,Gilberto,Gomez Gomez,8:15:00,12:16:00,2021/01/07,jueves,Visitante,,Ing. Camacho
+162,Juan Carlos,Valdez Rodriguez,8:15:00,12:16:00,2021/01/07,jueves,Visitante,,Ing. Camacho
+163,Eusebio,Pacheco Flores,8:15:00,12:16:00,2021/01/07,jueves,Visitante,,Ing. Camacho
+164,William Ferneli,Tun Cap,8:16:00,16:08:00,2021/01/07,jueves,Colaborador,Gastronomia,
+165,Jose Luis,Chan Alcala,8:20:00,18:35:00,2021/01/07,jueves,Visitante,,Ciclopista
+166,Gilberto,Hernandez Gil,8:23:00,15:20:00,2021/01/07,jueves,Colaborador,Mantenimiento,
+167,David,Flores Granados,8:55:00,14:00:00,2021/01/07,jueves,Colaborador,Apoyo a la docencia,
+168,Leonildo,Tun Caamal,8:55:00,17:15:00,2021/01/07,jueves,Colaborador,Rectoria,
+169,Fernando,Gonzalez Alarcon,9:00:00,15:10:00,2021/01/07,jueves,Colaborador,Gastronomia,
+170,Jazmin,Garnica Ortiz,9:00:00,13:00:00,2021/01/07,jueves,Visitante,,Reunion 1A
+171,Gabriel,Montiel Acuña,9:00:00,14:00:00,2021/01/07,jueves,Visitante,,Ing. Francisco
+172,Raul,Mangel,9:03:00,13:00:00,2021/01/07,jueves,Visitante,Auditorio,Reunion
+173,Cristofher,Pinzon,9:03:00,13:00:00,2021/01/07,jueves,Visitante,,Reunion 1A
+174,Silvio Manuel,Herrera Dzul,9:07:00,15:00:00,2021/01/07,jueves,Colaborador,Planeacion y Desarrollo,
+175,Laura,Moo Balam,9:07:00,15:20:00,2021/01/07,jueves,Colaborador,Planeacion y Desarrollo,
+176,Diana,Garcia Tevez,9:08:00,15:30:00,2021/01/07,jueves,Visitante,,
+177,Pedro,Hernandez Marfil,9:08:00,15:00:00,2021/01/07,jueves,Colaborador,Sistemas,
+178,Julio Cesar,Basto Canto,10:00:00,17:00:00,2021/01/07,jueves,Colaborador,Rectoria,
+179,Gloria Yamily,Arellano,9:00:00,13:00:00,2021/01/07,jueves,Visitante,,
+180,Maria Isabel,Bautista Montiel,9:45:00,18:50:00,2021/01/07,jueves,Visitante,,Ing. Francisco
+181,Cristina,Arellano Tuz,9:15:00,13:00:00,2021/01/07,jueves,Visitante,,
+182,Mario Alan,Larios Balam,9:15:00,16:55:00,2021/01/07,jueves,Visitante,Biblioteca,Tomas Canche
+183,Cristian Elizabeth,Rivera Romero,9:20:00,18:45:00,2021/01/07,jueves,Colaborador,Compras,
+184,Yovany Yair,Larios Balam,9:15:00,16:55:00,2021/01/07,jueves,Visitante,Biblioteca,Tomas Canche
+185,Michelle,Elias Hernandez,9:15:00,16:55:00,2021/01/07,jueves,Visitante,Biblioteca,Tomas Canche
+186,Enrique,Espinoza,9:15:00,16:55:00,2021/01/07,jueves,Visitante,Biblioteca,Tomas Canche
+187,Javier Ulises,Gil Martinez,9:15:00,16:55:00,2021/01/07,jueves,Visitante,Biblioteca,Tomas Canche
+188,Jose Felipe,Lopez Uitzil,9:15:00,14:10:00,2021/01/07,jueves,Visitante,Servicio Social,
+189,Luis,Cid,9:20:00,14:00:00,2021/01/07,jueves,Colaborador,Sistemas,
+190,Adriana,Reyes,9:20:00,13:00:00,2021/01/07,jueves,Visitante,Auditorio,
+191,Edsel,Baltierra Medel,9:35:00,15:45:00,2021/01/07,jueves,Colaborador,Inventarios,
+192,Alma,Gonzalez Campos,9:35:00,14:20:00,2021/01/07,jueves,Colaborador,Planeacion y Desarrollo,
+193,Javier,Manzo Jimenez,9:50:00,14:05:00,2021/01/07,jueves,Colaborador,Sistemas,
+194,Gaspar,Sosa Cap,9:52:00,14:10:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+195,Bernardina,Cap Palomo,9:52:00,17:03:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+196,Silvia Isabel,Navarro Yam,10:00:00,14:00:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+197,Zoyla Maria,Garcia Cen,10:02:00,18:30:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+198,Emma,Guevara Garcia Figueroa,10:02:00,18:30:00,2021/01/07,jueves,Colaborador,Infraestructura,
+199,Mario,Lario Acuña,10:35:00,18:10:00,2021/01/07,jueves,Visitante,,Impermeabilizador
+200,Vicente,Andrade,10:05:00,14:00:00,2021/01/07,jueves,Visitante,,Impermeabilizador
+201,Daniel,Castro Montes de Oca,10:05:00,14:00:00,2021/01/07,jueves,,,
+202,Guillermina,Pech Pech,10:05:00,18:25:00,2021/01/07,jueves,Colaborador,Rectoria,
+203,Dulce,Leyva Dominguez,10:10:00,14:00:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+204,Gregorio,Rodriguez Lopez,10:10:00,10:15:00,2021/01/07,jueves,Colaborador,Limpieza,Star Clean/Desayuno
+205,Admer,Lopez Villantures,10:10:00,10:15:00,2021/01/07,jueves,Visitante,Limpieza,Star Clean/Desayuno
+206,Edgar Alberto,Pech Pech,10:15:00,14:00:00,2021/01/07,jueves,Colaborador,Inventarios,
+207,Ana Priscila,Sosa Ferreira,10:20:00,15:10:00,2021/01/07,jueves,Colaborador,Rectoria,
+208,Sinai Yudith,Prado Godinez,10:50:00,18:03:00,2021/01/07,jueves,Visitante,Recursos Humanos,
+209,Mirna,Torres Argaes,10:25:00,16:00:00,2021/01/07,jueves,Visitante,Recursos Humanos,
+210,Nayeli del Rosario,Pech May,10:30:00,15:15:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+211,Jose Luis,Dominguez Mendez,10:30:00,14:00:00,2021/01/07,jueves,Colaborador,Control y Planeacion,
+212,Zury Lizbeth,Perez Flores,10:14:00,14:00:00,2021/01/07,jueves,Colaborador,Compras,
+213,Maria Cristina,Canul Pech,10:50:00,12:05:00,2021/01/07,jueves,Colaborador,Control Presupuestal,
+214,Vicente,Pech Bacab,10:50:00,12:05:00,2021/01/07,jueves,Visitante,,Maquina Barrenadora
+215,Juan Carlos,Rodriguez Cordova,10:53:00,12:05:00,2021/01/07,jueves,Visitante,,Maquina Barrenadora
+216,Manuel,De los Santos,10:53:00,12:05:00,2021/01/07,jueves,Visitante,,Maquina Barrenadora
+217,Magdalena ,Dzul Tuz,11:00:00,17:03:00,2021/01/07,jueves,Colaborador,Recursos Humanos,
+218,Elizabeth,Aranda Garcia,11:05:00,13:00:00,2021/01/07,jueves,Visitante,,
+219,Rodrigo,Morales Camara,11:08:00,13:00:00,2021/01/07,jueves,Visitante,,
+220,Guillermo,Guillen Breton,11:15:00,16:00:00,2021/01/07,jueves,Colaborador,Ciencias Academicas,
+221,Julio Cesar,Alvarado,11:15:00,13:10:00,2021/01/07,jueves,Colaborador,,
+222,Manuel,Garcia Camacho,11:23:00,12:05:00,2021/01/07,jueves,Visitante,,
+223,Carlo,May Ofited,11:08:00,12:25:00,2021/01/07,jueves,Visitante,,"Cristian Rivera, entregarle un tuner"
+224,Sandra,Anllen Reyna,12:08:00,15:45:00,2021/01/07,jueves,Colaborador,Tesoreria,
+225,Eduardo,Hernandez Cruz,12:30:00,13:00:00,2021/01/07,jueves,Estudiante,,
+226,Neyda,Riberol Lusardo,12:40:00,17:13:00,2021/01/07,jueves,Colaborador,Patronato,
+227,Nathanael,Chi Chan,14:36:00,18:55:00,2021/01/07,jueves,Colaborador,Mantenimiento,
+228,Eduard,Vazquez Rodriguez,14:36:00,18:55:00,2021/01/07,jueves,Colaborador,Mantenimiento,
+229,Luis,Lopez,17:50:00,18:00:00,2021/01/07,jueves,Colaborador,Administracion,Dejar formatos
+230,Delio,Perez Silva,7:04:00,14:00:00,2021/01/08,viernes,Colaborador,Limpieza,
+231,Maria Isabel,Bautista Montiel,7:53:00,18:29:00,2021/01/08,viernes,Visitante,,"Jose Chan y Francisco May, Impermeabilizador"
+232,Gabriel,Acuña Montiel,7:53:00,18:29:00,2021/01/08,viernes,Visitante,,"Jose Chan y Francisco May, Impermeabilizador"
+233,Gilberto,Gomez Gomez,7:53:00,18:40:00,2021/01/08,viernes,Visitante,,"Jose Chan y Francisco May, Ciclopista"
+234,Jorge Luis,Quiz Azueta,7:56:00,14:40:00,2021/01/08,viernes,Colaborador,Apoyo a la docencia,
+235,Ana Maria,Pinto Puc,8:00:00,14:22:00,2021/01/08,viernes,Colaborador,Limpieza,
+236,Maria Flor,Sanchez Gonzalez,8:00:00,14:24:00,2021/01/08,viernes,Colaborador,Limpieza,
+237,Jose Manuel,Dominguez Santos,8:05:00,14:40:00,2021/01/08,viernes,Colaborador,Apoyo a la docencia,
+238,Jose Luis,Chan Alcala,8:08:00,18:40:00,2021/01/08,viernes,Visitante,,"Francisco May, Ciclopista"
+239,Jose Luis,Corral Carrasco,8:10:00,18:29:00,2021/01/08,viernes,Visitante,,"Impermeabilizador, Francisco May, Ciclopista"
+240,Gilberto,Hernandez Gil,8:23:00,15:05:00,2021/01/08,viernes,Colaborador,Mantenimiento,
+241,Fernando,Gonzalez Alarcon,8:53:00,15:05:00,2021/01/08,viernes,Colaborador,Gastronomia,
+242,Viviana,Catzin Escamilla,9:01:00,14:48:00,2021/01/08,viernes,Colaborador,Sistemas,
+243,Luis Gerardo,Tec Sanchez,9:05:00,16:46:00,2021/01/08,viernes,Colaborador,Rectoria,
+244,Pedro Alfonso,Hernandez Martinez,9:07:00,14:49:00,2021/01/08,viernes,Colaborador,Sistemas,
+245,Itsel,Gonzalez,9:16:00,11:00:00,2021/01/08,viernes,Colaborador,Desarrollo Humano,
+246,Luz,Maldonado,9:18:00,10:54:00,2021/01/08,viernes,Colaborador,Practicas Profesionales,
+247,Luis,Dzib Chuc,9:18:00,15:09:00,2021/01/08,viernes,Colaborador,Gastronomia,
+248,Edsel,Baltierra Medel,9:25:00,15:45:00,2021/01/08,viernes,Colaborador,Inventarios,
+249,Gaspar,Sosa Cap,9:34:00,13:38:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+250,Luis Manel,Diaz Castillo,9:36:00,15:25:00,2021/01/08,viernes,Colaborador,Caja,
+251,Javier,Manzo Jimenez,9:36:00,14:52:00,2021/01/08,viernes,Colaborador,Sistemas,
+252,Sinai Yudith,Prado Godinez,9:38:00,17:12:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+253,Julio Cesar,Alvarado,9:38:00,15:53:00,2021/01/08,viernes,Colaborador,Juridico,
+254,Silvia Isabel,Navarro Yam,9:38:00,14:17:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+255,Laura,Moo Balam,9:38:00,16:25:00,2021/01/08,viernes,Colaborador,Servicio Social,
+256,Dulce,Leyva Dominguez,9:38:00,14:10:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+257,Jose Felipe,Lopez Uitzil,9:38:00,14:10:00,2021/01/08,viernes,Colaborador,Servicio Social,
+258,Jose Angel,Heserfano Camacho,9:48:00,18:09:00,2021/01/08,viernes,Visitante,,Francisco May
+259,Maria Fernanda,Cauderio Rodriguez,9:48:00,18:09:00,2021/01/08,viernes,Visitante,,Francisco May
+260,Giovanni,Garcia Candelario,9:48:00,18:09:00,2021/01/08,viernes,Visitante,,Francisco May
+261,Zuri Antonio,Diaz,9:48:00,16:25:00,2021/01/08,viernes,Colaborador,Servicio Social,
+262,Edgar Alberto,Pech Pech,9:58:00,16:00:00,2021/01/08,viernes,Colaborador,Inventarios,
+263,Yovany Yair,Larios Balam,9:58:00,17:56:00,2021/01/08,viernes,Visitante,,"Edificio D, Francisco May"
+264,Alan,Lario Dzub,9:58:00,17:56:00,2021/01/08,viernes,Visitante,,"Edificio D,Tomas Mora"
+265,Javier Uilises,Gil Martinez,9:58:00,17:56:00,2021/01/08,viernes,Visitante,,"Edificio D, Tomas Mora"
+266,Michelle,Elias Hernandez,9:58:00,17:56:00,2021/01/08,viernes,Visitante,,"Edificio D, Tomas Mora"
+267,Enrique,Petul Espinoza,9:58:00,17:56:00,2021/01/08,viernes,Visitante,,"Edificio D, Francisco May"
+268,Christian Lizbeth,Rivera Romero,10:01:00,18:21:00,2021/01/08,viernes,Colaborador,Compras,
+269,Guillermina,Pech Pech,10:09:00,16:58:00,2021/01/08,viernes,Colaborador,Rectoria,
+270,Enrique,Mota,10:11:00,11:18:00,2021/01/08,viernes,Colaborador,Turismo,
+271,Claudia,Silverio Cabrera,10:15:00,17:21:00,2021/01/08,viernes,Colaborador,Contabilidad,
+272,Jose Manuel,Tuyub Vargas,10:17:00,10:45:00,2021/01/08,viernes,Estudiante,Servicios Escolares,
+273,Jesus,Silva Alejo,10:14:00,11:11:00,2021/01/08,viernes,Visitante,Turismo,Cita
+274,Osmara Janet,Castillo,10:26:00,10:42:00,2021/01/08,viernes,Estudiante,Practicas Profesionales,180300554
+275,Paola,Castillo Dominguez,10:26:00,10:42:00,2021/01/08,viernes,Estudiante,Practicas Profesionales,180300505
+276,Emma,Guevara Garcia Figueroa,10:28:00,20:05:00,2021/01/08,viernes,Colaborador,Infraestructura,
+277,Nayeli del Rosario,Pech May,10:29:00,17:40:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+278,Mirna,Torres Argaes,10:30:00,18:23:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+279,Alejandra,Puente Pliego,10:37:00,11:32:00,2021/01/08,viernes,Estudiante,Servicios Escolares,
+280,Evelin,Barrerra Franco,10:38:00,11:41:00,2021/01/08,viernes,Estudiante,Servicios Escolares,
+281,Magdalena,Dzul Tuz,10:49:00,18:23:00,2021/01/08,viernes,Colaborador,Recursos Humanos,
+282,Carolina,Moreno,10:51:00,11:05:00,2021/01/08,viernes,Colaborador,,Recoger un cheque
+283,Jose Luis,Dominguez Mendez,10:53:00,15:29:00,2021/01/08,viernes,Colaborador,Control y Evaluacion,
+284,Rodrigo,Guillen Breton,11:08:00,20:30:00,2021/01/08,viernes,Colaborador,Economia y Negocios,Secretario academico
+285,Enrique,Espinoza Sandoval,11:12:00,11:18:00,2021/01/08,viernes,Colaborador,Recursos Humanos,Caja general
+286,Flora,Vizarretea Martinez,11:22:00,11:39:00,2021/01/08,viernes,Colaborador,Caja,Cheque
+287,Maria Cristina,Canul Pech,11:25:00,18:06:00,2021/01/08,viernes,Colaborador,Control Presupuestal,
+288,Zury Lizbeth,Perez Flores,11:25:00,17:37:00,2021/01/08,viernes,Colaborador,Compras,
+289,Magdaleno,Kumul Och,11:30:00,12:03:00,2021/01/08,viernes,Visitante,,"Total guard, supervision"
+290,Yeicall,Garcia Serrano,11:30:00,12:00:00,2021/01/08,viernes,Colaborador,SAC,
+291,Emilio Miguel,Delgado,12:01:00,12:12:00,2021/01/08,viernes,Visitante,,Instituto de la cultura y las artes
+292,Elizabeth,Aranda Gonzalez,12:15:00,15:29:00,2021/01/08,viernes,Colaborador,Planeacion y Desarrollo,
+293,Fernando,Gonzalez Arrita,12:25:00,13:58:00,2021/01/08,viernes,Colaborador,Economia y Negocios,Firma a planeacion
+294,Liliana,Elizalde Arteaga,12:45:00,13:14:00,2021/01/08,viernes,Colaborador,Contraloria,
+295,Celina,Izquierdo Sanchez,13:08:00,13:58:00,2021/01/08,viernes,Colaborador,,
+296,Nathanael,Chi Chan,13:41:00,18:39:00,2021/01/08,viernes,Colaborador,Mantenimiento,
+297,Claudia,Castillo Perez,13:55:00,14:20:00,2021/01/08,viernes,Colaborador,Caja,
+298,Gaspar,Sansores Perez,15:09:00,16:05:00,2021/01/08,viernes,Colaborador,Mantenimiento,
+299,Alejandro,Gonzalez,17:18:00,18:02:00,2021/01/08,viernes,Visitante,,Soluciones Graficas
+300,Noeli,Rodriguez,17:18:00,18:02:00,2021/01/08,viernes,Visitante,,Soluciones Graficas
+301,Jose Angel,Heserfano Camacho,7:00:00,13:11:00,2021/01/09,sabado,Visitante,,Ing. Francisco
+302,Jhovany,Garcia Candelario,7:00:00,13:11:00,2021/01/09,sabado,Visitante,,Ing. Francisco
+303,William,Espinoza Alvarado,7:15:00,14:30:00,2021/01/09,sabado,Visitante,,Ing. Tomas
+304,Jose Luis,Reyes Marin,7:15:00,14:30:00,2021/01/09,sabado,Visitante,,Ing. Tomas
+305,Jorge David,Diaz,7:15:00,14:30:00,2021/01/09,sabado,Visitante,,Ing. Tomas
+306,Gabriel,Acuña Montiel,7:39:00,13:26:00,2021/01/09,sabado,Visitante,,Impermeabilizador
+307,Maria Isabel,Bautista Montiel,7:39:00,13:26:00,2021/01/09,sabado,Visitante,,Impermeabilizador
+308,Santiago,Ramirez Alvarez,7:42:00,10:30:00,2021/01/09,sabado,Visitante,,"Tabla roca, Ing. Tomas"
+309,Carlos,Vicencio Gomez,7:42:00,16:05:00,2021/01/09,sabado,Visitante,,"Tabla roca, Ing. Tomas"
+310,Juan,Aquino Ucan,7:42:00,16:05:00,2021/01/09,sabado,Visitante,,"Tabla roca, Ing. Tomas"
+311,Jose Luis,Chan Alcala,8:33:00,16:05:00,2021/01/09,sabado,Visitante,,"Compañia Riu, Ing. Francisco"
+312,Silverio,Can,7:58:00,15:00:00,2021/01/09,sabado,Colaborador,Limpieza,
+313,Jose Luis,Corral Carrasco,8:11:00,13:30:00,2021/01/09,sabado,Visitante,,"Ing. Francisco, Impermeabilizador"
+314,Gilberto,Gomez Gomez,8:13:00,13:30:00,2021/01/09,sabado,Visitante,,"Ing. Francisco, Impermeabilizador"
+315,Angel,Bonillas,9:06:00,9:40:00,2021/01/09,sabado,Visitante,,SOS Perritos
+316,Yovany Yair,Larios Balam,9:19:00,16:05:00,2021/01/09,sabado,Visitante,,"Pinturas Larios, Ing. Tomas"
+317,Mario Alan,Larios Balam,9:19:00,16:05:00,2021/01/09,sabado,Visitante,,"Pinturas Larios, Ing. Tomas"
+318,Javier Ulises,Gil Martinez,9:19:00,16:05:00,2021/01/09,sabado,Visitante,,"Pinturas Larios, Ing. Tomas"
+319,Michelle,Elias Hernandez,9:19:00,16:05:00,2021/01/09,sabado,Visitante,,"Pinturas Larios, Ing. Tomas"
+320,Enrique,Espinoza,9:19:00,16:05:00,2021/01/09,sabado,Visitante,,"Pinturas Larios, Ing. Tomas"
+321,Scarlet,Lopez Romero,9:48:00,15:40:00,2021/01/09,sabado,Estudiante,Ludoteca,
+322,Raquel,Gutierrez,9:48:00,15:40:00,2021/01/09,sabado,Estudiante,Ludoteca,
+323,Karla,Gutierrez,9:48:00,15:40:00,2021/01/09,sabado,Estudiante,Ludoteca,
+324,Angel,Dzul,10:03:00,15:40:00,2021/01/09,sabado,Estudiante,Ludoteca,
+325,Silvio Manuel,Herrera Dzul,10:28:00,13:03:00,2021/01/09,sabado,Colaborador,Planeacion y Desarrollo,
+326,Maria Cristina,Canul Pech,10:49:00,15:00:00,2021/01/09,sabado,Colaborador,Control Presupuestal,
+327,Paola,Ortega Santillan,11:31:00,12:00:00,2021/01/09,sabado,Colaborador,Limpieza,Star Clean
+328,Fernando,Mendez,11:31:00,12:00:00,2021/01/09,sabado,Colaborador,Limpieza,Star Clean
+329,Vicente,Pech Bacab,11:42:00,15:30:00,2021/01/09,sabado,Visitante,Control Presupuestal,
+330,Romario,Barragan,12:20:00,15:40:00,2021/01/09,sabado,Estudiante,Ludoteca,
+331,Rodrigo,Morales Camara,12:40:00,15:30:00,2021/01/09,sabado,Visitante,Planeacion y Desarrollo,
+332,Martin,Vazquez Morales,9:10:00,12:09:00,2021/01/10,domingo,Colaborador,Mantenimiento,
+333,Carlos,Reyes Hernandez,9:11:00,15:11:00,2021/01/10,domingo,Visitante,,"Tablaroquero, Ing. Tomas Canche"
+334,Carlos,Vicencio Gomez,9:11:00,15:11:00,2021/01/10,domingo,Visitante,,"Tablaroquero, Ing. Tomas Canche"
+335,Kaily Ximena,Yepez Hernandez,13:30:00,14:00:00,2021/01/10,domingo,Estudiante,Practicas Profesionales,"Entrega de documentos, comento que ya esta informada la encargada de Practicas Profesionales la señora Ilse Mandujano"
+336,Juan,Diaz,13:55:00,15:11:00,2021/01/10,domingo,Visitante,,Ing. Tomas Canche
+337,Gabriela,Martinez Vazquez,7:08:00,16:30:00,2021/01/11,lunes,Colaborador,,
+338,Olga Lilia,Velazquez Santiago,7:11:00,15:13:00,2021/01/11,lunes,Colaborador,Limpieza,Interna
+339,Fernando David,Aviles Mendez,7:15:00,8:09:00,2021/01/11,lunes,Colaborador,Limpieza,"Supervisor, Starclean"
+340,Francisco,Zurita Sastre,7:45:00,15:00:00,2021/01/11,lunes,Colaborador,,
+341,Bertha Elizabeth,Chuc Dzul,7:50:00,14:45:00,2021/01/11,lunes,Colaborador,Limpieza,Interna
+342,Maria Isabel,Bautista Montiel,7:53:00,14:38:00,2021/01/11,lunes,Visitante,,"Personal Ing. Francisco, Impermeabilizador"
+343,Gabriel,Acuña Montiel,7:53:00,14:38:00,2021/01/11,lunes,Visitante,,"Personal Ing. Francisco, Impermeabilizador"
+344,Luis Mario,Dominguez Aburto Lopez,7:55:00,15:27:00,2021/01/11,lunes,Colaborador,Apoyo a la docencia,
+345,Neila Dessiree,Luzardo Lameda,7:55:00,16:00:00,2021/01/11,lunes,Colaborador,Jardineria,
+346,Carlos,Vicencio Gomez,8:00:00,15:00:00,2021/01/11,lunes,Visitante,,"Laborar auditorio, Ing. Tomas"
+347,Carlos,Reyes Hernandez,8:00:00,15:11:00,2021/01/11,lunes,Visitante,,"Laborar auditorio, Ing. Tomas"
+348,Maria Flor,Sanchez Gonzalez,8:13:00,15:09:00,2021/01/11,lunes,Colaborador,Limpieza,Interna
+349,Paola,Arias Valencia,8:57:00,16:10:00,2021/01/11,lunes,Colaborador,Cafeteria,Entrevista cafeteria
+350,Hermelindo,Can Chan,8:57:00,15:28:00,2021/01/11,lunes,Colaborador,Mantenimiento,
+351,Laura,Moo Balam,9:07:00,16:05:00,2021/01/11,lunes,Colaborador,Servicio Social,
+352,Zaira,Diaz Antonio,9:07:00,16:05:00,2021/01/11,lunes,Colaborador,Servicio Social,
+353,Silvio Manuel,Herrera Dzul,9:07:00,16:05:00,2021/01/11,lunes,Colaborador,Planeacion y Desarrollo,
+354,Jose Felipe,Lopez Uitzil,9:38:00,14:00:00,2021/01/11,lunes,Colaborador,Servicio Social,
+355,Sinai Yudith,Prado Godinez,9:40:00,12:26:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+356,Edsel,Baltierra Medel,9:43:00,13:11:00,2021/01/11,lunes,Colaborador,Inventarios,
+357,Silvia Isabel,Navarro Yam,9:43:00,13:36:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+358,Gaspar,Sosa Cap,9:43:00,12:45:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+359,Manuel Alberto,Rosado,10:00:00,17:51:00,2021/01/11,lunes,Colaborador,Contabilidad,
+360,Luis Gerardo,Tec Sanchez,10:05:00,16:48:00,2021/01/11,lunes,Colaborador,Rectoria,
+361,Rodrigo,Guillen Breton,10:05:00,20:30:00,2021/01/11,lunes,Colaborador,Secretaria Academica,
+362,Karla,Gutierrez,10:15:00,14:08:00,2021/01/11,lunes,Estudiante,,Pintura ludoteca
+363,Jose Luis,Dominguez Mendez,10:20:00,15:00:00,2021/01/11,lunes,Colaborador,Control y Evaluacion,
+364,Rafael,Peralta Rosio,10:21:00,11:20:00,2021/01/11,lunes,Colaborador,,Asesor Servicio Social
+365,Claudia,Silverio Cabrera,8:22:00,16:15:00,2021/01/11,lunes,Colaborador,Contabilidad,
+366,Javier,Manzo Jimenez,10:25:00,16:15:00,2021/01/11,lunes,Colaborador,Sistemas,
+367,Dulce,Leyva Dominguez,10:26:00,14:16:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+368,Henry Isai,Arena Dominguez,10:27:00,11:12:00,2021/01/11,lunes,Colaborador,Radio,Cita Julio Cesar Bastos
+369,Edgar Alberto,Pech Pech,10:28:00,15:40:00,2021/01/11,lunes,Colaborador,Inventarios,
+370,Maria Magdalena,Dzul Tuz,10:28:00,14:30:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+371,Nayeli del Rosario,Pech May,10:33:00,20:10:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+372,Jessica,Hernandez Matos,10:40:00,16:38:00,2021/01/11,lunes,Colaborador,Vinculacion,
+373,Zoyla Maria,Garcia Cen,10:50:00,16:18:00,2021/01/11,lunes,Colaborador,,Administradora
+374,Mirna,Torres Argaes,10:52:00,18:20:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+375,Emma,Guevara Garcia Figueroa,10:53:00,14:50:00,2021/01/11,lunes,Colaborador,Caja,
+376,Zury Lizbeth,Perez Flores,10:54:00,17:50:00,2021/01/11,lunes,Colaborador,Compras,
+377,Maria Cristina,Canul Bacab,10:55:00,16:50:00,2021/01/11,lunes,Colaborador,,
+378,Sandra,Conde,10:56:00,11:24:00,2021/01/11,lunes,Visitante,,"Mantenimiento impresora, ofiste"
+379,Diana Laura,Sanchez Camacho,10:57:00,10:33:00,2021/01/11,lunes,Colaborador,,Representante juridico
+380,Rubi,Benitez Nava,10:58:00,16:00:00,2021/01/11,lunes,Colaborador,Economia y Negocios,
+381,Elizabeth,Aranda Garcia,10:59:00,16:00:00,2021/01/11,lunes,Colaborador,Planeacion y Desarrollo,
+382,Hector,Romero Ibarra,11:15:00,19:19:00,2021/01/11,lunes,Colaborador,Gastronomia,
+383,William Ferneli,Tun Cap,11:37:00,15:25:00,2021/01/11,lunes,Colaborador,Gastronomia,
+384,Luis,Dzib Chuc,12:25:00,18:31:00,2021/01/11,lunes,Colaborador,Gastronomia,
+385,Bernardina,Cap Palomo,12:25:00,16:45:00,2021/01/11,lunes,Colaborador,Recursos Humanos,
+386,Felipe Eduardo,Chan Ku,12:30:00,15:00:00,2021/01/11,lunes,,,
+387,Gabriel,Bastos Couoh,12:40:00,14:23:00,2021/01/11,lunes,,,
+388,Manuel,Dominguez Santos,14:23:00,21:20:00,2021/01/11,lunes,Colaborador,Apoyo a la docencia,
+389,Jorge,Azueta Ruiz,14:30:00,20:44:00,2021/01/11,lunes,Colaborador,Apoyo a la docencia,
+390,Nathanael,Chi Chan,15:10:00,19:58:00,2021/01/11,lunes,Colaborador,Mantenimiento,
+391,Eduard,Vazquez Rodriguez,15:13:00,19:58:00,2021/01/11,lunes,Colaborador,Mantenimiento,
+392,Gaspar,Sansores Perez,15:22:00,19:08:00,2021/01/11,lunes,Colaborador,Mantenimiento,
+393,Jorge Luis,Perez Pool,17:30:00,19:10:00,2021/01/11,lunes,Colaborador,Apoyo a la docencia,
+394,Olga Lilia,Velazquez Santiago,7:15:00,15:20:00,2021/01/12,martes,Colaborador,Limpieza,Interna
+395,Juanita,Martínez,7:20:00,15:20:00,2021/01/12,martes,Colaborador,Limpieza,Interna
+396,Gilberto,Hernandez Gil,7:20:00,15:10:00,2021/01/12,martes,Colaborador,Mantenimiento,
+397,Silverio,Can,7:44:00,15:00:00,2021/01/12,martes,Colaborador,Limpieza,Star Clean
+398,Gabriela,Martinez Vazquez,7:45:00,15:44:00,2021/01/12,martes,Colaborador,Jardineria,
+399,Guadalupe,Gonzaga,7:48:00,15:00:00,2021/01/12,martes,Colaborador,Limpieza,Star Clean
+400,Francisco,Zurita Sastre,7:49:00,15:15:00,2021/01/12,martes,Colaborador,Apoyo a la docencia,
+401,Mario,Domínguez,7:56:00,15:15:00,2021/01/12,martes,Colaborador,Apoyo a la docencia,
+402,Gaspar,Sosa Cap,7:58:00,12:30:00,2021/01/12,martes,Colaborador,Administracion,
+403,Elizabeth,Chuc Tuc,7:58:00,12:50:00,2021/01/12,martes,Colaborador,Limpieza,Interna
+404,Leonilda,Caamal Sol,8:00:00,16:05:00,2021/01/12,martes,Colaborador,Limpieza,Star Clean
+405,Jose Luis,Corral Carrasco,8:08:00,14:20:00,2021/01/12,martes,Visitante,,"Trabajador del Ing. Francisco Fernández, Impermeabilizador"
+406,Gilberto,Gomez Gomez,8:08:00,14:20:00,2021/01/12,martes,Visitante,,"Trabajador del Ing. Francisco Fernández, Impermeabilizador"
+407,Maria Isabel,Bautista Montiel,8:08:00,14:20:00,2021/01/12,martes,Visitante,,"Trabajador del Ing. Francisco Fernández, Impermeabilizador"
+408,Gabriel,Acuña Montiel,8:08:00,14:20:00,2021/01/12,martes,Visitante,,"Trabajador del Ing. Francisco Fernández, Impermeabilizador"
+409,Neila Dessiree,Luzardo Lameda,8:08:00,15:58:00,2021/01/12,martes,Colaborador,Jardineria,
+410,Flor,Sanchez Gonzalez,8:18:00,15:10:00,2021/01/12,martes,Colaborador,Limpieza,Interna
+411,Fernando,Gonzalez Alarcon,8:18:00,15:24:00,2021/01/12,martes,Colaborador,Gastronomia,
+412,Hermelindo,Can Chan,8:35:00,17:50:00,2021/01/12,martes,Colaborador,Mantenimiento,
+413,Juan Carlos,Valdez Rodriguez,8:35:00,17:50:00,2021/01/12,martes,Visitante,,"Ing. Manuel García Camacho, P.C.S. Aires Acondicionados"
+414,Eusebio,Pacheco Flores,8:35:00,17:50:00,2021/01/12,martes,Visitante,,P.C.S. Aires Acondicionados
+415,Agustín,Can,8:35:00,15:20:00,2021/01/12,martes,,,P.C.S. Aires Acondicionados
+416,Leonildo,Tun Caamal,8:40:00,15:40:00,2021/01/12,martes,Colaborador,Rectoria,
+417,Dulce,Leyva,8:42:00,15:00:00,2021/01/12,martes,Estudiante,Recursos Humanos,Practicante
+418,Yovany Yair,Larios Balam,8:50:00,17:28:00,2021/01/12,martes,Visitante,,"Ing. Tomas Canché, Impermeabilizador"
+419,Mario Alan,Larios Balam,8:50:00,17:28:00,2021/01/12,martes,Visitante,,"Ing. Tomas Canché, Impermeabilizador"
+420,Michelle,Elias Hernandez,8:50:00,17:28:00,2021/01/12,martes,Visitante,,"Ing. Tomas Canché, Impermeabilizador"
+421,Javier Ulises,Gil Martinez,8:50:00,17:28:00,2021/01/12,martes,Visitante,,"Ing. Tomas Canché, Impermeabilizador"
+422,Enrique,Espinoza Sánchez,8:50:00,17:28:00,2021/01/12,martes,Visitante,,"Ing. Tomas Canché, Impermeabilizador"
+423,Paola,Arias Valencia,8:55:00,15:44:00,2021/01/12,martes,Visitante,Cafeteria,
+424,Aili,Mau,9:00:00,10:00:00,2021/01/12,martes,Colaborador,SAC,Profesora de idiomas
+425,Viviana,Catzin Escamilla,9:07:00,14:10:00,2021/01/12,martes,Colaborador,Sistemas,
+426,Olga,Pech,9:20:00,17:17:00,2021/01/12,martes,Colaborador,Patronato,
+427,Maria Rosa,Ochoa Avila,9:20:00,16:00:00,2021/01/12,martes,Colaborador,Patronato,
+428,Sinai Yudith,Prado Godinez,9:20:00,16:00:00,2021/01/12,martes,Colaborador,Recursos Humanos,
+429,Edsel,Baltierra Medel,9:34:00,15:25:00,2021/01/12,martes,Colaborador,Inventarios,
+430,Silvio Manuel,Herrera Dzul,9:40:00,16:00:00,2021/01/12,martes,Colaborador,Planeacion y Desarrollo,
+431,Zaira,Diaz Antonio,9:40:00,16:45:00,2021/01/12,martes,Colaborador,Servicio Social,
+432,Laura,Moo Balam,9:40:00,16:45:00,2021/01/12,martes,Colaborador,Servicio Social,
+433,Maria Jose,Hernandez Ortíz,9:43:00,10:00:00,2021/01/12,martes,Estudiante,Patronato,Recoger su uniforme
+434,Jose Felipe,Lopez Uitzil,9:43:00,16:20:00,2021/01/12,martes,Estudiante,Servicio Social,Practicante
+435,Edgar Alberto,Pech Pech,9:45:00,15:30:00,2021/01/12,martes,Colaborador,Inventarios,
+436,Silvia Isabel,Navarro Yam,9:47:00,16:45:00,2021/01/12,martes,Colaborador,Recursos Humanos,
+437,Jessica,Mendoza Corona,9:51:00,15:45:00,2021/01/12,martes,Colaborador,Servicios Escolares,
+438,Jorge,Escudero,9:53:00,11:55:00,2021/01/12,martes,Colaborador,Rectoria,Cita con la Rectora
+439,Francisco,Huerta,9:53:00,11:55:00,2021/01/12,martes,Colaborador,Rectoria,Cita con la Rectora
+440,Ramiro,Perez,9:53:00,11:55:00,2021/01/12,martes,Estudiante,Rectoria,Cita con la Rectora
+441,Oracio,Silva Chavez,9:53:00,11:55:00,2021/01/12,martes,Colaborador,Rectoria,Cita con la Rectora
+442,Zoyla Maria,Garcia Cen,10:00:00,14:30:00,2021/01/12,martes,Colaborador,Administracion,
+443,Angel,Mendoza,10:00:00,15:25:00,2021/01/12,martes,Estudiante,Servicio Social,Cita en Servicio Social
+444,Alan,Mendoza,10:00:00,16:15:00,2021/01/12,martes,Estudiante,Servicio Social,Cita en Servicio Social
+445,Manuel Alberto,Rosado,10:00:00,10:20:00,2021/01/12,martes,Colaborador,Contabilidad,
+446,Julio César,Basto Canto,10:00:00,10:20:00,2021/01/12,martes,Colaborador,Rectoria,
+447,Alondra,Arellano,10:03:00,16:30:00,2021/01/12,martes,Colaborador,Servicio Social,
+448,Javier,Manzo Jimenez,10:06:00,13:55:00,2021/01/12,martes,Colaborador,Sistemas,
+449,Cristian Elizabeth,Rivera Romero,10:10:00,17:35:00,2021/01/12,martes,Colaborador,Compras,
+450,Claudia,Silverio Cabrera,10:15:00,14:25:00,2021/01/12,martes,Colaborador,Compras,
+451,Diana,Sanchez Gonzalez,10:17:00,17:05:00,2021/01/12,martes,Colaborador,Administracion,
+452,Ana Priscila,Sosa Ferreira,10:20:00,15:40:00,2021/01/12,martes,Colaborador,Rectoria,
+453,Nayeli del Rosario,Pech May,10:20:00,17:10:00,2021/01/12,martes,Colaborador,Recursos Humanos,
+454,Gema,Guevara,10:23:00,17:40:00,2021/01/12,martes,Colaborador,Infraestructura,
+455,Jessica,Hernandez Matos,10:24:00,13:15:00,2021/01/12,martes,Colaborador,Vinculacion,
+456,Jose Luis,Dominguez Mendez,10:30:00,17:40:00,2021/01/12,martes,Colaborador,Control y Evaluacion,
+457,Zuri Antonio,Diaz,10:35:00,14:02:00,2021/01/12,martes,Colaborador,Compras,
+458,Guillermina,Pech Pech,10:35:00,15:50:00,2021/01/12,martes,Colaborador,Rectoria,
+459,Landy Damaris,Canche,10:35:00,14:17:00,2021/01/12,martes,Estudiante,Servicio Social,
+460,Karina,Carrillo Perez,10:35:00,10:49:00,2021/01/12,martes,Colaborador,Tesoreria,
+461,Rodrigo,Morales Camara,10:38:00,15:15:00,2021/01/12,martes,Colaborador,Planeacion y Desarrollo,
+462,Vicente Manuel,Pech Bacab,10:40:00,18:00:00,2021/01/12,martes,Colaborador,Control Presupuestal,
+463,Elizabeth,Aranda García,10:40:00,17:45:00,2021/01/12,martes,Colaborador,Planeacion y Desarrollo,
+464,Pedro,Hernandez Marfil,10:42:00,16:35:00,2021/01/12,martes,Colaborador,Sistemas,
+465,Aron,Lopez Mendez,10:43:00,11:25:00,2021/01/12,martes,Proveedor,,"Cita con el Ing. Albar, Servicios"
+466,Mirna,Torres Argaes,10:46:00,18:20:00,2021/01/12,martes,Colaborador,Recursos Humanos,
+467,Ruth Nicte,Pareja Ortiz,10:48:00,11:10:00,2021/01/12,martes,Estudiante,Servicio Social,Cita en Servicio Social
+468,Samuel,Cañas García,10:48:00,11:45:00,2021/01/12,martes,Proveedor,,"Ing. Camacho, Materiales para Impermeabilizador"
+469,Magdalena,Dzul Tuz,10:57:00,17:10:00,2021/01/12,martes,Colaborador,Recursos Humanos,
+470,Maria Cristina,Canul Pech,11:00:00,16:45:00,2021/01/12,martes,Colaborador,Control Presupuestal,
+471,Neyda,Riberol Lusardo,11:00:00,13:35:00,2021/01/12,martes,Colaborador,Patronato,
+472,Santiago,Diaz,11:05:00,13:20:00,2021/01/12,martes,,Servicios S.V.,Cita con Rodrigo Morales
+473,Moises,Martínez,11:05:00,13:20:00,2021/01/12,martes,,Servicios S.V.,Cita con Rodrigo Morales
+474,Nathaly,Ruiz,11:12:00,11:35:00,2021/01/12,martes,Estudiante,Servicio Social,Cita en Servicio Social
+475,Rubi,Benitez Nava,11:25:00,13:35:00,2021/01/12,martes,Colaborador,Economia y Negocios,
+476,William Ferneli,Tun Cap,11:32:00,15:25:00,2021/01/12,martes,Colaborador,Gastronomia,
+477,Juan Manuel,Carbajal,11:32:00,11:50:00,2021/01/12,martes,Colaborador,Gastronomia,
+478,Liliana,Elizalde Arteaga,11:43:00,16:40:00,2021/01/12,martes,Colaborador,Economia y Negocios,
+479,Daniel Enrique,Barranco Montalvo,11:45:00,11:59:00,2021/01/12,martes,Estudiante,Servicio Social,Cita en Servicio Social
+480,Jose Eduardo,Diaz de la Fuente,11:58:00,12:20:00,2021/01/12,martes,Estudiante,Servicios Escolares,Cita en Servicios Escolares
+481,Diana Laura,Miranda Medina,11:59:00,12:35:00,2021/01/12,martes,Estudiante,Aula 1B de Cómputo,
+482,Javier David,Vitorin,12:00:00,19:00:00,2021/01/12,martes,Estudiante,Aula 1B de Cómputo,
+483,Hector,Romero Ibarra,12:00:00,12:40:00,2021/01/12,martes,Colaborador,Gastronomia,
+484,Luis,Dzib Chuc,12:23:00,18:31:00,2021/01/12,martes,Colaborador,Gastronomia,
+485,Gonzalo Elias,Lopez Moral,12:30:00,12:44:00,2021/01/12,martes,Estudiante,,
+486,Javier,Reyes,12:41:00,13:00:00,2021/01/12,martes,,,"Cita con Roxana Rebolledo, Abogados y Consultores"
+487,Gael,Vázquez ,12:42:00,13:00:00,2021/01/12,martes,,,"Cita con Roxana Rebolledo, Abogados y Consultores"
+488,Jose Luis,Chan Alcala,12:51:00,15:40:00,2021/01/12,martes,Visitante,,Trabajador del Ing. Francisco Fernández
+489,Gilberto,Gomez Gomez,12:51:00,15:40:00,2021/01/12,martes,Visitante,,Trabajador del Ing. Francisco Fernández
+490,Hector Jaime,Gonzalez,12:51:00,15:40:00,2021/01/12,martes,Visitante,,Trabajador del Ing. Francisco Fernández
+491,Bernardina,Cap Palomo,12:53:00,16:00:00,2021/01/12,martes,Colaborador,Administracion,
+492,Jorge Luis,Perez Pool,13:35:00,21:01:00,2021/01/12,martes,Colaborador,Apoyo a la docencia,
+493,Jorge,Azueta Ruiz,13:35:00,20:44:00,2021/01/12,martes,Colaborador,Apoyo a la docencia,
+494,Manuel,Dominguez Santos,13:45:00,21:20:00,2021/01/12,martes,Colaborador,Apoyo a la docencia,
+495,Adrian,Arseño Dzib,13:50:00,15:00:00,2021/01/12,martes,Colaborador,Apoyo a la docencia,
+496,Nathanael,Chi Chan,13:50:00,18:55:00,2021/01/12,martes,Colaborador,Mantenimiento,
+497,Eduard,Vazquez Rodriguez,14:10:00,21:00:00,2021/01/12,martes,Colaborador,Mantenimiento,
+498,Gaspar,Sansores Perez,14:55:00,18:52:00,2021/01/12,martes,Colaborador,Mantenimiento,
+499,Gilberto,Hernandez Gil,7:15:00,12:54:00,2021/01/13,miercoles,Colaborador,Mantenimiento,
+500,Delio,Perez Silva,7:35:00,15:00:00,2021/01/13,miercoles,Colaborador,Limpieza,
+501,Gaspar,Sosa Cap,7:41:00,12:10:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+502,Gabriela,Martinez Vazquez,7:42:00,15:00:00,2021/01/13,miercoles,Colaborador,Jardineria,
+503,Fernando,Gonzalez Alarcon,7:50:00,15:00:00,2021/01/13,miercoles,Colaborador,Gastronomia,
+504,Elizabeth,Chuc Tuc,7:57:00,12:30:00,2021/01/13,miercoles,Colaborador,Limpieza,Interna
+505,Neila Dessiree,Luzardo Lameda,8:00:00,15:15:00,2021/01/13,miercoles,Colaborador,Jardineria,
+506,Gilberto,Gomez Gomez,8:04:00,8:56:00,2021/01/13,miercoles,Visitante,Contabilidad,
+507,Juan Carlos,Valdez Rodriguez,8:10:00,17:53:00,2021/01/13,miercoles,Visitante,,Ing. Camacho
+508,Eusebio,Pacheco Flores,8:10:00,17:53:00,2021/01/13,miercoles,Visitante,,"Azotea del Edificio ""D"""
+509,Augusto,Can Ceme,8:10:00,17:53:00,2021/01/13,miercoles,Visitante,,"Azotea del Edificio ""D"""
+510,Maria Flor,Sanchez Gonzalez,8:12:00,15:00:00,2021/01/13,miercoles,Colaborador,Limpieza,Interna
+511,Jose Luis,Corral Carrasco,8:13:00,8:58:00,2021/01/13,miercoles,Visitante,Contabilidad,
+512,Paola,Arias Valencia,8:50:00,15:00:00,2021/01/13,miercoles,Colaborador,Cafeteria,
+513,Leonildo,Tun Caamal,8:54:00,16:00:00,2021/01/13,miercoles,Colaborador,Rectoria,
+514,Abigail,Castillo Martinez,9:09:00,9:45:00,2021/01/13,miercoles,Colaborador,Planeacion y Desarrollo,
+515,Zaira,Diaz Antonio,9:12:00,15:11:00,2021/01/13,miercoles,Colaborador,Servicio Social,
+516,Laura,Moo Balam,9:12:00,15:11:00,2021/01/13,miercoles,Colaborador,Servicio Social,
+517,Viviana,Catzin Escamilla,9:12:00,15:24:00,2021/01/13,miercoles,Colaborador,Sistemas,
+518,Jose Felipe,Lopez Uitzil,9:25:00,14:23:00,2021/01/13,miercoles,Colaborador,Servicio Social,
+519,Michelle,Elias Hernandez,9:30:00,15:03:00,2021/01/13,miercoles,Visitante,,Ing. Tomas
+520,Jair,Larios Balam,9:30:00,15:53:00,2021/01/13,miercoles,Visitante,,Edificio D
+521,Javier,Gil Martinez,9:30:00,15:53:00,2021/01/13,miercoles,Visitante,,Edificio D
+522,Mario Alan,Larios Balam,9:30:00,15:53:00,2021/01/13,miercoles,Visitante,,Edificio D
+523,Rubi Esmeralda,Molina Rodriguez,9:30:00,15:15:00,2021/01/13,miercoles,Colaborador,Servicio Social,
+524,Edsel,Baltierra Medel,9:34:00,14:30:00,2021/01/13,miercoles,Colaborador,Inventarios,
+525,Magdalena,Dzul Tuz,9:40:00,17:44:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+526,Luis Gerardo,Tec Sanchez,9:42:00,17:44:00,2021/01/13,miercoles,Colaborador,Rectoria,
+527,Mirna,Torres Argaes,9:48:00,18:20:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+528,Hermelindo,Can Chan,9:48:00,15:28:00,2021/01/13,miercoles,Colaborador,Mantenimiento,
+529,Rodrigo,Morales Camara,9:50:00,16:30:00,2021/01/13,miercoles,Colaborador,Planeacion y Desarrollo,
+530,Carlos,Ceballo Cache,9:50:00,12:31:00,2021/01/13,miercoles,Visitante,,
+531,Julio Cesar,Basto Canto,9:50:00,13:30:00,2021/01/13,miercoles,Colaborador,Unidad y Transparencia,
+532,Adrian,Arseño Dzib,9:59:00,16:08:00,2021/01/13,miercoles,Colaborador,Apoyo a la docencia,
+533,Dulce,Leyva Dominguez,9:54:00,14:15:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+534,Faride,Berenice Rodriguez,9:56:00,10:12:00,2021/01/13,miercoles,Visitante,Servicio Social,Cita
+535,Zoyla Maria,Garcia Cen,9:58:00,16:00:00,2021/01/13,miercoles,Colaborador,Administracion,
+536,Francisco,Zurita Sastre,9:58:00,16:00:00,2021/01/13,miercoles,Colaborador,Apoyo a la docencia,
+537,Dulce Maria,Leon Barrera,9:58:00,16:40:00,2021/01/13,miercoles,Colaborador,,
+538,Eduard,Vazquez Rodriguez,9:59:00,15:30:00,2021/01/13,miercoles,Colaborador,Mantenimiento,
+539,Cristian Elizabeth,Rivera Romero,9:59:00,17:50:00,2021/01/13,miercoles,Colaborador,Contabilidad,
+540,Manuel Alberto,Rosado,10:00:00,15:18:00,2021/01/13,miercoles,Colaborador,Servicio Social,
+541,Daniel Warrios,Maldonado Rosado,10:12:00,10:20:00,2021/01/13,miercoles,Visitante,Servicio Social,Cita
+542,Edgar Alberto,Pech Pech,10:07:00,16:00:00,2021/01/13,miercoles,Colaborador,Inventarios,
+543,Nathanael,Chi Chan,10:08:00,15:30:00,2021/01/13,miercoles,Colaborador,Mantenimiento,
+544,Claudia,Silverio Cabrera,10:10:00,15:34:00,2021/01/13,miercoles,Colaborador,Contabilidad,
+545,Jose Ignacio,Solano Rodriguez,10:12:00,10:22:00,2021/01/13,miercoles,Visitante,Servicio Social,Cita
+546,Sonia,Pacheco Castro,10:13:00,14:30:00,2021/01/13,miercoles,Colaborador,Turismo,
+547,Gaspar,Sansores Perez,10:16:00,15:30:00,2021/01/13,miercoles,Colaborador,Mantenimiento,
+548,Sinai Yudith,Prado Godinez,10:18:00,17:44:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+549,Rodrigo,Guillen Breton,10:20:00,20:30:00,2021/01/13,miercoles,Colaborador,Secretaria Academica,
+550,Jessica,Hernandez Matos,10:20:00,14:18:00,2021/01/13,miercoles,Colaborador,Vinculacion,
+551,Emma,Guevara Garcia Figueroa,10:20:00,14:44:00,2021/01/13,miercoles,Colaborador,,Casa General
+552,Vicente Manuel,Pech Bacab,10:23:00,18:38:00,2021/01/13,miercoles,Colaborador,Control Presupuestal,
+553,Gregorio,Rodriguez Lopez,10:24:00,11:00:00,2021/01/13,miercoles,Colaborador,Limpieza,Star Clean/ Desayuno
+554,Zury Lizbeth,Perez Flores,10:25:00,17:32:00,2021/01/13,miercoles,Colaborador,Compras,
+555,Luis Mario,Dominguez Aburto Lopez,10:26:00,16:00:00,2021/01/13,miercoles,Colaborador,Apoyo a la docencia,
+556,Jose Luis,Dominguez Mendez,10:26:00,16:15:00,2021/01/13,miercoles,Colaborador,Control Presupuestal,
+557,Diana Laura,Sanchez Camacho,10:26:00,18:38:00,2021/01/13,miercoles,Colaborador,,Abogado
+558,Nayeli del Rosario,Pech May,10:24:00,17:44:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+559,Cesar,Yañes Santa Maria,10:30:00,12:20:00,2021/01/13,miercoles,Colaborador,Gastronomia,
+560,Ana Priscila,Sosa Ferreira,10:32:00,16:23:00,2021/01/13,miercoles,Colaborador,Rectoria,
+561,Franco,Utreta Gonzalez,10:38:00,13:14:00,2021/01/13,miercoles,Colaborador,Biblioteca,
+562,Celina,Izquierdo Sanchez,10:40:00,13:35:00,2021/01/13,miercoles,Colaborador,,Extension y comunicacion
+563,Maria Cristina,Canul Pech,10:43:00,17:46:00,2021/01/13,miercoles,Colaborador,Control Presupuestal,
+564,Elizabeth,Aranda García,10:45:00,16:13:00,2021/01/13,miercoles,Colaborador,Planeacion y Desarrollo,
+565,Manuel,Garcia Camacho,10:54:00,11:30:00,2021/01/13,miercoles,Visitante,,Azotea
+566,Jorge Luis,Escalante,11:11:00,16:15:00,2021/01/13,miercoles,Estudiante,,
+567,Sergio,Ukan,11:12:00,11:40:00,2021/01/13,miercoles,Visitante,,Ofistec
+568,Liliana,Elizalde Arteaga,12:00:00,15:40:00,2021/01/13,miercoles,Colaborador,Contraloria,
+569,Silvio Manuel,Herrera Dzul,12:00:00,16:15:00,2021/01/13,miercoles,Colaborador,Planeacion y Desarrollo,
+570,Francisco,Huy Notl,12:10:00,14:00:00,2021/01/13,miercoles,Colaborador,Planeacion y Desarrollo,
+571,Rubi,Benitez Nava,12:15:00,15:43:00,2021/01/13,miercoles,Colaborador,Economia y Negocios,
+572,Luis,Dzib Chuc,12:25:00,19:02:00,2021/01/13,miercoles,Colaborador,Gastronomia,
+573,Bernardina,Cap Palomo,12:35:00,17:44:00,2021/01/13,miercoles,Colaborador,Recursos Humanos,
+574,Aurelio,Hernandez Peraza,13:48:00,14:00:00,2021/01/13,miercoles,Colaborador,,Bernardina
+575,Jorge Luis,Perez Pool,14:27:00,21:01:00,2021/01/13,miercoles,Colaborador,Apoyo a la docencia,
+576,Jorge,Azueta Ruiz,14:30:00,20:44:00,2021/01/13,miercoles,Colaborador,Apoyo a la docencia,
+577,Jose Manuel,Dominguez Santos,14:35:00,20:44:00,2021/01/13,miercoles,Colaborador,Apoyo a la docencia,
+578,Aaron Isai,Canche Martin,14:14:00,14:40:00,2021/01/13,miercoles,Visitante,,Cita con Bernardina
+579,Olga Lilia,Velazquez Santiago,7:04:00,15:03:00,2021/01/14,jueves,Colaborador,Limpieza,
+580,Maria del Carmen,Rodriguez Perez,7:04:00,15:03:00,2021/01/14,jueves,Colaborador,Limpieza,
+581,Martin,Vazquez Morales,7:10:00,15:12:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+582,Otilio,Guevara Diaz,7:15:00,15:22:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+583,Gilberto,Hernandez Gil,7:24:00,15:10:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+584,Gabriela,Martinez Vazquez,7:26:00,15:15:00,2021/01/14,jueves,Colaborador,Jardineria,
+585,Francisco,Zurita Sastre,7:38:00,14:52:00,2021/01/14,jueves,Colaborador,Apoyo a la docencia,
+586,Gaspar,Sosa Cap,7:46:00,12:15:00,2021/01/14,jueves,Colaborador,Recursos Humanos,
+587,Elizabeth,Chuc Tuc,7:53:00,12:05:00,2021/01/14,jueves,Colaborador,Limpieza,
+588,Pedro,Hernandez Marfil,7:55:00,15:18:00,2021/01/14,jueves,Colaborador,Sistemas,
+589,Pedro de Jesus,Tuz Uc,7:57:00,19:23:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+590,Fernando,Gonzalez Alarcon,7:57:00,15:09:00,2021/01/14,jueves,Colaborador,Gastronomia,
+591,Luis Mario,Dominguez Aburto Lopez,8:04:00,14:44:00,2021/01/14,jueves,Colaborador,Apoyo a la docencia,
+592,Maria Flor,Sanchez Gonzalez,8:11:00,15:01:00,2021/01/14,jueves,Colaborador,Limpieza,
+593,Silvio Manuel,Herrera Dzul,8:14:00,18:04:00,2021/01/14,jueves,Colaborador,Planeacion y Desarrollo,
+594,Neila Dessiree,Luzardo Lameda,8:17:00,14:50:00,2021/01/14,jueves,Colaborador,Jardineria,
+595,Jose Luis,Corral Carrasco,8:18:00,19:33:00,2021/01/14,jueves,Visitante,,Ing. Francisco
+596,Juan Carlos,Baldera Rodriguez,8:42:00,18:18:00,2021/01/14,jueves,Visitante,,Ing. Francisco
+597,Eusebio,Pacheco Flores,8:42:00,18:18:00,2021/01/14,jueves,Visitante,,"Azotea del Edificio ""D"""
+598,Augusto,Can Ceme,8:42:00,18:13:00,2021/01/14,jueves,Visitante,,"Azotea del Edificio ""D"""
+599,Hermelindo,Can Chan,8:42:00,15:18:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+600,Leonildo,Tun Caamal,8:51:00,14:56:00,2021/01/14,jueves,Colaborador,Rectoria,
+601,Yovany Yair,Larios Balam,9:03:00,14:45:00,2021/01/14,jueves,Visitante,,Ing. Tomas
+602,Michelle,Elias Hernandez,9:03:00,14:45:00,2021/01/14,jueves,Visitante,,Ing. Tomas
+603,Mario Alan,Larios Balam,9:03:00,14:45:00,2021/01/14,jueves,Visitante,,Ing. Tomas
+604,Paola,Arias Valencia,9:03:00,15:06:00,2021/01/14,jueves,Colaborador,Cafeteria,
+605,Guillermina,Pech Pech,9:12:00,14:28:00,2021/01/14,jueves,Colaborador,Rectoria,
+606,Olga Guadalupe,Pech Pech,9:12:00,14:28:00,2021/01/14,jueves,Colaborador,Patronato,
+607,Julio Cesar,Basto Canto,9:26:00,17:09:00,2021/01/14,jueves,Colaborador,Rectoria,
+608,Jose Felipe,Lopez Uitzil,9:27:00,14:23:00,2021/01/14,jueves,Colaborador,Servicio Social,
+609,Rubi Esmeralda,Molina Rodriguez,9:31:00,13:03:00,2021/01/14,jueves,Colaborador,Servicio Social,
+610,Maria Patricia,Kumul Och,9:36:00,9:42:00,2021/01/14,jueves,Visitante,,Representante legal de Total Guard
+611,Alejandro,Samora Gutierrez,9:36:00,10:52:00,2021/01/14,jueves,Visitante,,Jefe de Total Guard
+612,Carla,Samora Kumul,9:36:00,9:42:00,2021/01/14,jueves,Visitante,,
+613,Magdaleno,Kumul Och,9:40:00,10:52:00,2021/01/14,jueves,Visitante,,Director de operaciones de Total Guard
+614,Javier,Manzo Jimenez,9:55:00,14:44:00,2021/01/14,jueves,Colaborador,Sistemas,
+615,Silvia Isabel,Navarro Yam,9:55:00,14:40:00,2021/01/14,jueves,Colaborador,Recursos Humanos,
+616,Cristian Elizabeth,Rivera Romero,9:55:00,10:50:00,2021/01/14,jueves,Colaborador,Compras,
+617,Dulce,Leyva Dominguez,9:57:00,14:40:00,2021/01/14,jueves,Colaborador,Recursos Humanos,
+618,Alma,Gonzalez Campos,10:01:00,16:28:00,2021/01/14,jueves,Colaborador,Recursos Humanos,
+619,Luis Alberto,Diaz Castillo,10:02:00,16:19:00,2021/01/14,jueves,Colaborador,Tesoreria,
+620,Manuel Alberto,Rosado,10:02:00,18:10:00,2021/01/14,jueves,Colaborador,Contabilidad,
+621,Dulce Maria,Leon Barrera,10:03:00,15:57:00,2021/01/14,jueves,Colaborador,Economia y Negocios,
+622,Zoyla Maria,Garcia Cen,10:03:00,15:57:00,2021/01/14,jueves,Colaborador,Administracion,
+623,Viviana,Catzin Escamilla,10:03:00,18:16:00,2021/01/14,jueves,Colaborador,Sistemas,
+624,Alejandro,Perera Avalos,10:05:00,16:24:00,2021/01/14,jueves,Colaborador,Tesoreria,
+625,Adrian,Brianza Gordillo,10:06:00,13:54:00,2021/01/14,jueves,Visitante,,Mantenimiento de copiadora
+626,Rodrigo,Morales Camara,10:09:00,16:02:00,2021/01/14,jueves,Colaborador,Planeacion y Desarrollo,
+627,Diana Laura,Sanchez Camacho,10:10:00,17:58:00,2021/01/14,jueves,Colaborador,Compras,
+628,Jorge,Sufresa Carrera,10:13:00,11:23:00,2021/01/14,jueves,Colaborador,Servicio Social,
+629,Zaira,Diaz Antonio,10:13:00,15:35:00,2021/01/14,jueves,Colaborador,Servicio Social,
+630,Laura,Moo Balam,10:13:00,15:35:00,2021/01/14,jueves,Colaborador,Servicio Social,
+631,Rubi,Benitez Nava,10:13:00,16:24:00,2021/01/14,jueves,Colaborador,Economia y Negocios,
+632,Claudia,Silverio Cabrera,10:14:00,18:14:00,2021/01/14,jueves,Colaborador,Contabilidad,
+633,Zury Lizbeth,Perez Flores,10:19:00,18:21:00,2021/01/14,jueves,Colaborador,Compras,
+634,Aron,Lopez Mendez,10:19:00,11:30:00,2021/01/14,jueves,Proveedor,,Cita con Ing. Albar
+635,Nayeli del Rosario,Pech May,10:22:00,17:24:00,2021/01/14,jueves,Colaborador,Recursos Humanos,
+636,Sinai Yudith,Prado Godinez,10:24:00,17:09:00,2021/01/14,jueves,Estudiante,Recursos Humanos,
+637,Carlos,Gibran Ocaramzai,10:25:00,11:06:00,2021/01/14,jueves,Colaborador,Servicio Social,
+638,Emma,Guevara Garcia Figueroa,10:29:00,18:52:00,2021/01/14,jueves,Colaborador,Sala de juntas,
+639,Vicente Manuel,Pech Bacab,10:33:00,17:39:00,2021/01/14,jueves,Colaborador,Control Presupuestal,
+640,Elizabeth,Aranda Garcia,10:38:00,15:21:00,2021/01/14,jueves,Colaborador,Planeacion y Desarrollo,
+641,Maria Cristina,Canul Pech,10:38:00,17:37:00,2021/01/14,jueves,Colaborador,Control Presupuestal,
+642,Jose Luis,Dominguez Mendez,10:38:00,16:08:00,2021/01/14,jueves,Colaborador,Control y Evaluacion,
+643,Rodrigo,Guillen Breton,10:42:00,22:01:00,2021/01/14,jueves,Colaborador,Secretaria Academica,
+644,Yessica Biridiana,Mendoza,10:52:00,14:02:00,2021/01/14,jueves,Colaborador,Servicios Escolares,
+645,Jessica,Hernandez Matos,10:57:00,14:05:00,2021/01/14,jueves,Colaborador,Vinculacion,
+646,Magdalena,Dzul Tuz,11:00:00,17:09:00,2021/01/14,jueves,Colaborador,Recursos Humanos,
+647,Samir Andres,Gomez Paramo,11:16:00,11:23:00,2021/01/14,jueves,Estudiante,Servicios Escolares,
+648,William Ferneli,Tun Cap,11:25:00,14:33:00,2021/01/14,jueves,Colaborador,Gastronomia,
+649,Anette Aylin,Luz Balanzan,11:40:00,11:47:00,2021/01/14,jueves,Estudiante,Servicios Escolares,
+650,Jose Rodrigo,Rueda Salazar,11:46:00,11:57:00,2021/01/14,jueves,Estudiante,Servicios Escolares,
+651,Aylin Jayet,Champa,12:00:00,12:15:00,2021/01/14,jueves,Estudiante,Patronato,
+652,Roberto Carlo,Catalan Jimenez,12:00:00,12:25:00,2021/01/14,jueves,Estudiante,Servicio Social,
+653,Luis,Dzib Chuc,12:14:00,18:31:00,2021/01/14,jueves,Colaborador,Gastronomia,
+654,Raias,Zetina Figueroa,12:14:00,12:34:00,2021/01/14,jueves,Estudiante,Patronato,
+655,Bernardina,Cap Palomo,12:27:00,14:09:00,2021/01/14,jueves,Colaborador,Administracion,Asistente Administrativo
+656,Jesus Manuel,España Tzec,12:34:00,13:34:00,2021/01/14,jueves,Estudiante,,Foro Vehicular
+657,Carla Beatriz,Aguilar Aguilar,12:37:00,12:48:00,2021/01/14,jueves,Estudiante,Servicios Escolares,
+658,Neyda,Riberol Lusardo,12:38:00,14:00:00,2021/01/14,jueves,Colaborador,Patronato,
+659,Hector,Romero Ibarra,12:39:00,18:52:00,2021/01/14,jueves,Colaborador,Gastronomia,
+660,Andres Jesus,Diaz Caseres,12:39:00,15:17:00,2021/01/14,jueves,Estudiante,,Tecnología de la Información
+661,Jose Angel,Poot Pool,12:48:00,12:55:00,2021/01/14,jueves,Estudiante,Servicios Escolares,
+662,Anselmo,Calderon Paez,12:48:00,13:34:00,2021/01/14,jueves,Estudiante,,Foro Vehicular
+663,Bernardo,Luna Cervantes,13:20:00,14:25:00,2021/01/14,jueves,Colaborador,Limpieza,Supervision Star Clean
+664,Paola,Ortega Santillan,13:20:00,14:25:00,2021/01/14,jueves,Colaborador,Limpieza,Supervision Star Clean
+665,Juana,Perez Solis,13:20:00,14:25:00,2021/01/14,jueves,Colaborador,Limpieza,Supervision Star Clean
+666,Jorge,Azueta Ruiz,14:27:00,21:50:00,2021/01/14,jueves,Colaborador,Apoyo a la docencia,
+667,Manuel,Dominguez Santos,14:35:00,21:20:00,2021/01/14,jueves,Colaborador,Apoyo a la docencia,
+668,Jorge Luis,Perez Pool,14:40:00,21:20:00,2021/01/14,jueves,Colaborador,Apoyo a la docencia,
+669,Gaspar,Sansores Perez,15:05:00,21:20:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+670,Eduard,Vazquez Rodriguez,15:05:00,21:20:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+671,Nathanael,Chi Chan,15:05:00,21:20:00,2021/01/14,jueves,Colaborador,Mantenimiento,
+672,Alesandro,Gonzales Lara,15:49:00,16:17:00,2021/01/14,jueves,Visitante,,Cristian Ribera
+673,Carlos,Reyes Hernandez,17:14:00,18:37:00,2021/01/14,jueves,Visitante,,Ing. Tomas
+674,Juan Carlos,Visencio Lopez,17:14:00,18:37:00,2021/01/14,jueves,Visitante,,Ing. Tomas
+675,Delio,Perez Silva,6:30:00,14:59:00,2021/01/15,viernes,Colaborador,Limpieza,Interna
+676,Maria del Carmen,Rodriguez Perez,6:58:00,14:59:00,2021/01/15,viernes,Colaborador,Limpieza,Interna
+677,Olga Lilia,Velazquez Santiago,7:05:00,14:59:00,2021/01/15,viernes,Colaborador,Limpieza,Interna
+678,Otilio,Guevara Diaz,7:06:00,16:00:00,2021/01/15,viernes,Colaborador,Mantenimiento,
+679,Gilberto,Hernandez Gil,7:22:00,15:10:00,2021/01/15,viernes,Colaborador,Mantenimiento,
+680,Gabriela,Martinez Vazquez,7:35:00,14:59:00,2021/01/15,viernes,Colaborador,Jardineria,
+681,Francisco,Zurita Sastre,7:40:00,14:48:00,2021/01/15,viernes,Colaborador,Apoyo a la docencia,
+682,Pedro de Jesus,Tuz Uc,7:43:00,18:30:00,2021/01/15,viernes,Colaborador,,Aires Acondicionados
+683,Hermelindo,Can Chan,7:45:00,15:10:00,2021/01/15,viernes,Colaborador,Mantenimiento,
+684,Gaspar,Sosa Cap,7:50:00,12:30:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+685,Fernando,Gonzalez Alarcon,7:50:00,15:20:00,2021/01/15,viernes,Colaborador,Gastronomia,
+686,Elizabeth,Chuc Tuc,7:50:00,11:59:00,2021/01/15,viernes,Colaborador,Limpieza,Interna
+687,Luis Mario,Dominguez Aburto Lopez,7:50:00,14:40:00,2021/01/15,viernes,Colaborador,Apoyo a la docencia,
+688,Pedro,Hernandez Marfil,8:00:00,15:10:00,2021/01/15,viernes,Colaborador,Sistemas,
+689,Maria Flor,Sanchez Gonzalez,8:09:00,15:30:00,2021/01/15,viernes,Colaborador,Limpieza,Interna
+690,Jose Luis,Corral Carrasco,8:12:00,21:03:00,2021/01/15,viernes,Visitante,,Ing. Fernandez
+691,Alejandro,Alvarez Arriaga,8:15:00,18:55:00,2021/01/15,viernes,Colaborador,Gastronomia,
+692,Neila Dessiree,Luzardo Lameda,8:17:00,10:50:00,2021/01/15,viernes,Colaborador,Jardineria,
+693,Juan Carlos,Valdez Rodriguez,8:18:00,18:38:00,2021/01/15,viernes,Visitante,,Ing. Fernandez
+694,Eusebio,Pacheco Flores,8:18:00,18:38:00,2021/01/15,viernes,Visitante,,Ing. Fernandez
+695,Augusto,Can Ceme,8:18:00,18:38:00,2021/01/15,viernes,Visitante,,Ing. Fernandez
+696,Darwin Martin,Garcia Cen,8:20:00,8:40:00,2021/01/15,viernes,Estudiante,,"Sobrino de la admi, cardero"
+697,Alejandra Melina,Ortiz Carmona,8:30:00,21:03:00,2021/01/15,viernes,Colaborador,SAC,
+698,Maria Isabel,Bautista Montiel,8:40:00,18:32:00,2021/01/15,viernes,Visitante,,Ing. Fernandez
+699,Tomas,Gonzalez Canche,8:43:00,18:18:00,2021/01/15,viernes,Visitante,,Edificio D
+700,Paola,Arias Valencia,9:03:00,14:47:00,2021/01/15,viernes,Visitante,Cafeteria,
+701,Viviana,Catzin Escamilla,9:05:00,14:58:00,2021/01/15,viernes,Colaborador,Sistemas,
+702,Yovany Yair,Larios Balam,9:08:00,18:18:00,2021/01/15,viernes,Visitante,,"Edificio D, Ing. Tomas"
+703,Mario Alan,Larios Balam,9:08:00,18:18:00,2021/01/15,viernes,Visitante,,"Edificio D, Ing. Tomas"
+704,Michelle,Elias Hernandez,9:08:00,18:18:00,2021/01/15,viernes,Visitante,,"Edificio D, Ing. Tomas"
+705,Jose Luis,Chan Alcala,9:10:00,14:47:00,2021/01/15,viernes,Visitante,,Ing. Fernandez
+706,Abigail,Castillo Martinez,9:20:00,16:09:00,2021/01/15,viernes,Colaborador,Planeacion y Desarrollo,
+707,Gerardo,Sanchez Tec,9:25:00,16:35:00,2021/01/15,viernes,Colaborador,Rectoria,
+708,Jose Luis,Dominguez Mendez,9:27:00,16:58:00,2021/01/15,viernes,Colaborador,Control y Evaluacion,
+709,Bernardina,Cap Palomo,9:30:00,16:45:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+710,Edsel,Baltierra Medel,9:35:00,15:22:00,2021/01/15,viernes,Colaborador,Inventarios,
+711,Javier,Manzo Jimenez,9:37:00,14:04:00,2021/01/15,viernes,Colaborador,Sistemas,
+712,Rodrigo,Morales Carrasco,9:37:00,18:53:00,2021/01/15,viernes,Colaborador,Planeacion y Desarrollo,
+713,Magdalena,Dzul Tuz,9:37:00,18:25:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+714,Silvia Isabel,Navarro Yam,9:38:00,14:15:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+715,Alma,Gonzalez Campos,9:44:00,17:03:00,2021/01/15,viernes,Colaborador,Planeacion y Desarrollo,
+716,Alejandro,Perera Balam,9:44:00,18:00:00,2021/01/15,viernes,Colaborador,Tesoreria,
+717,Francisco,Sedillo Rodriguez,9:45:00,9:51:00,2021/01/15,viernes,Colaborador,Biblioteca,
+718,Dulce,Leyva Dominguez,10:00:00,14:15:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+719,Luis Alberto,Diaz Garcia,10:00:00,17:13:00,2021/01/15,viernes,Colaborador,Tesoreria,
+720,Diana Laura,Sanchez Camacho,10:10:00,18:18:00,2021/01/15,viernes,Colaborador,Compras,
+721,Zoyla Maria,Garcia Cen,10:10:00,16:55:00,2021/01/15,viernes,Colaborador,Administracion,
+722,Dulce,Leon Vargas,10:10:00,16:55:00,2021/01/15,viernes,Colaborador,,
+723,Cristian Elizabeth,Rivera Romero,10:10:00,19:02:00,2021/01/15,viernes,Colaborador,Compras,
+724,Ana Priscila,Sosa Ferreira,10:10:00,15:15:00,2021/01/15,viernes,Colaborador,Rectoria,
+725,Claudia,Silverio Cabrera,10:14:00,17:00:00,2021/01/15,viernes,Colaborador,Contabilidad,
+726,Sinai Yudith,Prado Godinez,10:14:00,17:40:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+727,Manuel Alberto,Rosado,10:16:00,17:00:00,2021/01/15,viernes,Colaborador,Contabilidad,
+728,Zury Lizbeth,Perez Flores,10:16:00,17:35:00,2021/01/15,viernes,Colaborador,Compras,
+729,Vicente Manuel,Pech Bacab,10:25:00,18:25:00,2021/01/15,viernes,Colaborador,Control Presupuestal,
+730,Silvio Manuel,Herrera Dzul,10:25:00,16:05:00,2021/01/15,viernes,Colaborador,Planeacion y Desarrollo,
+731,Mirna,Torres Argaes,10:30:00,17:35:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+732,Maria Cristina,Canul Pech,10:30:00,17:44:00,2021/01/15,viernes,Colaborador,Control Presupuestal,
+733,Sandra,Angers,10:35:00,14:55:00,2021/01/15,viernes,Colaborador,Tesoreria,
+734,Nayeli del Rosario,Pech May,10:35:00,19:17:00,2021/01/15,viernes,Colaborador,Recursos Humanos,
+735,Guillermina,Pech Pech,10:35:00,16:30:00,2021/01/15,viernes,Colaborador,Rectoria,
+736,Emma,Guevara Garcia Figueroa,10:35:00,20:05:00,2021/01/15,viernes,Colaborador,Infraestructura,
+737,Diana,Patron Gonzalez,10:40:00,11:11:00,2021/01/15,viernes,Visitante,,"Ing. Camacho, firma con la licenciada"
+738,Manuel,Garcia Camacho,10:50:00,11:11:00,2021/01/15,viernes,Visitante,,"Ing. Camacho, firma con la licenciada"
+739,Faride Berenice,Rodriguez,10:52:00,13:46:00,2021/01/15,viernes,Estudiante,Laboratorio Mecanica,180300297
+740,Maria Patricia,Kumul Och,10:57:00,11:11:00,2021/01/15,viernes,Visitante,,Total Guard
+741,Karla Fernanda,Zamora Kumul,10:57:00,11:11:00,2021/01/15,viernes,Visitante,,Total Guard
+742,Rubi,Benitez Nava,11:04:00,16:05:00,2021/01/15,viernes,Colaborador,Economia y Negocios,
+743,Elizabeth,Aranda Espinoza,11:05:00,16:58:00,2021/01/15,viernes,Colaborador,Planeacion y Desarrollo,
+744,Brenda,Bonilla Hernandez,11:06:00,11:19:00,2021/01/15,viernes,Colaborador,Caja,
+745,Roberto,Corona,11:15:00,11:28:00,2021/01/15,viernes,Colaborador,,Firma a R.H.
+746,William Ferneli,Tun Cap,11:19:00,18:54:00,2021/01/15,viernes,Colaborador,Gastronomia,
+747,Karen,Lopez Navarrete,11:21:00,13:47:00,2021/01/15,viernes,Estudiante,Laboratorio Mecanica,
+748,Karina,Carrillo Perez,11:21:00,19:31:00,2021/01/15,viernes,Colaborador,Tesoreria,
+749,Hector,Romero Ibarra,11:32:00,19:05:00,2021/01/15,viernes,Colaborador,Gastronomia,
+750,Rodrigo,Guillen Breton,11:30:00,20:54:00,2021/01/15,viernes,Colaborador,Secretaria Academica,
+751,Javier Ulises,Gil Martinez,11:49:00,18:18:00,2021/01/15,viernes,Visitante,,Ing. Tomas Edificio D
+752,Luis,Dzib Chuc,12:24:00,18:55:00,2021/01/15,viernes,Colaborador,Gastronomia,
+753,Jorge Luis,Perez Pool,14:30:00,20:44:00,2021/01/15,viernes,Colaborador,Apoyo a la docencia,
+754,Jose Manuel,Dominguez Santos,14:32:00,20:44:00,2021/01/15,viernes,Colaborador,Apoyo a la docencia,
+755,Jorge,Azueta Ruiz,14:32:00,20:44:00,2021/01/15,viernes,Colaborador,Apoyo a la docencia,
+756,Eduard,Vazquez Rodriguez,15:15:00,20:40:00,2021/01/15,viernes,Colaborador,Mantenimiento,
+757,Nathanael,Chi Chan,15:22:00,20:40:00,2021/01/15,viernes,Colaborador,Mantenimiento,
+758,Gaspar,Sansores Perez,15:28:00,20:40:00,2021/01/15,viernes,Colaborador,Mantenimiento,
+759,Ricardo,Mendoza Quijaro,15:33:00,18:20:00,2021/01/15,viernes,Estudiante,SAC,Examen chino
+760,Adriana,Dominguez Vergara,15:30:00,16:00:00,2021/01/15,viernes,Estudiante,SAC,Examen chino
+761,Karla Guadalupe,Tuz Anduez,15:30:00,16:00:00,2021/01/15,viernes,Estudiante,SAC,Examen chino
+762,Gabriel Alberto,Monraz Garcia,16:07:00,16:33:00,2021/01/15,viernes,Estudiante,SAC,Examen chino
+763,Gabriel,Acuña Montiel,7:45:00,17:55:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+764,Maria Isabel,Bautista Montiel,7:45:00,17:55:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+765,Isidro,Calderon Chan,7:45:00,17:55:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+766,Jose Luis,Corral Carrasco,8:00:00,17:55:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+767,Jose Luis,Chan Alcala,8:05:00,17:55:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+768,Juan Carlos,Valdez Rodriguez,8:40:00,13:50:00,2021/01/16,sabado,Visitante,,Tecnicos de Aires Acondicionados
+769,Eusebio,Pacheco Flores,8:40:00,13:50:00,2021/01/16,sabado,Visitante,,Tecnicos de Aires Acondicionados
+770,Augusto,Can Ceme,8:40:00,13:50:00,2021/01/16,sabado,Visitante,,Tecnicos de Aires Acondicionados
+771,Hector Jaime,Gonzalez,8:55:00,17:55:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+772,Maria del Carmen,Trinidad,9:00:00,15:00:00,2021/01/16,sabado,Colaborador,Limpieza,Star Clean
+773,Magdalena,Dzul Tuz,10:05:00,16:20:00,2021/01/16,sabado,Colaborador,Recursos Humanos,
+774,Yovany Yair,Larios Balam,10:11:00,16:25:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+775,Alan,Larios Balam,10:11:00,16:25:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+776,Javier Gil,Martinez,10:11:00,16:25:00,2021/01/16,sabado,Visitante,,"Impermeabilizador en todos los edificios, trabajador del Ing. Fernandez"
+777,Mirna,Torres Argaes,11:23:00,16:20:00,2021/01/16,sabado,Colaborador,Recursos Humanos,
+778,Nayeli del Rosario,Pech May,12:22:00,16:30:00,2021/01/16,sabado,Colaborador,Recursos Humanos,
+779,Santiago,Ramirez Alvarez,13:05:00,13:30:00,2021/01/16,sabado,Visitante,,Proveedor/Servicios
+780,Jose,Corral,8:13:00,16:20:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Francisco"
+781,Isidro,Calderon Chan,8:15:00,16:20:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Francisco"
+782,Jose,Chan,8:17:00,16:20:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Francisco"
+783,Maria Isabel,Bautista Montiel,8:34:00,16:20:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Francisco"
+784,Gabriel,Acuña Montiel,8:35:00,16:20:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Francisco"
+785,Javier,Gil Martinez,11:05:00,15:40:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Tomas"
+786,Jair,Balam,11:05:00,15:40:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Tomas"
+787,Marco,Larios Balam,11:05:00,15:40:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Tomas"
+788,Michelle,Elias Hernandez,11:05:00,15:40:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Tomas"
+789,Ricardo,Cruz,13:40:00,15:40:00,2021/01/17,domingo,Visitante,,"Edificio B, Personal de Ing. Tomas"
+790,Delio,Perez Silva,6:35:00,15:40:00,2021/01/18,lunes,Colaborador,Limpieza,
+791,Otilio,Guevara Diaz,6:35:00,15:19:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+792,Francisco,Zurita Sastre,6:50:00,14:44:00,2021/01/18,lunes,Colaborador,Apoyo a la docencia,
+793,Gabriela,Martínez Vazquez,6:50:00,15:24:00,2021/01/18,lunes,Colaborador,Jardineria,
+794,Luis Mario,Dominguez Aburto Lopez,7:03:00,14:33:00,2021/01/18,lunes,Colaborador,Apoyo a la docencia,
+795,Maria del Carmen,Rodriguez Perez,7:03:00,14:50:00,2021/01/18,lunes,Colaborador,Limpieza,
+796,Yordi,Gomez Cali,7:03:00,14:52:00,2021/01/18,lunes,Colaborador,Jardineria,
+797,Pedro de Jesus,Tuz Uc,7:04:00,18:34:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+798,Gilberto,Hernandez Gil,7:16:00,15:10:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+799,Neila Dessiree,Luzardo Lameda,7:20:00,14:49:00,2021/01/18,lunes,Colaborador,Jardineria,
+800,Isidro,Calderon Chan,7:51:00,17:54:00,2021/01/18,lunes,Visitante,,Ing. Francisco
+801,Hermelindo,Can Chan,7:54:00,15:17:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+802,Maria Elizabeth,Chuc Dzul,7:55:00,12:00:00,2021/01/18,lunes,Colaborador,Limpieza,
+803,Jose Luis,Corral Carrasco,8:00:00,17:54:00,2021/01/18,lunes,Visitante,,Ing. Francisco
+804,Fernando,Gonzalez Alarcon,8:09:00,17:54:00,2021/01/18,lunes,Colaborador,Gastronomia,
+805,Maria Flor,Sanchez Gonzalez,8:13:00,14:57:00,2021/01/18,lunes,Colaborador,Limpieza,
+806,Augusto,Can Ceme,8:13:00,18:18:00,2021/01/18,lunes,Visitante,,Ing. Camacho
+807,Juan Carlos,Valdez Rodriguez,8:13:00,18:18:00,2021/01/18,lunes,Visitante,,Ing. Camacho
+808,Eusebio,Pacheco Flores,8:13:00,18:18:00,2021/01/18,lunes,Visitante,,Ing. Camacho
+809,Maria Isabel,Bautista Montiel,8:13:00,17:54:00,2021/01/18,lunes,Visitante,,Ing. Fernandez
+810,Gabriel,Acuña Montiel,8:13:00,17:54:00,2021/01/18,lunes,Visitante,,Ing. Fernandez
+811,Gilberto,Gomez Gomez,8:21:00,8:36:00,2021/01/18,lunes,Visitante,,Ing. Fernandez
+812,Sergio,Cuellar Espadas,8:24:00,14:17:00,2021/01/18,lunes,Colaborador,Vinculacion,
+813,Jose Luis,Chan Alcala,8:45:00,17:54:00,2021/01/18,lunes,Visitante,,Ing. Francisco
+814,Jessica,Hernandez Matos,8:48:00,14:25:00,2021/01/18,lunes,Colaborador,Vinculacion,
+815,Maria Magdalena,Dzul Tuz,8:50:00,14:45:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+816,Darwin Martin,Garcia Cen,8:50:00,9:14:00,2021/01/18,lunes,Estudiante,Caja,
+817,Viviana,Catzin Escamilla,9:05:00,14:10:00,2021/01/18,lunes,Colaborador,Sistemas,
+818,Jose Felipe,Lopez Uitzil,9:06:00,14:10:00,2021/01/18,lunes,Colaborador,Servicio Social,
+819,Fabiola,Poot Chan,9:14:00,14:50:00,2021/01/18,lunes,Colaborador,Servicio Social,
+820,Rubi Esmeralda,Molina Rodriguez,9:35:00,12:47:00,2021/01/18,lunes,Colaborador,Servicio Social,
+821,Luis Gerardo,Tec Sanchez,9:35:00,16:33:00,2021/01/18,lunes,Colaborador,Rectoria,
+822,Cristian Elizabeth,Rivera Romero,9:40:00,18:51:00,2021/01/18,lunes,Colaborador,Compras,
+823,Jhonatan,Camacho Briceño,9:44:00,10:01:00,2021/01/18,lunes,Visitante,Rectoria,Dejar un oficio
+824,Sinai Yudith,Prado Godinez,9:44:00,17:00:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+825,Edsel,Baltierra Medel,9:44:00,15:00:00,2021/01/18,lunes,Colaborador,Inventarios,
+826,Ariel,Gonzalez Herrera,9:45:00,13:43:00,2021/01/18,lunes,Estudiante,Desarrollo Estudiantil,
+827,Bernardina,Cap Palomo,9:46:00,17:49:00,2021/01/18,lunes,Colaborador,Administracion,
+828,Gaspar,Sosa Cap,9:46:00,12:45:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+829,Silvio Manuel,Herrera Dzul,9:53:00,18:06:00,2021/01/18,lunes,Colaborador,Planeacion y Desarrollo,
+830,Julio Cesar,Basto Canto,9:54:00,16:03:00,2021/01/18,lunes,Colaborador,Unidad y Transparencia,
+831,Tabata,Calderon Marin,9:58:00,10:01:00,2021/01/18,lunes,Estudiante,Servicio Social,
+832,Silvia Isabel,Navarro Yam,9:58:00,14:00:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+833,Jhonatan Isaac,Cardeña Colli,10:02:00,10:15:00,2021/01/18,lunes,Estudiante,Servicio Social,
+834,Dulce,Leyva Dominguez,10:05:00,14:16:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+835,Manuel Alberto,Rosado,10:05:00,15:14:00,2021/01/18,lunes,Colaborador,Contabilidad,
+836,Jose Luis,Dominguez Mendez,10:06:00,16:34:00,2021/01/18,lunes,Colaborador,Control y Evaluacion,
+837,Emma,Guevara Garcia Figueroa,10:08:00,14:50:00,2021/01/18,lunes,Colaborador,Sala de juntas,
+838,Diana Laura,Sanchez Camacho,10:09:00,14:52:00,2021/01/18,lunes,Colaborador,Compras,
+839,Francisco Javier,Manzo Jimenez,10:12:00,14:10:00,2021/01/18,lunes,Colaborador,Sistemas,
+840,Claudia,Silverio Cabrera,10:14:00,18:04:00,2021/01/18,lunes,Colaborador,Contabilidad,
+841,Yamira Guadalupe,Valdez Moguel,10:14:00,10:37:00,2021/01/18,lunes,Estudiante,Servicio Social,
+842,Francisco Jesus,Ucan Che,10:14:00,10:37:00,2021/01/18,lunes,Estudiante,Servicio Social,
+843,Jose Rey,Treso Velazquez,10:14:00,10:37:00,2021/01/18,lunes,Estudiante,Servicio Social,
+844,Zury Lizbeth,Perez Flores,10:21:00,18:24:00,2021/01/18,lunes,Colaborador,Compras,
+845,Zoyla Maria,Garcia Cen,10:24:00,16:52:00,2021/01/18,lunes,Colaborador,Administracion,
+846,Dulce Maria,Leon Barrera,10:24:00,16:52:00,2021/01/18,lunes,Colaborador,Economia y Negocios,
+847,Nayeli del Rosario,Pech May,10:27:00,14:12:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+848,Vicente Manuel,Pech Bacab,10:28:00,14:00:00,2021/01/18,lunes,Colaborador,Control Presupuestal,
+849,Andrea Danae,Licea Lopez,10:28:00,10:34:00,2021/01/18,lunes,Estudiante,Servicio Social,
+850,Julissa Silvia,Martinez,10:24:00,10:51:00,2021/01/18,lunes,Estudiante,Servicio Social,
+851,Miguel Angel,Gomez Santamaria,10:24:00,10:51:00,2021/01/18,lunes,Estudiante,Servicio Social,
+852,Karina,Carrillo Perez,10:32:00,12:56:00,2021/01/18,lunes,Colaborador,Tesoreria,
+853,Maria Cristina,Canul Pech,10:34:00,17:47:00,2021/01/18,lunes,Colaborador,Control Presupuestal,
+854,Diana Judith,Ramos Marin,10:40:00,11:04:00,2021/01/18,lunes,Estudiante,Servicio Social,
+855,Mirna,Torres Argaes,10:46:00,18:27:00,2021/01/18,lunes,Colaborador,Recursos Humanos,
+856,Evelin,Garcia Morales,10:44:00,10:58:00,2021/01/18,lunes,Estudiante,Servicio Social,
+857,Rodrigo,Guillen Breton,10:50:00,20:30:00,2021/01/18,lunes,Colaborador,Secretaria Academica,
+858,Liliana,Elizalde Arteaga,10:57:00,14:25:00,2021/01/18,lunes,Colaborador,Contraloria,
+859,Georgina Guadalupe,Aguilar Barrera,11:12:00,11:21:00,2021/01/18,lunes,Estudiante,Servicio Social,
+860,Elizabeth,Aranda Garcia,11:13:00,16:20:00,2021/01/18,lunes,Colaborador,Planeacion y Desarrollo,
+861,Frida,Ramos Torres,11:10:00,11:35:00,2021/01/18,lunes,Estudiante,Servicio Social,
+862,Hector,Romero Ibarra,11:33:00,14:03:00,2021/01/18,lunes,Colaborador,Gastronomia,
+863,Angel Gustavo,Sanchez Sargoza,11:59:00,11:42:00,2021/01/18,lunes,Estudiante,Servicio Social,
+864,Yovany Yair,Larios Balam,11:51:00,18:20:00,2021/01/18,lunes,Visitante,,Ing. Tomas Canche
+865,Javier,Gil Martinez,11:51:00,18:20:00,2021/01/18,lunes,Visitante,,Ing. Tomas Canche
+866,Michelle,Elias Hernandez,11:51:00,18:20:00,2021/01/18,lunes,Visitante,,Ing. Tomas Canche
+867,Mario Alan,Larios Balam,11:51:00,18:20:00,2021/01/18,lunes,Visitante,,Ing. Tomas Canche
+868,Gabriela,Cruz Camacho,12:13:00,13:11:00,2021/01/18,lunes,Colaborador,Comunicaciones,
+869,Luis,Dzib Chuc,12:15:00,18:55:00,2021/01/18,lunes,Colaborador,Gastronomia,
+870,Jorge Jheovany,Peraza Hernandez,12:20:00,12:29:00,2021/01/18,lunes,Estudiante,Vinculacion,
+871,Carlos Jheovany,Mollado Hernandez,12:50:00,12:54:00,2021/01/18,lunes,Estudiante,Servicio Social,
+872,Enrique,Ochoa Steck,13:26:00,13:34:00,2021/01/18,lunes,Estudiante,Servicio Social,
+873,Rodrigo,Morales Camara,13:37:00,15:30:00,2021/01/18,lunes,Colaborador,Planeacion y Desarrollo,
+874,William Ferneli,Tun Cap,14:24:00,15:25:00,2021/01/18,lunes,Colaborador,Gastronomia,
+875,Jose Manuel,Dominguez Santos,14:33:00,20:44:00,2021/01/18,lunes,Colaborador,Apoyo a la docencia,
+876,Jorge Luis,Perez Pool,14:36:00,21:01:00,2021/01/18,lunes,Colaborador,Apoyo a la docencia,
+877,Jorge,Azueta Ruiz,14:57:00,20:44:00,2021/01/18,lunes,Colaborador,Apoyo a la docencia,
+878,Nathanael,Chi Chan,14:47:00,18:55:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+879,Eduard,Vazquez Rodriguez,15:06:00,19:58:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+880,Gaspar,Sansores Perez,15:26:00,21:20:00,2021/01/18,lunes,Colaborador,Mantenimiento,
+881,Raul Alejandro,Gonzalez Lara,16:41:00,17:00:00,2021/01/18,lunes,Visitante,Compras,
+882,Raul Jaime,Gonzalez Arquieta,16:41:00,17:00:00,2021/01/18,lunes,Visitante,Compras,
+883,Alan,Bernal Alfonso,17:32:00,18:30:00,2021/01/18,lunes,Estudiante,Audiorama,
+884,David Alejandro,Mota Placencia,17:32:00,18:38:00,2021/01/18,lunes,Estudiante,Audiorama,
+885,Magdalena ,Dzul Tuz,7:01:00,17:30:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+886,Gabriela,Martinez Vasquez,7:10:00,15:40:00,2021/01/19,martes,Colaborador,Jardineria,
+887,Gilberto,Hernandez Gil,7:13:00,15:40:00,2021/01/19,martes,Colaborador,Mantenimiento,
+888,Pedro de Jesus,Tuz Uc,7:23:00,17:00:00,2021/01/19,martes,Colaborador,Mantenimiento,
+889,Neila Dessiree,Luzardo Lameda,7:23:00,15:00:00,2021/01/19,martes,Colaborador,Jardineria,
+890,Gaspar,Sosa Cap,7:53:00,12:20:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+891,Fernando,Gonzalez Alarcon,7:54:00,14:40:00,2021/01/19,martes,Colaborador,Gastronomia,
+892,Dulce,Leyva Dominguez,7:54:00,15:00:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+893,Maria Isabel,Bautista Montiel,8:05:00,18:00:00,2021/01/19,martes,Visitante,,
+894,Ana Maria,Pinto Puc,8:05:00,15:00:00,2021/01/19,martes,Colaborador,Limpieza,
+895,Elizabeth,Chuc Tuc,8:05:00,12:05:00,2021/01/19,martes,Colaborador,Limpieza,
+896,Isidro,Calderon Chan,8:06:00,18:05:00,2021/01/19,martes,Visitante,,
+897,Sinai Yudith,Prado Godinez,8:06:00,18:10:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+898,Gabriel,Acuña Montiel,8:10:00,18:07:00,2021/01/19,martes,Visitante,,Ing. Francisco
+899,Maria Flor,Sanchez Gonzalez,8:12:00,14:55:00,2021/01/19,martes,Colaborador,,
+900,Jose Luis,Corral Carrasco,8:14:00,18:00:00,2021/01/19,martes,Visitante,,Ing. Tomas
+901,Jose Luis,Chan Alcala,8:20:00,18:10:00,2021/01/19,martes,Visitante,,Ing. Camacho
+902,Juan Carlos,Valdez Rodriguez,8:20:00,18:20:00,2021/01/19,martes,Visitante,,Ing. Camacho
+903,Eusebio,Pacheco Flores,8:20:00,18:20:00,2021/01/19,martes,Visitante,,Ing. Camacho
+904,Augusto,Can Ceme,8:20:00,18:20:00,2021/01/19,martes,Visitante,,Ing. Camacho
+905,Silvia Isabel,Navarro Yam,8:35:00,13:30:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+906,Sergio,Cuellar Espadas,8:48:00,11:50:00,2021/01/19,martes,Colaborador,Vinculacion,
+907,Leonildo,Tun Caamal,8:48:00,15:30:00,2021/01/19,martes,Colaborador,Rectoria,
+908,Nayeli del Rosario,Pech May,8:55:00,17:43:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+909,Viviana,Catzin Escamilla,9:05:00,14:10:00,2021/01/19,martes,Colaborador,Sistemas,
+910,Abelardo,Castillo Galeano,9:08:00,9:45:00,2021/01/19,martes,Colaborador,Negocios Internacionales,
+911,Yovany Yair,Larios Balam,9:23:00,17:43:00,2021/01/19,martes,Visitante,,Ing. Tomas
+912,Javier,Gil Martinez,9:23:00,17:43:00,2021/01/19,martes,Visitante,,Ing. Tomas
+913,Michelle,Elias Hernandez,9:23:00,17:43:00,2021/01/19,martes,Visitante,,Ing. Tomas
+914,Mario Alan,Larios Balam,9:23:00,17:43:00,2021/01/19,martes,Visitante,,Ing. Tomas
+915,Edsel,Baltierra Medel,9:25:00,15:03:00,2021/01/19,martes,Colaborador,Inventarios,
+916,Guillermina,Pech Pech,9:30:00,15:20:00,2021/01/19,martes,Colaborador,Rectoria,
+917,Olga Guadalupe,Pech Pech,9:30:00,14:30:00,2021/01/19,martes,Colaborador,Rectoria,
+918,Julio Cesar,Basto Canto,9:30:00,16:57:00,2021/01/19,martes,Colaborador,Rectoria,
+919,Bernardina,Cap Palomo,9:40:00,16:00:00,2021/01/19,martes,Colaborador,Administracion,
+920,Javier,Manzo Jimenez,9:46:00,14:13:00,2021/01/19,martes,Colaborador,Sistemas,
+921,Sergio Efrain,Alvarez Diaz,9:58:00,11:00:00,2021/01/19,martes,Colaborador,Biblioteca,
+922,Alma,Gonzalez Campos,9:58:00,15:00:00,2021/01/19,martes,Colaborador,Biblioteca,
+923,Jose Luis,Dominguez Mendez,9:58:00,12:00:00,2021/01/19,martes,Colaborador,Control y Evaluacion,
+924,Rodrigo,Morales Camara,9:58:00,18:25:00,2021/01/19,martes,Colaborador,Planeacion y Desarrollo,
+925,Cristian Elizabeth,Rivera Romero,10:05:00,19:05:00,2021/01/19,martes,Colaborador,Planeacion y Desarrollo,
+926,Silvio Manuel,Herrera Dzul,10:05:00,17:20:00,2021/01/19,martes,Colaborador,Desarrollo Humano,
+927,Mirna,Torres Argaes,10:05:00,17:20:00,2021/01/19,martes,Colaborador,Recursos Humanos,
+928,Carlos,Ceballo Cache,10:05:00,11:31:00,2021/01/19,martes,Visitante,,Cita con Guillermina Pech
+929,Manuel Alberto,Rosado,10:10:00,16:03:00,2021/01/19,martes,Colaborador,Contabilidad,
+930,Karina,Carrillo Perez,10:10:00,15:10:00,2021/01/19,martes,Colaborador,Tesoreria,
+931,Emma,Guevara Garcia Figueroa,10:10:00,18:45:00,2021/01/19,martes,Colaborador,Sala de juntas,
+932,Dulce Maria,Leon Barrera,10:10:00,17:25:00,2021/01/19,martes,Colaborador,Economia y Negocios,
+933,Zoyla Maria,Garcia Can,10:12:00,17:25:00,2021/01/19,martes,Colaborador,Administracion,
+934,Zury Lizbeth,Perez Flores,10:12:00,18:05:00,2021/01/19,martes,Colaborador,Compras,
+935,Edgar Alberto,Pech Pech,10:12:00,14:50:00,2021/01/19,martes,Colaborador,Inventarios,
+936,Vicente Manuel,Pech Bacab,10:15:00,16:30:00,2021/01/19,martes,Colaborador,Administracion,
+937,Claudia,Silverio Cabrera,10:23:00,18:05:00,2021/01/19,martes,Colaborador,Contabilidad,
+938,Maria Cristina,Canul Pech,10:25:00,19:47:00,2021/01/19,martes,Colaborador,Control Presupuestal,
+939,Diana Laura,Sanchez Camacho,10:30:00,18:30:00,2021/01/19,martes,Colaborador,Administracion,
+940,Yessica Biridiana,Mendoza,10:40:00,13:30:00,2021/01/19,martes,Colaborador,Servicios Escolares,
+941,Neyda,Riberol Lusardo,11:00:00,17:36:00,2021/01/19,martes,Colaborador,Patronato,
+942,Cristin,McKay,11:00:00,13:30:00,2021/01/19,martes,Colaborador,Desarrollo Humano,
+943,Elizabeth,Aranda Garcia,11:01:00,16:36:00,2021/01/19,martes,Colaborador,Planeacion y Desarrollo,
+944,Ana Priscila,Sosa Ferreira,11:03:00,15:37:00,2021/01/19,martes,Colaborador,Rectoria,
+945,Rodrigo,Guillen Breton,11:07:00,20:00:00,2021/01/19,martes,Colaborador,Secretaria Academica,
+946,Maria Rosa,Ochoa Avila,11:30:00,14:30:00,2021/01/19,martes,Colaborador,Patronato,
+947,Hector,Romero Ibarra,11:55:00,19:00:00,2021/01/19,martes,Colaborador,Gastronomia,
+948,Juan Andres,Gomez Garreta,12:06:00,12:20:00,2021/01/19,martes,Estudiante,Patronato,
+949,Jhonathan Levi,Izar Lopez,12:06:00,12:20:00,2021/01/19,martes,Estudiante,Patronato,
+950,William Ferneli,Tun Cap,12:20:00,19:30:00,2021/01/19,martes,Colaborador,Gastronomia,
+951,Liliana,Elizalde Arteaga,12:24:00,18:47:00,2021/01/19,martes,Colaborador,Contabilidad,
+952,Luis,Dzib Chuc,12:24:00,18:47:00,2021/01/19,martes,Colaborador,Gastronomia,
+953,Victor Manuel,Valladares,14:04:00,14:30:00,2021/01/19,martes,Visitante,,
+954,Santiago,Ramirez Alvarez,14:06:00,15:48:00,2021/01/19,martes,Visitante,,Trabajador del Ing. Tomas
+955,Joel,Garcia,14:06:00,15:48:00,2021/01/19,martes,Visitante,,Trabajador del Ing. Tomas
+956,Carlos,Reyes Hernandez,14:06:00,15:48:00,2021/01/19,martes,Visitante,,Trabajador del Ing. Tomas
+957,Jose Manuel,Dominguez Santos,14:30:00,17:30:00,2021/01/19,martes,Colaborador,Apoyo a la docencia,
+958,Jorge,Silva Alcaraz,14:30:00,17:30:00,2021/01/19,martes,Colaborador,Apoyo a la docencia,
+959,Jorge Luis,Perez Pool,14:45:00,17:30:00,2021/01/19,martes,Colaborador,Apoyo a la docencia,
+960,Gaspar,Sansores Perez,15:05:00,21:00:00,2021/01/19,martes,Colaborador,Mantenimiento,
+961,Eduard,Vazquez Rodriguez,15:06:00,21:00:00,2021/01/19,martes,Colaborador,Mantenimiento,
+962,Nathanael,Chi Chan,15:25:00,21:00:00,2021/01/19,martes,Colaborador,Mantenimiento,
+963,Olga Lilia,Velazquez Santiago,6:27:00,15:00:00,2021/01/20,miercoles,Colaborador,Limpieza,
+964,Francisco,Zurita Sastre,6:48:00,14:44:00,2021/01/20,miercoles,Colaborador,Apoyo a la docencia,
+965,Hermelindo,Can Chan,6:49:00,15:20:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+966,Delio,Perez Silva,6:50:00,15:00:00,2021/01/20,miercoles,Colaborador,Limpieza,
+967,Otilio,Guevara Diaz,6:51:00,15:12:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+968,Mirna,Torres Argaes,6:59:00,18:03:00,2021/01/20,miercoles,Colaborador,Recursos Humanos,
+969,Gilberto,Hernandez Gil,7:03:00,15:12:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+970,Maria del Carmen,Rodriguez Perez,7:15:00,15:03:00,2021/01/20,miercoles,Colaborador,Limpieza,
+971,Gabriela,Martinez Vazquez,7:15:00,15:19:00,2021/01/20,miercoles,Colaborador,Jardineria,
+972,Neila Dessiree,Luzardo Lameda,7:17:00,14:53:00,2021/01/20,miercoles,Colaborador,Jardineria,
+973,Pedro de Jesus,Tuz Uc,7:23:00,17:00:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+974,Maria Isabel,Bautista Montiel,7:57:00,17:23:00,2021/01/20,miercoles,Colaborador,,
+975,Gabriel,Acuña Montiel,7:57:00,17:23:00,2021/01/20,miercoles,Visitante,,
+976,Maria Elizabeth,Chuc Dzul,7:57:00,11:58:00,2021/01/20,miercoles,Colaborador,Limpieza,
+977,Fernando,Gonzalez Alarcon,7:57:00,15:12:00,2021/01/20,miercoles,Colaborador,Gastronomia,
+978,Isidro,Calderon Chan,7:59:00,17:45:00,2021/01/20,miercoles,Visitante,,Ing. Francisco
+979,Luis,Corral,8:04:00,17:45:00,2021/01/20,miercoles,Visitante,,Ing. Francisco
+980,Ana Maria,Pinto Puc,8:06:00,15:03:00,2021/01/20,miercoles,Colaborador,Limpieza,
+981,Maria Flor,Sanchez Gonzalez,8:09:00,14:48:00,2021/01/20,miercoles,Colaborador,Limpieza,
+982,Eusebio,Pech Flores,8:14:00,18:18:00,2021/01/20,miercoles,Visitante,,Ing. Camacho
+983,Augusto,Can Ceme,8:14:00,18:18:00,2021/01/20,miercoles,Visitante,,Ing. Camacho
+984,Juan Carlos,Valdez Rodriguez,8:14:00,18:18:00,2021/01/20,miercoles,Visitante,,Ing. Camacho
+985,Yovany Yair,Larios Balam,8:26:00,13:59:00,2021/01/20,miercoles,Visitante,,Ing. Tomas Canche
+986,Alan,Larios Balam,8:26:00,13:59:00,2021/01/20,miercoles,Visitante,,Ing. Tomas Canche
+987,Michelle,Elias Hernandez,8:26:00,13:59:00,2021/01/20,miercoles,Visitante,,Ing. Tomas Canche
+988,Javier,Gil Martinez,8:26:00,13:59:00,2021/01/20,miercoles,Visitante,,Ing. Tomas Canche
+989,Jose Luis,Chan Alcala,8:36:00,17:45:00,2021/01/20,miercoles,Visitante,,Ing. Francisco
+990,Silvio Manuel,Herrera Dzul,8:56:00,14:40:00,2021/01/20,miercoles,Colaborador,Planeacion y Desarrollo,
+991,Laura,Moo Balam,8:56:00,16:28:00,2021/01/20,miercoles,Colaborador,Servicio Social,
+992,Zaira,Diaz Antonio,8:56:00,16:28:00,2021/01/20,miercoles,Colaborador,Servicio Social,
+993,Leonildo,Tun Caamal,8:56:00,18:05:00,2021/01/20,miercoles,Colaborador,Rectoria,
+994,Rodrigo,Guillen Breton,8:57:00,21:00:00,2021/01/20,miercoles,Colaborador,Servicios Escolares,
+995,Viviana,Catzin Escamilla,9:08:00,14:20:00,2021/01/20,miercoles,Colaborador,Sistemas,
+996,Fabiola,Poot Chan,9:10:00,14:20:00,2021/01/20,miercoles,Colaborador,Servicio Social,
+997,Jose Felipe,Lopez Uitzil,9:11:00,14:15:00,2021/01/20,miercoles,Colaborador,Servicio Social,
+998,Rubi Esmeralda,Molina Rodriguez,9:30:00,12:51:00,2021/01/20,miercoles,Colaborador,Servicio Social,
+999,Edsel,Baltierra Medel,9:30:00,14:25:00,2021/01/20,miercoles,Colaborador,Inventarios,
+1000,Areli,Sanchez Flores,9:51:00,10:16:00,2021/01/20,miercoles,Estudiante,Servicio Social,
+1001,Henry Isai,Arena Dominguez,9:51:00,15:57:00,2021/01/20,miercoles,Colaborador,Radio,
+1002,Citlali,Reyes Evaristo,9:51:00,15:57:00,2021/01/20,miercoles,Estudiante,Practicas Profesionales,
+1003,Edgar Alberto,Pech Pech,9:58:00,14:20:00,2021/01/20,miercoles,Colaborador,Inventarios,
+1004,Efren Roberto,Vera Medellin,10:01:00,10:16:00,2021/01/20,miercoles,Estudiante,Practicas Profesionales,
+1005,Maria Jose,Servera Manzanero,10:11:00,10:21:00,2021/01/20,miercoles,Estudiante,Practicas Profesionales,
+1006,Maria de Jesus,Villanueva Nava,10:11:00,10:41:00,2021/01/20,miercoles,Colaborador,Practicas Profesionales,Profesor
+1007,Oscar,Carballo Tuc,10:11:00,10:41:00,2021/01/20,miercoles,Colaborador,Recursos Humanos,
+1008,Alejandra Melina,Ortiz Carmona,10:15:00,15:05:00,2021/01/20,miercoles,Colaborador,SAC,
+1009,Emma,Guevara Garcia Figueroa,10:15:00,14:44:00,2021/01/20,miercoles,Colaborador,Infraestructura,
+1010,Zury Lizbeth,Perez Flores,10:15:00,13:15:00,2021/01/20,miercoles,Colaborador,Compras,
+1011,Claudia,Silverio Cabrera,10:15:00,14:34:00,2021/01/20,miercoles,Colaborador,Contabilidad,
+1012,Manuel Alberto,Rosado,10:15:00,12:49:00,2021/01/20,miercoles,Colaborador,Contabilidad,
+1013,Nayeli del Rosario,Pech May,10:29:00,18:18:00,2021/01/20,miercoles,Colaborador,Recursos Humanos,
+1014,Jose Luis,Dominguez Mendez,10:34:00,15:39:00,2021/01/20,miercoles,Colaborador,Control y Evaluacion,
+1015,Vicente Manuel,Pech Bacab,10:34:00,17:48:00,2021/01/20,miercoles,Colaborador,Control y Evaluacion,
+1016,Maria Cristina,Canul Pech,10:35:00,16:28:00,2021/01/20,miercoles,Colaborador,Control y Evaluacion,
+1017,Elizabeth,Aranda Garcia,10:49:00,13:33:00,2021/01/20,miercoles,Colaborador,Planeacion y Desarrollo,
+1018,Alma,Bautista Caamal,10:49:00,14:51:00,2021/01/20,miercoles,Colaborador,Planeacion y Desarrollo,
+1019,Emilio,Sanchez Higuarera,10:53:00,11:10:00,2021/01/20,miercoles,Estudiante,Servicio Social,
+1020,Jessica,Hernandez Matos,11:03:00,16:28:00,2021/01/20,miercoles,Colaborador,Vinculacion,
+1021,Hector,Romero Ibarra,11:41:00,19:01:00,2021/01/20,miercoles,Colaborador,Gastronomia,
+1022,William Ferneli,Tun Cap,11:55:00,18:57:00,2021/01/20,miercoles,Colaborador,Gastronomia,
+1023,Arely,Canche Dzul,11:56:00,14:14:00,2021/01/20,miercoles,Colaborador,Biblioteca,
+1024,Francisco,May Noh,11:56:00,18:58:00,2021/01/20,miercoles,Colaborador,Gastronomia,
+1025,Enrique,Mota,11:56:00,12:18:00,2021/01/20,miercoles,Colaborador,Sistemas,
+1026,Luis,Dzib Chuc,12:18:00,18:00:00,2021/01/20,miercoles,Colaborador,Gastronomia,
+1027,William,Alexander,13:22:00,13:34:00,2021/01/20,miercoles,Estudiante,Biblioteca,
+1028,Pamela Citlali,Gallardo Rosas,13:25:00,13:45:00,2021/01/20,miercoles,Estudiante,Biblioteca,
+1029,Sheila Alondra,Ku Poot,13:54:00,14:05:00,2021/01/20,miercoles,Estudiante,Biblioteca,
+1030,Daniel Oswaldo,Sosa Aldama,14:00:00,14:11:00,2021/01/20,miercoles,Estudiante,Biblioteca,
+1031,Jorge Luis,Perez Pool,14:30:00,21:02:00,2021/01/20,miercoles,Colaborador,Apoyo a la docencia,
+1032,Jorge,Azueta Ruiz,14:35:00,21:02:00,2021/01/20,miercoles,Colaborador,Apoyo a la docencia,
+1033,Jose Manuel,Dominguez Santos,14:36:00,21:02:00,2021/01/20,miercoles,Colaborador,Apoyo a la docencia,
+1034,Eduard,Vazquez Rodriguez,15:06:00,21:00:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+1035,Nathanael,Chi Chan,15:28:00,21:00:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+1036,Gaspar,Sansores Perez,15:50:00,21:00:00,2021/01/20,miercoles,Colaborador,Mantenimiento,
+1037,Carlos,Gongora Manzanero,17:01:00,17:34:00,2021/01/20,miercoles,Visitante,,Ing. Tomas
+1038,Juan Carlos,Visencio Lopez,17:01:00,17:34:00,2021/01/20,miercoles,Visitante,,Ing. Tomas
+1039,Juan,Aquino Ucan,17:01:00,17:34:00,2021/01/20,miercoles,Visitante,,Ing. Tomas
+1040,Jenny,Ovando Jimenez,7:05:00,15:15:00,2021/01/21,jueves,Colaborador,Jardineria,
+1041,Manuel,Palma Gomez,7:05:00,15:15:00,2021/01/21,jueves,Colaborador,Jardineria,
+1042,Gabriela,Martinez Vazquez,7:15:00,15:15:00,2021/01/21,jueves,Colaborador,Jardineria,
+1043,Neila Dessiree,Luzardo Lameda,7:18:00,15:05:00,2021/01/21,jueves,Colaborador,Jardineria,
+1044,Isabel,Bautista Montiel,7:40:00,14:45:00,2021/01/21,jueves,Visitante,,Ing. Francisco Fernandez
+1045,Gabriel,Acuña Montiel,7:40:00,14:45:00,2021/01/21,jueves,Visitante,,Ing. Francisco Fernandez
+1046,Elizabeth,Chuc Tuc,7:46:00,12:00:00,2021/01/21,jueves,Colaborador,Limpieza,
+1047,Isidro,Calderon Chan,8:00:00,14:45:00,2021/01/21,jueves,Visitante,,Ing. Francisco
+1048,Jose Luis,Chan Alcala,8:08:00,14:45:00,2021/01/21,jueves,Visitante,,Ing. Francisco
+1049,Jose Luis,Corral Carrasco,8:10:00,14:45:00,2021/01/21,jueves,Visitante,,Ing. Francisco
+1050,Fernando,Gonzalez Alarcon,8:15:00,15:17:00,2021/01/21,jueves,Colaborador,Gastronomia,
+1051,Juan Carlos,Valdez Rodriguez,8:15:00,18:20:00,2021/01/21,jueves,Visitante,,Ing. Camacho
+1052,Augusto,Can Ceme,8:15:00,18:20:00,2021/01/21,jueves,Visitante,,Ing. Camacho
+1053,Eusebio,Pacheco Flores,8:15:00,18:20:00,2021/01/21,jueves,Visitante,,Ing. Camacho
+1054,Sergio,Hernandez Cordoba,8:20:00,8:25:00,2021/01/21,jueves,Colaborador,,"Total Guard, supervisor"
+1055,Maria Flor,Sanchez Gonzalez,8:20:00,14:43:00,2021/01/21,jueves,Colaborador,Limpieza,
+1056,Hector Jaime,Gonzalez,9:00:00,14:45:00,2021/01/21,jueves,Visitante,,Ing. Francisco Fernandez
+1057,Maria Rosa,Ochoa Avila,9:10:00,14:27:00,2021/01/21,jueves,Colaborador,Patronato,
+1058,Olga Guadalupe,Pech Pech,9:10:00,14:27:00,2021/01/21,jueves,Colaborador,Patronato,
+1059,Silvio Manuel,Herrera Dzul,9:10:00,18:05:00,2021/01/21,jueves,Colaborador,Planeacion y Desarrollo,
+1060,Zaira,Diaz Antonio,9:10:00,14:45:00,2021/01/21,jueves,Colaborador,Servicio Social,
+1061,Laura,Moo Balam,9:10:00,14:45:00,2021/01/21,jueves,Colaborador,Servicio Social,
+1062,Fabiola,Poot Chan,9:16:00,13:53:00,2021/01/21,jueves,Colaborador,Servicio Social,
+1063,Edsel,Baltierra Medel,9:17:00,14:47:00,2021/01/21,jueves,Colaborador,Inventarios,
+1064,Jose Felipe,Lopez Uitzil,9:30:00,13:58:00,2021/01/21,jueves,Colaborador,Servicio Social,
+1065,Javier,Manzo Jimenez,9:31:00,14:45:00,2021/01/21,jueves,Colaborador,Sistemas,
+1066,Esmeralda,Molina Ramirez,9:35:00,13:17:00,2021/01/21,jueves,Colaborador,Servicio Social,
+1067,Julio Cesar,Basto Canto,9:37:00,15:10:00,2021/01/21,jueves,Colaborador,Rectoria,
+1068,Alejandro,Perera Balam,9:37:00,15:10:00,2021/01/21,jueves,Colaborador,Coordinacion,
+1069,Jorge David,Oregon Baltazar,9:42:00,9:53:00,2021/01/21,jueves,Estudiante,Servicio Social,160300117
+1070,Alejandra Isabel,Murillo Cruz,9:42:00,14:55:00,2021/01/21,jueves,Colaborador,SAC,
+1071,Dulce,Leyva Dominguez,9:53:00,12:50:00,2021/01/21,jueves,Colaborador,Recursos Humanos,
+1072,Daniel Mauricio,Molina G.,9:54:00,10:10:00,2021/01/21,jueves,Estudiante,Servicio Social,170300296
+1073,Claudia,Silverio Cabrera,9:56:00,16:10:00,2021/01/21,jueves,Colaborador,Contabilidad,
+1074,Alma,Gonzalez Campos,9:58:00,16:26:00,2021/01/21,jueves,Colaborador,Planeacion y Desarrollo,
+1075,Edgar Alberto,Pech Pech,10:03:00,14:40:00,2021/01/21,jueves,Colaborador,Inventarios,
+1076,Manuel Alberto,Rosado,10:03:00,17:00:00,2021/01/21,jueves,Colaborador,Contabilidad,
+1077,Alejandra Melina,Ortiz Carmona,10:03:00,14:15:00,2021/01/21,jueves,Colaborador,SAC,
+1078,Silvia Isabel,Navarro Yam,10:03:00,12:50:00,2021/01/21,jueves,Colaborador,Recursos Humanos,
+1079,Emma,Guevara Garcia Figueroa,10:03:00,19:00:00,2021/01/21,jueves,Colaborador,Infraestructura,
+1080,Gaspar,Sosa Cap,10:05:00,13:05:00,2021/01/21,jueves,Colaborador,Recursos Humanos,
+1081,Viviana,Catzin Escamilla,10:08:00,18:10:00,2021/01/21,jueves,Colaborador,Sistemas,
+1082,Guillermina,Pech Pech,10:10:00,15:30:00,2021/01/21,jueves,Colaborador,Rectoria,
+1083,Nayeli del Rosario,Pech May,10:15:00,17:45:00,2021/01/21,jueves,Colaborador,Recursos Humanos,
+1084,Vicente,Pech May,10:20:00,14:00:00,2021/01/21,jueves,Colaborador,Control Presupuestal,
+1085,Jose Luis,Dominguez Mendez,10:25:00,16:44:00,2021/01/21,jueves,Colaborador,Control y Evaluacion,
+1086,Maria Cristina,Canul Pech,10:30:00,19:00:00,2021/01/21,jueves,Colaborador,Control Presupuestal,
+1087,Mirna,Torres Argaes,10:35:00,18:00:00,2021/01/21,jueves,Colaborador,Recursos Humanos,
+1088,Olga Maria,Ceh Albares,10:35:00,10:40:00,2021/01/21,jueves,Estudiante,Servicio Social,170300636
+1089,Faride Veronica,Rodriguez Canche,10:40:00,11:00:00,2021/01/21,jueves,Estudiante,Laboratorio Mecanica,
+1090,Jessica,Mendoza Corona,10:53:00,13:15:00,2021/01/21,jueves,Colaborador,Servicios Escolares,
+1091,Elizabeth,Aranda Garcia,10:53:00,16:44:00,2021/01/21,jueves,Colaborador,Planeacion y Desarrollo,
+1092,Lilia Jazmin,Erazo Chan,11:06:00,11:15:00,2021/01/21,jueves,Estudiante,Servicios Escolares,190300122
+1093,Gabriel,Mendoza Ortega,11:25:00,11:30:00,2021/01/21,jueves,Estudiante,Servicios Escolares,190300742
+1094,Jorge Adonal,Chacha Gonzalez,11:32:00,11:42:00,2021/01/21,jueves,Estudiante,Servicios Escolares,180300419
+1095,Hector,Romero Ibarra,11:32:00,18:47:00,2021/01/21,jueves,Colaborador,Gastronomia,
+1096,Arath Jeremy,Polborilla,11:42:00,11:59:00,2021/01/21,jueves,Estudiante,,200300420
+1097,William Ferneli,Tun Cap,11:47:00,19:03:00,2021/01/21,jueves,Colaborador,Gastronomia,
+1098,Rodrigo,Guillen Breton,11:48:00,19:03:00,2021/01/21,jueves,Colaborador,Secretaria Academica,
+1099,Katia Belem,Maca Castillo,11:58:00,12:48:00,2021/01/21,jueves,Estudiante,Patronato,
+1100,Luis,Dzib Chuc,12:00:00,18:43:00,2021/01/21,jueves,Colaborador,Gastronomia,
+1101,Ariel,Gonzalez Herrera,12:05:00,14:57:00,2021/01/21,jueves,Estudiante,Desarrollo Estudiantil,
+1102,Andrea,Ramirez Cabrera,12:15:00,12:34:00,2021/01/21,jueves,Estudiante,Servicio Social,
+1103,Angela,Molina Oy,12:30:00,13:00:00,2021/01/21,jueves,Estudiante,Patronato,
+1104,Neyda,Riberol Luzardo,12:33:00,14:27:00,2021/01/21,jueves,Colaborador,Patronato,
+1105,Dulce Maria,Leon Barrera,12:34:00,17:03:00,2021/01/21,jueves,Colaborador,Administracion,
+1106,Michelle,Rubiva Cool,12:38:00,12:58:00,2021/01/21,jueves,Estudiante,Patronato,
+1107,Gerardo Alexis,Camacho Aivar,12:45:00,13:00:00,2021/01/21,jueves,Estudiante,Servicios Escolares,140300685
+1108,Katia,Medina Mendez,12:58:00,13:05:00,2021/01/21,jueves,Estudiante,,150300319
+1109,Alfonzo Oswaldo,De la Cruz,13:00:00,13:10:00,2021/01/21,jueves,Estudiante,,150300319
+1110,Adrian,Brianza Gordillo,13:12:00,13:33:00,2021/01/21,jueves,Visitante,,Ofitecs
+1111,Angel Jesus,Flores Coody,13:09:00,13:30:00,2021/01/21,jueves,Estudiante,Servicios Escolares,170300349
+1112,Joshua Aldair,Jimenez Hutzil,13:38:00,14:00:00,2021/01/21,jueves,Estudiante,Servicio Social,
+1113,Erika Yazmin,Jimenez Huchin,13:38:00,14:00:00,2021/01/21,jueves,Estudiante,Servicio Social,
+1114,Lizbeth,Mireles Lopez,13:42:00,13:50:00,2021/01/21,jueves,Estudiante,Servicio Social,
+1115,Reinaldo Miguel,Sebastian,14:21:00,14:40:00,2021/01/21,jueves,Visitante,Rectoria,Director de Jovenes Contruyendo el futuro
+1116,Julio,Avila Sierra,14:21:00,14:40:00,2021/01/21,jueves,Visitante,Rectoria,Director de Jovenes Contruyendo el futuro
+1117,Manuel,Garcia Camacho,14:32:00,14:50:00,2021/01/21,jueves,Visitante,,Trajo material
+1118,Jorge,Azueta Ruiz,14:35:00,21:00:00,2021/01/21,jueves,Colaborador,Apoyo a la docencia,
+1119,Jose Manuel,Dominguez Santos,14:31:00,21:00:00,2021/01/21,jueves,Colaborador,Apoyo a la docencia,
+1120,Jorge Luis,Perez Pool,14:37:00,21:00:00,2021/01/21,jueves,Colaborador,Apoyo a la docencia,
+1121,Francisco,Manzano Pinzon,14:54:00,15:10:00,2021/01/21,jueves,Colaborador,Inventarios,Firma
+1122,Eduard,Vazquez Rodriguez,15:20:00,22:00:00,2021/01/21,jueves,Colaborador,Mantenimiento,
+1123,Nathanael,Chi Chan,15:30:00,22:00:00,2021/01/21,jueves,Colaborador,Mantenimiento,
+1124,Gaspar,Sansores Perez,15:35:00,22:00:00,2021/01/21,jueves,Colaborador,Mantenimiento,
+1125,Delio,Perez Silva,6:15:00,15:15:00,2021/01/22,viernes,Colaborador,Limpieza,
+1126,Otilio,Guevara Diaz,6:15:00,15:02:00,2021/01/22,viernes,Colaborador,Mantenimiento,
+1127,Judith,Cruz,6:20:00,17:00:00,2021/01/22,viernes,Colaborador,Limpieza,
+1128,Olga Lilia,Velazquez Santiago,6:27:00,15:00:00,2021/01/22,viernes,Colaborador,Limpieza,
+1129,Maria del Carmen,Rodriguez Perez,6:27:00,14:37:00,2021/01/22,viernes,Colaborador,Limpieza,
+1130,Luis Mario,Dominguez Aburto Lopez,6:35:00,14:37:00,2021/01/22,viernes,Colaborador,Apoyo a la docencia,
+1131,Francisco,Zurita Sastre,6:47:00,14:45:00,2021/01/22,viernes,Colaborador,Apoyo a la docencia,
+1132,Gabriela,Martinez Vazquez,7:05:00,15:20:00,2021/01/22,viernes,Colaborador,Jardineria,
+1133,Hermelindo,Can Chan,7:06:00,15:20:00,2021/01/22,viernes,Colaborador,Mantenimiento,
+1134,Pedro de Jesus,Tuz Uc,7:06:00,15:20:00,2021/01/22,viernes,Colaborador,Mantenimiento,
+1135,Manuel,Palma Gomez,7:06:00,15:20:00,2021/01/22,viernes,Colaborador,Jardineria,
+1136,Jenny,Ovando Jimenez,7:06:00,15:20:00,2021/01/22,viernes,Colaborador,Jardineria,
+1137,Neila Dessiree,Luzardo Lameda,7:16:00,15:00:00,2021/01/22,viernes,Colaborador,Jardineria,
+1138,Maria Elizabeth,Chuc Dzul,7:50:00,12:00:00,2021/01/22,viernes,Colaborador,Jardineria,
+1139,Ana Priscila,Sosa Ferreira,8:00:00,15:15:00,2021/01/22,viernes,Colaborador,Rectoria,
+1140,Fernando,Gonzalez Alarcon,8:05:00,15:10:00,2021/01/22,viernes,Colaborador,Gastronomia,
+1141,Maria Flor,Sanchez Gonzalez,8:15:00,14:45:00,2021/01/22,viernes,Colaborador,Limpieza,
+1142,Augusto,Can Ceme,8:20:00,18:20:00,2021/01/22,viernes,Visitante,,"Personal del Ing, Camacho"
+1143,Juan Carlos,Valdez Rodriguez,8:30:00,18:20:00,2021/01/22,viernes,Visitante,,"Personal del Ing, Camacho"
+1144,Eusebio,Pacheco Flores,8:30:00,18:20:00,2021/01/22,viernes,Visitante,,"Personal del Ing, Camacho"
+1145,Sergio,Cuellar Espadas,8:47:00,13:45:00,2021/01/22,viernes,Colaborador,Biblioteca,
+1146,Rodrigo,Morales Camara,9:00:00,15:40:00,2021/01/22,viernes,Colaborador,Planeacion y Desarrollo,
+1147,Elizabeth,Aranda Garcia,9:05:00,15:47:00,2021/01/22,viernes,Colaborador,Planeacion y Desarrollo,
+1148,Gerardo,Sanchez Tec,9:05:00,15:10:00,2021/01/22,viernes,Colaborador,Rectoria,
+1149,Zoyla Maria,Garcia Cen,9:05:00,15:37:00,2021/01/22,viernes,Colaborador,Administracion,
+1150,Dulce Maria,Leon Barrera,9:08:00,15:37:00,2021/01/22,viernes,Colaborador,Economia y Negocios,
+1151,Isai,Tudit Prado,9:10:00,19:41:00,2021/01/22,viernes,Colaborador,Recursos Humanos,
+1152,Mariana,Catzin Escamilla,9:18:00,14:12:00,2021/01/22,viernes,Colaborador,Sistemas,
+1153,Jessica,Hernandez Matos,9:15:00,14:06:00,2021/01/22,viernes,Colaborador,Vinculacion,
+1154,Edsel,Baltierra Medel,9:35:00,15:37:00,2021/01/22,viernes,Colaborador,Inventarios,
+1155,Edgar Alberto,Pech Pech,9:35:00,15:37:00,2021/01/22,viernes,Colaborador,Inventarios,
+1156,Javier,Manzo Jimenez,9:40:00,14:50:00,2021/01/22,viernes,Colaborador,Sistemas,
+1157,Irma,Gonzalez Campo,9:45:00,14:20:00,2021/01/22,viernes,Colaborador,Planeacion y Desarrollo,
+1158,Bernardina,Cap Palomo,9:50:00,16:05:00,2021/01/22,viernes,Colaborador,Administracion,
+1159,Eber,Espinoza Peraza,10:00:00,14:05:00,2021/01/22,viernes,Visitante,,Actualizar laboratorio con Sinai Prado
+1160,Vicente Manuel,Pech Bacab,10:03:00,21:17:00,2021/01/22,viernes,Colaborador,Administracion,
+1161,Alejandra Isabel,Murillo Cruz,10:08:00,14:48:00,2021/01/22,viernes,Colaborador,SAC,
+1162,Cristian Elizabeth,Rivera Romero,10:08:00,18:55:00,2021/01/22,viernes,Colaborador,Compras,
+1163,Manuel Antonio,Rosales,10:08:00,14:00:00,2021/01/22,viernes,Colaborador,Contabilidad,
+1164,Emma,Guevara Garcia Figueroa,10:10:00,15:25:00,2021/01/22,viernes,Colaborador,Infraestructura,
+1165,Alejandra Melina,Ortiz Carmona,10:17:00,14:48:00,2021/01/22,viernes,Colaborador,SAC,
+1166,Jose Luis,Dominguez Mendez,10:17:00,15:47:00,2021/01/22,viernes,Colaborador,Control y Evaluacion,
+1167,Claudia,Silverio Cabrera,10:17:00,14:37:00,2021/01/22,viernes,Colaborador,Contabilidad,
+1168,Nayeli del Rosario,Pech May,10:19:00,19:31:00,2021/01/22,viernes,Colaborador,Recursos Humanos,
+1169,Silvio Manuel,Herrera Dzul,10:20:00,18:40:00,2021/01/22,viernes,Colaborador,Planeacion y Desarrollo,
+1170,Maria Cristina,Canul Pech,10:25:00,21:17:00,2021/01/22,viernes,Colaborador,Control Presupuestal,
+1171,Mirna,Torres Argaes,10:33:00,17:30:00,2021/01/22,viernes,Colaborador,Recursos Humanos,
+1172,Alma,Bautista Caamal,10:33:00,15:20:00,2021/01/22,viernes,Colaborador,Planeacion y Desarrollo,
+1173,Zury Lizbeth,Perez Flores,10:35:00,16:50:00,2021/01/22,viernes,Colaborador,Compras,
+1174,Liliana,Elizalde Arteaga,10:40:00,14:20:00,2021/01/22,viernes,Colaborador,Contabilidad,
+1175,Diana Laura,Sanchez Camacho,10:40:00,14:20:00,2021/01/22,viernes,Colaborador,Administracion,
+1176,Luis,Pool,10:45:00,11:10:00,2021/01/22,viernes,Colaborador,,Cita con Cristian Rivera
+1177,Magdalena ,Dzul Tuz,10:50:00,19:41:00,2021/01/22,viernes,Colaborador,Recursos Humanos,
+1178,Jaime,Bran Alas,10:55:00,11:10:00,2021/01/22,viernes,Estudiante,Servicios Escolares,
+1179,Emilio,Reina,11:00:00,11:25:00,2021/01/22,viernes,Colaborador,Caja,Cajeros ATM
+1180,Yessica Biridiana,Mendoza,11:00:00,13:17:00,2021/01/22,viernes,Colaborador,Servicios Escolares,
+1181,Karen,Valencia,11:14:00,11:25:00,2021/01/22,viernes,Estudiante,Servicios Escolares,
+1182,Ecler,Romero Ibarra,11:25:00,18:43:00,2021/01/22,viernes,Colaborador,Gastronomia,
+1183,William Ferneli,Tun Cap,11:55:00,19:54:00,2021/01/22,viernes,Colaborador,Gastronomia,
+1184,Angelica,Orozco,12:00:00,12:15:00,2021/01/22,viernes,Colaborador,Recursos Humanos,
+1185,Ana Belen,Martínez,13:00:00,13:15:00,2021/01/22,viernes,Estudiante,Servicios Escolares,
+1186,Luis,Dzib Chuc,12:10:00,19:10:00,2021/01/22,viernes,Colaborador,Gastronomia,
+1187,Dayanna,De la Cruz,12:10:00,19:15:00,2021/01/22,viernes,Estudiante,Servicios Escolares,
+1188,Yajaira,Canela Ramirez,12:30:00,12:40:00,2021/01/22,viernes,Estudiante,Servicios Escolares,
+1189,Deivi,Sanchez Nahuat,13:45:00,15:20:00,2021/01/22,viernes,Colaborador,Contabilidad,
+1190,Manuel,Dominguez Santos,14:35:00,20:49:00,2021/01/22,viernes,Colaborador,Apoyo a la docencia,
+1191,Jorge,Azueta Ruiz,14:35:00,20:49:00,2021/01/22,viernes,Colaborador,Apoyo a la docencia,
+1192,Jorge Luis,Perez Pool,14:42:00,20:49:00,2021/01/22,viernes,Colaborador,Apoyo a la docencia,
+1193,Eduard,Vazquez Rodriguez,15:10:00,20:54:00,2021/01/22,viernes,Colaborador,Mantenimiento,
+1194,Gaspar,Sansores Perez,15:15:00,20:54:00,2021/01/22,viernes,Colaborador,Mantenimiento,
+1195,Sergio,Hernandez,15:45:00,16:05:00,2021/01/22,viernes,Visitante,Auditoria Superior,Cita con Bernardina Pech
+1196,Luis,Gallegos,15:55:00,16:45:00,2021/01/22,viernes,Visitante,Administracion,Cita con Bernardina Pech
+1197,Nathanael,Chi Chan,16:15:00,20:38:00,2021/01/22,viernes,Colaborador,Mantenimiento,
+1198,Linda Paz,Jimenez Pavon,16:43:00,18:45:00,2021/01/22,viernes,Estudiante,,Computo 1 C
+1199,Judith,Cruz,6:20:00,15:40:00,2021/01/23,sabado,Colaborador,Limpieza,
+1200,Geronima,Mendoza,6:33:00,15:40:00,2021/01/23,sabado,Colaborador,Limpieza,
+1201,Yesenia,Gomez,6:33:00,15:40:00,2021/01/23,sabado,Colaborador,Limpieza,
+1202,Esperanza,Lopez,6:40:00,15:40:00,2021/01/23,sabado,Colaborador,Limpieza,
+1203,Karla,Jimenez Garcia,7:10:00,7:45:00,2021/01/23,sabado,Estudiante,,
+1204,Eric Gerardo,Teh,7:10:00,9:54:00,2021/01/23,sabado,Estudiante,,
+1205,Jennyfer,Dominguez,7:13:00,10:13:00,2021/01/23,sabado,Estudiante,,
+1206,Claudia,Jimenez Hernandez,7:13:00,10:14:00,2021/01/23,sabado,Estudiante,,
+1207,Yordi,Gomez Cali,7:17:00,13:55:00,2021/01/23,sabado,Colaborador,Jardineria,
+1208,Gabriela,Martínez Vazquez,7:17:00,13:58:00,2021/01/23,sabado,Colaborador,Jardineria,
+1209,Martin,Vazquez Morales,7:57:00,13:30:00,2021/01/23,sabado,Colaborador,Mantenimiento,
+1210,Augusto,Can Ceme,8:10:00,13:57:00,2021/01/23,sabado,Visitante,,Ing. Camacho
+1211,Eusebio,Pacheco Flores,8:10:00,13:57:00,2021/01/23,sabado,Visitante,,Ing. Camacho
+1212,Juan Carlos,Valdez Rodriguez,8:10:00,13:57:00,2021/01/23,sabado,Visitante,,Ing. Camacho
+1213,Hector Adrian,Koguirie,8:35:00,9:59:00,2021/01/23,sabado,Estudiante,Ingenieria,
+1214,David,Ordoñez Alvarado,8:45:00,10:00:00,2021/01/23,sabado,Estudiante,Negocios Internacionales,
+1215,Arturo,Aragon Landa,8:45:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1216,Roberto David,Caamal,8:45:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1217,Julio Cesar,Alvarado,8:50:00,9:45:00,2021/01/23,sabado,Colaborador,Rectoria,
+1218,Jose Manuel,Dominguez Santos,9:00:00,10:00:00,2021/01/23,sabado,Colaborador,Rectoria,
+1219,Diego Alberto,Peña,9:00:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1220,Diego Roberto,Cruz,9:05:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1221,Ariel,Gonzalez Herrera,9:13:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1222,Luis Angel,Noh Santiago,9:15:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1223,Marcos Rene,Castro Rueda,9:22:00,10:00:00,2021/01/23,sabado,Estudiante,Cancha,Basquetball
+1224,Nathanael,Chi Chan,9:25:00,13:10:00,2021/01/23,sabado,Colaborador,Mantenimiento,
+1225,Cristian Elizabeth,Rivera Romero,9:43:00,14:54:00,2021/01/23,sabado,Colaborador,Recursos Humanos,Compras
+1226,Claudia,Silverio Cabrera,9:59:00,13:50:00,2021/01/23,sabado,Colaborador,Contabilidad,
+1227,Sinai Yudith,Prado Godinez,10:20:00,15:25:00,2021/01/23,sabado,Colaborador,Recursos Humanos,
+1228,Vicente Manuel,Pech Bacab,10:30:00,17:05:00,2021/01/23,sabado,Colaborador,Administracion,
+1229,Maria Cristina,Canul Pech,10:30:00,17:05:00,2021/01/23,sabado,Colaborador,Administracion,
+1230,Nayeli,Pech,10:37:00,17:16:00,2021/01/23,sabado,Estudiante,Recursos Humanos,
+1231,Cintia,Morales,10:49:00,13:02:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1232,Nicte Ha,Guadalupe Jimenez,10:50:00,13:02:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1233,Ana Gloria,Lopez Jacome,10:52:00,13:02:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1234,Carlos,Moran Avila,10:54:00,13:02:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1235,Eddy,De los Santos Lopez,10:55:00,14:35:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1236,Juan Carlos,Estrada Roque,10:58:00,14:50:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1237,Cindy,Peña,10:58:00,14:50:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1238,Lizuly Lessandra,Lopez,10:58:00,13:02:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1239,Mey Hing,Ham Peña,11:00:00,14:33:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1240,Felipe,Ceballos,11:00:00,15:00:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1241,Rey David,Gordillo,11:02:00,11:45:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1242,Maria Fernanda,Castro Tuyub,11:03:00,11:45:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1243,Andrea,Huchin Diaz,11:05:00,13:02:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1244,Erika,Chuc,11:05:00,11:15:00,2021/01/23,sabado,Estudiante,Laboratorio Fisico Quimico,
+1245,Geovana,Martinez,11:05:00,13:00:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1246,Carly Noemi,Can Flores,11:10:00,13:02:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1247,Adriela,Gomez,11:11:00,13:25:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1248,Ana Luisa,Morales Garcia,13:03:00,15:10:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1249,Jimena,Paredes Jimenez,13:04:00,15:10:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1250,Angelica,Sanchez,13:05:00,15:10:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1251,Juan Carlos,Pordio,13:05:00,15:43:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1252,Oscar Daniel,Perez,13:05:00,15:10:00,2021/01/23,sabado,Estudiante,Cancha,Tocho
+1253,Estefany,Pool Cauich,13:05:00,14:50:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1254,Valentin,Chan Velazquez,13:05:00,14:50:00,2021/01/23,sabado,Estudiante,Desarrollo Estudiantil,Tenis de mesa
+1255,Olivio,Guevara Diaz,6:29:00,15:21:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1256,Olga Lilia,Velazquez Santiago,6:33:00,13:30:00,2021/01/25,lunes,Colaborador,Limpieza,
+1257,Francisco,Zurita Sastre,6:44:00,15:05:00,2021/01/25,lunes,Colaborador,Apoyo a la docencia,
+1258,Maria del Carmen,Rodriguez Perez,6:56:00,15:03:00,2021/01/25,lunes,Colaborador,Limpieza,
+1259,Martin,Vazquez Morales,6:56:00,15:13:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1260,Mirna,Torres Argaes,6:56:00,18:01:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1261,Gabriela,Martinez Vazquez,7:10:00,15:55:00,2021/01/25,lunes,Colaborador,Jardineria,
+1262,Perla Desiree,Luzardo,7:16:00,16:25:00,2021/01/25,lunes,Colaborador,Jardineria,
+1263,Gilberto,Hernandez Gil,7:20:00,15:13:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1264,Hermelindo,Can Chan,7:20:00,17:09:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1265,Jenny,Ovando Jimenez,7:20:00,15:21:00,2021/01/25,lunes,Colaborador,Jardineria,
+1266,Manuel,Palma Gomez,7:20:00,15:13:00,2021/01/25,lunes,Colaborador,Jardineria,
+1267,Pedro de Jesus,Tuz Uc,7:20:00,17:04:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1268,Elizabeth,Chuc Tuc,7:50:00,12:15:00,2021/01/25,lunes,Colaborador,Limpieza,
+1269,Silvio Manuel,Herrera Dzul,8:01:00,14:53:00,2021/01/25,lunes,Colaborador,Planeacion y Desarrollo,
+1270,Maria Flor,Sanchez Gonzalez,8:03:00,14:55:00,2021/01/25,lunes,Colaborador,Limpieza,
+1271,Eusebio,Pacheco Flores,8:13:00,18:17:00,2021/01/25,lunes,Visitante,,Ing. Camacho
+1272,Juan Carlos,Valdez Rodriguez,8:13:00,18:17:00,2021/01/25,lunes,Visitante,,Ing. Camacho
+1273,Augusto,Can Ceme,8:13:00,18:17:00,2021/01/25,lunes,Visitante,,Ing. Camacho
+1274,Fernando,Gonzalez Alarcon,8:40:00,15:06:00,2021/01/25,lunes,Colaborador,Gastronomia,
+1275,Cristian de Jesus,Lugo Fernandez,8:40:00,11:40:00,2021/01/25,lunes,Colaborador,Laboratorio Mecanica,
+1276,Faride Berenice,Rodriguez,8:58:00,11:40:00,2021/01/25,lunes,Estudiante,Laboratorio Mecanica,
+1277,Fabio Sigfrido,Mora Teodoro,9:06:00,12:20:00,2021/01/25,lunes,Estudiante,Laboratorio Mecanica,
+1278,Viviana,Catzin Escamilla,9:06:00,15:06:00,2021/01/25,lunes,Colaborador,Sistemas,
+1279,Luis Gerardo,Tec Sanchez,9:14:00,15:02:00,2021/01/25,lunes,Colaborador,Rectoria,Asistente
+1280,Bernardina,Cap Palomo,9:40:00,19:13:00,2021/01/25,lunes,Colaborador,,Asistente administrativa
+1281,Elizabeth,Aranda Garcia,9:55:00,14:52:00,2021/01/25,lunes,Colaborador,Contabilidad,
+1282,Cristian Elizabeth,Rivera Romero,10:00:00,19:01:00,2021/01/25,lunes,Colaborador,Compras,
+1283,Edgar Alberto,Pech Pech,10:15:00,15:25:00,2021/01/25,lunes,Colaborador,Inventarios,
+1284,Silvia Isabel,Navarro Yam,10:15:00,14:10:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1285,Dulce,Leyva Dominguez,10:15:00,14:10:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1286,Manuel Alberto,Rosado,10:20:00,13:30:00,2021/01/25,lunes,Colaborador,Contabilidad,
+1287,Nayeli del Rosario,Pech May,10:25:00,18:55:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1288,Zoyla Maria,Garcia Cen,10:28:00,17:50:00,2021/01/25,lunes,Colaborador,Administracion,
+1289,Dulce Maria,Leon Barrera,10:28:00,17:50:00,2021/01/25,lunes,Colaborador,Contraloria,
+1290,Zury Lizbeth,Perez Flores,10:38:00,17:47:00,2021/01/25,lunes,Colaborador,Compras,
+1291,Vicente Manuel,Pech Bacab,10:40:00,18:46:00,2021/01/25,lunes,Colaborador,Control Presupuestal,
+1292,Maria Magdalena,Dzul Tuz,10:40:00,19:13:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1293,Magdaleno,Kumul Och,10:45:00,11:30:00,2021/01/25,lunes,Colaborador,,Firma de contrato
+1294,Claudia,Silverio Cabrera,9:50:00,17:43:00,2021/01/25,lunes,Colaborador,Contabilidad,
+1295,Patricia,Kumul Och,10:29:00,11:30:00,2021/01/25,lunes,Visitante,,Firma de contrato
+1296,Rodrigo,Guillen Breton,10:33:00,22:40:00,2021/01/25,lunes,Colaborador,,Secretario academico
+1297,Alma,Bautista Caamal,10:36:00,16:41:00,2021/01/25,lunes,Colaborador,Planeacion y Desarrollo,
+1298,Sinai Yudith,Prado Godinez,10:36:00,18:36:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1299,Alejandro,Perera Balam,10:36:00,16:41:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1300,Maria Cristina,Canul Pech,10:36:00,18:04:00,2021/01/25,lunes,Colaborador,Control Presupuestal,
+1301,Luis,Alberto Diaz,10:36:00,13:50:00,2021/01/25,lunes,Colaborador,Caja,
+1302,Diana Laura,Sanchez Camacho,10:40:00,21:11:00,2021/01/25,lunes,Colaborador,Compras,
+1303,Cesar,Cordova Quintero,10:58:00,13:31:00,2021/01/25,lunes,Visitante,Caja,
+1304,Jorge,Lenia,11:08:00,11:20:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1305,Jose Tomas,Pozos Cabrera,11:10:00,11:20:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1306,Alejandra Melina,Ortiz Carmona,11:11:00,14:29:00,2021/01/25,lunes,Colaborador,SAC,
+1307,Rafael,Peralta Santillan,11:50:00,12:02:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1308,Carlos Ozziel,Venegas Gonzalez,12:12:00,12:37:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1309,Alexis Iran,Perez Alejo,12:23:00,12:34:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1310,Luis Enrique,Solorzano Sanchez,12:55:00,12:58:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1311,Alma,Gonzalez Campos,9:22:00,15:00:00,2021/01/25,lunes,Colaborador,Planeacion y Desarrollo,
+1312,Ana Priscila,Sosa Ferreira,9:27:00,14:40:00,2021/01/25,lunes,Colaborador,Rectoria,
+1313,Rodrigo,Morales Camora,9:33:00,14:44:00,2021/01/25,lunes,Colaborador,Planeacion y Desarrollo,
+1314,Edsel,Baltierra Medel,9:40:00,15:13:00,2021/01/25,lunes,Colaborador,Inventarios,
+1315,Gaspar,Sosa Cap,9:40:00,14:21:00,2021/01/25,lunes,Colaborador,Recursos Humanos,
+1316,Yessica Biridiana,Mendoza,11:10:00,13:10:00,2021/01/25,lunes,Estudiante,Servicios Escolares,
+1317,William Ferneli,Tun Cap,11:40:00,18:59:00,2021/01/25,lunes,Colaborador,Gastronomia,
+1318,Hector,Romero Ibarra,11:43:00,18:44:00,2021/01/25,lunes,Colaborador,Gastronomia,
+1319,Julio Cesar,Basto Canto,11:45:00,16:04:00,2021/01/25,lunes,Colaborador,Unidad y Transparencia,
+1320,Alejandro,Perera Balam,11:48:00,16:41:00,2021/01/25,lunes,Colaborador,,Cordi F
+1321,Luis,Dzib Chuc,11:48:00,18:42:00,2021/01/25,lunes,Colaborador,Gastronomia,
+1322,Ricardo,Ramirez Guerrero,11:50:00,16:01:00,2021/01/25,lunes,Visitante,,Otis
+1323,Michelle,Fournier,11:50:00,12:59:00,2021/01/25,lunes,Colaborador,Recursos Humanos,Gastronomia
+1324,Bianca,Lopez Can,13:35:00,14:33:00,2021/01/25,lunes,Colaborador,Recursos Humanos,Biblioteca
+1325,Jorge Luis,Perez Pool,14:50:00,21:01:00,2021/01/25,lunes,Colaborador,Apoyo a la docencia,
+1326,Jorge,Azueta Ruiz,14:30:00,21:01:00,2021/01/25,lunes,Colaborador,Apoyo a la docencia,
+1327,Silvia,Garcia Hilmmelstinc,13:52:00,14:29:00,2021/01/25,lunes,Colaborador,Recursos Humanos,Idiomas
+1328,Jose Manuel,Dominguez Santos,14:36:00,21:02:00,2021/01/25,lunes,Colaborador,Apoyo a la docencia,
+1329,Laura Leticia,Vela Manzilla,14:50:00,15:15:00,2021/01/25,lunes,Colaborador,Recursos Humanos,Sistemas
+1330,Eduard,Vazquez Rodriguez,15:30:00,21:05:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1331,Gaspar,Sansores Perez,15:28:00,21:05:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1332,Linda Paz,Jimenez Pavon,15:28:00,17:55:00,2021/01/25,lunes,Estudiante,Computo C1,
+1333,Nathanael,Chi Chan,15:55:00,21:05:00,2021/01/25,lunes,Colaborador,Mantenimiento,
+1334,Santiago,Ramirez Alvarez,10:40:00,17:10:00,2021/01/25,lunes,Visitante,,Ing. Tomas
+1335,Alexis,Chan Alcoser,17:00:00,17:15:00,2021/01/25,lunes,Estudiante,,Presentacion de libro
+1336,Rubi,Benitez Nava,10:01:00,14:26:00,2021/01/25,lunes,Colaborador,Economia y Negocios,
+1337,Delio,Perez Silva,6:22:00,15:10:00,2021/01/26,martes,Colaborador,Limpieza,
+1338,Otilio,Guevara Diaz,6:22:00,14:56:00,2021/01/26,martes,Colaborador,Mantenimiento,
+1339,Olga Lilia,Velazquez Santiago,6:33:00,14:56:00,2021/01/26,martes,Colaborador,Limpieza,
+1340,Carmen,Rodriguez,6:43:00,14:56:00,2021/01/26,martes,Colaborador,Limpieza,
+1341,Francisco,Zurita Sastre,6:45:00,15:15:00,2021/01/26,martes,Colaborador,Apoyo a la docencia,
+1342,Luis Mario,Dominguez Aburto Lopez,6:59:00,14:20:00,2021/01/26,martes,Colaborador,Apoyo a la docencia,
+1343,Hermelindo,Can Chan,7:10:00,15:06:00,2021/01/26,martes,Colaborador,Mantenimiento,
+1344,Pedro de Jesus,Tuz Uc,7:10:00,15:06:00,2021/01/26,martes,Colaborador,Mantenimiento,Mantenimiento de Ala
+1345,Elizabeth,Chuc Dzul,7:49:00,12:01:00,2021/01/26,martes,Colaborador,Servicios Generales,
+1346,Maria Flor,Sanchez Gonzalez,8:03:00,15:00:00,2021/01/26,martes,Colaborador,Limpieza,
+1347,Fernando,Gonzalez Alarcon,8:21:00,15:18:00,2021/01/26,martes,Colaborador,Gastronomia,
+1348,Eusebio,Pacheco Flores,8:25:00,16:15:00,2021/01/26,martes,Visitante,,Azotea
+1349,Augusto,Can Ceme,8:25:00,16:15:00,2021/01/26,martes,Visitante,,Azotea
+1350,Juan Carlos,Valdez Rodriguez,8:25:00,16:15:00,2021/01/26,martes,Visitante,,Azotea
+1351,Diego,Garcia Mendoza,8:35:00,12:30:00,2021/01/26,martes,Visitante,Laboratorio Mecanica,
+1352,Nicolas Francisco,Mateo Diaz,8:37:00,13:55:00,2021/01/26,martes,Colaborador,Laboratorio Manufactura,
+1353,Leonildo,Tun Caamal,8:40:00,16:05:00,2021/01/26,martes,Colaborador,Rectoria,
+1354,Darwin Martin,Garcia Cen,8:50:00,15:27:00,2021/01/26,martes,Estudiante,Caja,
+1355,Faride Berenice,Rodriguez,9:00:00,12:50:00,2021/01/26,martes,Estudiante,Laboratorio Mecanica,
+1356,Silvio Manuel,Herrera Dzul,9:10:00,15:25:00,2021/01/26,martes,Colaborador,Servicio Social,
+1357,Laura,Moo Balam,9:10:00,14:20:00,2021/01/26,martes,Colaborador,Servicio Social,
+1358,Zaira,Diaz Antonio,9:10:00,14:20:00,2021/01/26,martes,Colaborador,Servicio Social,
+1359,Jose Felipe,Lopez Uitzil,9:12:00,14:00:00,2021/01/26,martes,Colaborador,Servicio Social,
+1360,Guillermina,Pech Pech,9:30:00,14:30:00,2021/01/26,martes,Colaborador,Rectoria,
+1361,Olga Guadalupe,Pech Pech,9:30:00,14:30:00,2021/01/26,martes,Colaborador,Patronato,
+1362,Edsel,Baltierra Medel,9:40:00,15:10:00,2021/01/26,martes,Colaborador,Inventarios,
+1363,Francisco,Marin,9:40:00,11:50:00,2021/01/26,martes,Visitante,,"Curso de induccion de desinfeccion, Fumigaciones MAC"
+1364,Javier,Manzo,9:40:00,14:10:00,2021/01/26,martes,Estudiante,Sistemas,Practicas Profesionales en Sistemas
+1365,Hector,Romero Ibarra,9:45:00,18:32:00,2021/01/26,martes,Colaborador,Gastronomia,
+1366,Ana Priscila,Sosa Ferreira,9:45:00,13:30:00,2021/01/26,martes,Colaborador,Rectoria,
+1367,Magdalena,Dzul Tuz,9:50:00,19:40:00,2021/01/26,martes,Colaborador,Recursos Humanos,
+1368,Gaspar,Sosa Cap,9:50:00,14:12:00,2021/01/26,martes,Colaborador,Recursos Humanos,
+1369,Bernardina,Cap Palomo,9:50:00,22:00:00,2021/01/26,martes,Colaborador,Secretaria Academica,
+1370,Rodrigo,Morales Camara,9:55:00,18:17:00,2021/01/26,martes,Colaborador,Planeacion y Desarrollo,
+1371,Dulce,Leyva Dominguez,9:55:00,14:00:00,2021/01/26,martes,Colaborador,Recursos Humanos,
+1372,Viviana,Catzin Escamilla,9:57:00,16:20:00,2021/01/26,martes,Colaborador,Sistemas,
+1373,Vicente Manuel,Pech Bacab,9:57:00,17:15:00,2021/01/26,martes,Colaborador,Control Presupuestal,
+1374,Sinai Yudith,Prado Godinez,10:00:00,22:00:00,2021/01/26,martes,Colaborador,Recursos Humanos,
+1375,Silvia Isabel,Navarro Yam,10:00:00,14:10:00,2021/01/26,martes,Colaborador,Recursos Humanos,
+1376,Alma,Gonzalez Campos,10:00:00,18:17:00,2021/01/26,martes,Colaborador,Planeacion y Desarrollo,
+1377,Edgar Alberto,Pech Pech,10:00:00,15:10:00,2021/01/26,martes,Colaborador,Inventarios,
+1378,Cristian Elizabeth,Rivera Romero,10:03:00,15:10:00,2021/01/26,martes,Colaborador,Compras,Jefe de compras
+1379,Zury Lizbeth,Perez Flores,10:03:00,17:31:00,2021/01/26,martes,Colaborador,Compras,
+1380,Rodrigo,Guillen Breton,10:10:00,21:06:00,2021/01/26,martes,Colaborador,Secretaria Academica,
+1381,Claudia,Silverio Cabrera,10:10:00,20:30:00,2021/01/26,martes,Colaborador,Contabilidad,
+1382,Emma,Guevara Garcia Figueroa,10:10:00,18:17:00,2021/01/26,martes,Colaborador,Caja,
+1383,Julio Cesar,Alvarado,10:17:00,15:50:00,2021/01/26,martes,Colaborador,Juridico,
+1384,Maria Jose,Morales,10:20:00,10:45:00,2021/01/26,martes,Estudiante,Patronato,
+1385,Nayeli del Rosario,Pech May,10:27:00,19:26:00,2021/01/26,martes,Colaborador,Recursos Humanos,
+1386,Maria Cristina,Canul Pech,10:27:00,18:03:00,2021/01/26,martes,Colaborador,Control Presupuestal,
+1387,Zoyla Maria,Garcia Cen,10:30:00,16:30:00,2021/01/26,martes,Colaborador,Administracion,
+1388,Dulce Maria,Leon Barrera,10:30:00,16:30:00,2021/01/26,martes,Colaborador,Contraloria,
+1389,Julio Cesar,Basto Canto,10:45:00,16:00:00,2021/01/26,martes,Colaborador,Rectoria,
+1390,Ricardo,Ramirez Guerrero,10:45:00,14:35:00,2021/01/26,martes,Visitante,,"Otis, Elevador Edificio C"
+1391,Rodolfo,Rodriguez,10:45:00,14:35:00,2021/01/26,martes,Visitante,,"Otis, Elevador Edificio C"
+1392,Reinaldo Miguel,Sebastian,10:45:00,11:10:00,2021/01/26,martes,Visitante,Recursos Humanos,Cita con Guillermina Pech
+1393,Alejandro,Perera Balam,10:45:00,18:10:00,2021/01/26,martes,Colaborador,Tesoreria,
+1394,Maria Rosa,Ochoa Avila,10:46:00,16:00:00,2021/01/26,martes,Colaborador,Patronato,
+1395,Jessica,Mendoza Corona,10:46:00,13:28:00,2021/01/26,martes,Colaborador,Servicios Escolares,
+1396,Giberto,Hernandez Gil,10:53:00,15:20:00,2021/01/26,martes,Colaborador,Mantenimiento,
+1397,Diana Laura,Sanchez Camacho,11:03:00,18:50:00,2021/01/26,martes,Colaborador,Administracion,
+1398,Edwin,Vazquez Vargas,11:05:00,11:30:00,2021/01/26,martes,Estudiante,Servicios Escolares,
+1399,Jessica,Hernandez Matos,11:15:00,14:20:00,2021/01/26,martes,Colaborador,Vinculacion,
+1400,William Ferneli,Tun Cap,11:17:00,18:50:00,2021/01/26,martes,Colaborador,Gastronomia,
+1401,Elizabeth,Aranda García,11:17:00,15:15:00,2021/01/26,martes,Colaborador,Planeacion y Desarrollo,
+1402,Neyda,Riberol Lusardo,11:25:00,17:05:00,2021/01/26,martes,Colaborador,Patronato,
+1403,Karina,Carrillo Perez,11:25:00,15:50:00,2021/01/26,martes,Colaborador,Tesoreria,
+1404,Liset,Castillo Chay,11:27:00,11:52:00,2021/01/26,martes,Estudiante,Patronato,
+1405,Edwin Manuel,Cuy Sosa,11:46:00,11:55:00,2021/01/26,martes,Estudiante,Servicios Escolares,
+1406,Antonio,Ramos Mondragon,11:52:00,12:07:00,2021/01/26,martes,Visitante,Servicios Escolares,Constancia de un estudiante
+1407,Jose Bernardo,Salazar,11:55:00,12:10:00,2021/01/26,martes,Estudiante,Servicios Escolares,
+1408,Jose Guadalupe,Catzin,12:07:00,12:10:00,2021/01/26,martes,Visitante,,"Trabajo de Carpinteria, Cita con Magdalena Dzul"
+1409,Jose,Cuervo Carballeda,12:08:00,12:27:00,2021/01/26,martes,Estudiante,Servicios Escolares,
+1410,Alexia,Balam Chale,12:57:00,13:03:00,2021/01/26,martes,Estudiante,Servicios Escolares,
+1411,Hector Adrian,Izaguirre,13:40:00,13:55:00,2021/01/26,martes,Estudiante,Servicio Social,
+1412,Jorge Luis,Perez Pool,13:45:00,20:40:00,2021/01/26,martes,Colaborador,Apoyo a la docencia,
+1413,Eduard,Vazquez Rodriguez,15:15:00,21:03:00,2021/01/26,martes,Colaborador,Mantenimiento,
+1414,Nathanael,Chi Chan,15:15:00,21:03:00,2021/01/26,martes,Colaborador,Mantenimiento,
+1415,Carmen,Rodriguez,7:00:00,14:51:00,2021/01/27,miercoles,Colaborador,Limpieza,
+1416,Hermelindo,Can Chan,7:08:00,16:09:00,2021/01/27,miercoles,Colaborador,Mantenimiento,
+1417,Pedro de Jesus,Tuz Uc,7:08:00,16:09:00,2021/01/27,miercoles,Colaborador,Mantenimiento,Aires Acondicionados
+1418,Jenny,Ovando Jimenez,7:08:00,15:13:00,2021/01/27,miercoles,Colaborador,Jardineria,
+1419,Gilberto,Hernandez Gil,7:08:00,15:08:00,2021/01/27,miercoles,Colaborador,Mantenimiento,
+1420,Gabriela,Martinez Vazquez,7:13:00,15:13:00,2021/01/27,miercoles,Colaborador,Jardineria,
+1421,Neila Dessiree,Luzardo Lameda,7:16:00,14:50:00,2021/01/27,miercoles,Colaborador,Jardineria,
+1422,Elizabeth,Chuc Tuc,7:50:00,11:54:00,2021/01/27,miercoles,Colaborador,Limpieza,
+1423,Fernando,Gonzalez Alarcon,7:54:00,15:07:00,2021/01/27,miercoles,Colaborador,Gastronomia,
+1424,Ofelia,Linares Hernandez,7:59:00,8:28:00,2021/01/27,miercoles,Colaborador,Economia y Negocios,
+1425,Maria Flor,Sanchez Gonzalez,8:04:00,14:12:00,2021/01/27,miercoles,Colaborador,Limpieza,
+1426,Mario Antonio,Pech Poot,8:39:00,8:40:00,2021/01/27,miercoles,Visitante,,Aguakan
+1427,Juan Carlos,Valdez Rodriguez,8:40:00,18:15:00,2021/01/27,miercoles,Visitante,,Trabajador del Ing. Camacho
+1428,Augusto,Can Ceme,8:40:00,18:15:00,2021/01/27,miercoles,Visitante,,Trabajador del Ing. Camacho
+1429,Leonildo,Tun Caamal,8:57:00,17:54:00,2021/01/27,miercoles,Colaborador,Rectoria,
+1430,Viviana,Catzin Escamilla,8:58:00,14:45:00,2021/01/27,miercoles,Colaborador,Sistemas,
+1431,Darwin Martin,Garcia Cen,8:58:00,9:03:00,2021/01/27,miercoles,Estudiante,Caja,
+1432,Zaira,Diaz Antonio,9:01:00,14:54:00,2021/01/27,miercoles,Colaborador,Servicio Social,
+1433,Laura,Moo Balam,9:01:00,14:54:00,2021/01/27,miercoles,Colaborador,Servicio Social,
+1434,Jose Felipe,Lopez Uitzil,9:12:00,14:05:00,2021/01/27,miercoles,Colaborador,Servicio Social,
+1435,Julio Cesar,Alvarado,9:27:00,14:03:00,2021/01/27,miercoles,Colaborador,Juridico,
+1436,Javier,Manzo Jimenez,9:27:00,13:58:00,2021/01/27,miercoles,Colaborador,Sistemas,
+1437,Edsel,Baltierra Medel,9:32:00,14:55:00,2021/01/27,miercoles,Colaborador,Inventarios,
+1438,Edgar Alberto,Pech Pech,9:40:00,15:00:00,2021/01/27,miercoles,Colaborador,Inventarios,
+1439,Dulce,Leyva Dominguez,9:48:00,11:30:00,2021/01/27,miercoles,Colaborador,Recursos Humanos,
+1440,Silvia Isabel,Navarro Yam,9:50:00,11:30:00,2021/01/27,miercoles,Colaborador,Recursos Humanos,
+1441,Cristian Elizabeth,Rivera Romero,9:50:00,18:28:00,2021/01/27,miercoles,Colaborador,Compras,
+1442,Manuel Alberto,Rosado,9:55:00,15:00:00,2021/01/27,miercoles,Colaborador,Contabilidad,
+1443,Jessica,Hernandez Matos,9:58:00,14:54:00,2021/01/27,miercoles,Colaborador,Vinculacion,
+1444,Emma,Guevara Garcia Figueroa,10:10:00,15:11:00,2021/01/27,miercoles,Colaborador,Infraestructura,
+1445,Claudia,Silverio Campo,10:10:00,15:02:00,2021/01/27,miercoles,Colaborador,Contabilidad,
+1446,Vicente Manuel,Pech Bacab,10:23:00,19:12:00,2021/01/27,miercoles,Colaborador,Administracion,
+1447,Zury Lizbeth,Perez Flores,10:25:00,18:19:00,2021/01/27,miercoles,Colaborador,Compras,
+1448,Nayeli del Rosario,Pech May,10:29:00,17:48:00,2021/01/27,miercoles,Colaborador,Recursos Humanos,
+1449,Maria Cristina,Canul Pech,10:37:00,19:10:00,2021/01/27,miercoles,Colaborador,Control Presupuestal,
+1450,Diana Laura,Sanchez Camacho,10:53:00,21:04:00,2021/01/27,miercoles,Colaborador,Compras,
+1451,Karla Paola,Machorro Salas,10:57:00,11:27:00,2021/01/27,miercoles,Estudiante,Servicios Escolares,
+1452,Silvio Manuel,Herrera Dzul,11:02:00,14:54:00,2021/01/27,miercoles,Colaborador,Planeacion y Desarrollo,
+1453,Elizabeth,Aranda Garcia,11:05:00,16:03:00,2021/01/27,miercoles,Colaborador,Planeacion y Desarrollo,
+1454,Ericka Jazmin,Chuck,11:07:00,11:48:00,2021/01/27,miercoles,Estudiante,Laboratorio Mecanica,
+1455,Mirna,Torres Argaes,11:11:00,17:24:00,2021/01/27,miercoles,Colaborador,Recursos Humanos,
+1456,Hector,Romero Ibarra,11:19:00,18:28:00,2021/01/27,miercoles,Colaborador,Gastronomia,
+1457,Rodrigo,Morales Camara,11:19:00,16:05:00,2021/01/27,miercoles,Colaborador,Planeacion y Desarrollo,
+1458,Rodrigo,Guillen Breton,11:26:00,21:20:00,2021/01/27,miercoles,Colaborador,Secretaria Academica,
+1459,William Ferneli,Tun Cap,11:53:00,20:08:00,2021/01/27,miercoles,Colaborador,Gastronomia,
+1460,Nora,Garcia Hernandez,11:59:00,14:07:00,2021/01/27,miercoles,Colaborador,Biblioteca,
+1461,Luis,Dzib Chuc,12:11:00,18:57:00,2021/01/27,miercoles,Colaborador,Gastronomia,
+1462,Tomas,Gonzalez Canche,12:32:00,14:13:00,2021/01/27,miercoles,Visitante,,Ing. Tomas Canche
+1463,Manuel,Garcia Camacho,12:36:00,12:45:00,2021/01/27,miercoles,Visitante,,Ing. Tomas Canche
+1464,Franco,Utrera Gonzalez,12:46:00,15:07:00,2021/01/27,miercoles,Colaborador,Biblioteca,
+1465,Hugo,Fernandez Euan,12:54:00,13:27:00,2021/01/27,miercoles,Visitante,,Ing. Tomas Canche
+1466,Victoriano,Pech,12:54:00,13:27:00,2021/01/27,miercoles,Visitante,,Ing. Tomas Canche
+1467,Sheila Alondra,Ku Poot,13:29:00,13:47:00,2021/01/27,miercoles,Estudiante,Biblioteca,
+1468,Daniel Oswaldo,Sosa Aldama,13:45:00,13:58:00,2021/01/27,miercoles,Estudiante,Biblioteca,
+1469,Lucia Valeria,Rodriguez Rodriguez,13:49:00,13:56:00,2021/01/27,miercoles,Estudiante,Biblioteca,
+1470,Santiago,Ramirez Alvarez,14:18:00,15:06:00,2021/01/27,miercoles,Visitante,,Ing. Tomas Canche
+1471,Carlos,Reyes Hernandez,14:18:00,15:06:00,2021/01/27,miercoles,Visitante,,Ing. Tomas Canche
+1472,Jorge,Perez Flores,14:19:00,20:36:00,2021/01/27,miercoles,Colaborador,Apoyo a la docencia,
+1473,Diana Vanessa,Fuente Yam,14:24:00,14:35:00,2021/01/27,miercoles,Visitante,Recursos Humanos,Cita
+1474,Abigail,Sanchez Flores,14:24:00,14:35:00,2021/01/27,miercoles,Visitante,Recursos Humanos,Cita
+1475,Jorge,Azueta Ruiz,14:24:00,20:36:00,2021/01/27,miercoles,Colaborador,Apoyo a la docencia,
+1476,Manuel,Dominguez Santos,14:24:00,20:36:00,2021/01/27,miercoles,Colaborador,Apoyo a la docencia,
+1477,Nathanael,Chi Chan,14:37:00,21:01:00,2021/01/27,miercoles,Colaborador,Mantenimiento,
+1478,Eduard,Vazquez Rodriguez,15:01:00,21:01:00,2021/01/27,miercoles,Colaborador,Mantenimiento,
+1479,Gaspar,Sansores Perez,15:22:00,21:01:00,2021/01/27,miercoles,Colaborador,Mantenimiento,
+1480,Otilio,Guevara Diaz,6:00:00,15:00:00,2021/01/28,jueves,Colaborador,Mantenimiento,
+1481,Delio,Perez Silva,6:37:00,15:00:00,2021/01/28,jueves,Colaborador,Limpieza,
+1482,Olga Lilia,Velazquez Santiago,6:42:00,15:00:00,2021/01/28,jueves,Colaborador,Limpieza,
+1483,Carmen,Rodriguez,6:45:00,15:00:00,2021/01/28,jueves,Colaborador,Limpieza,
+1484,Francisco,Zurita Sastre,6:50:00,14:05:00,2021/01/28,jueves,Colaborador,Apoyo a la docencia,
+1485,Martin,Vazquez Morales,6:53:00,15:10:00,2021/01/28,jueves,Colaborador,Mantenimiento,
+1486,Gabriela,Martinez Vazquez,7:02:00,15:00:00,2021/01/28,jueves,Colaborador,Jardineria,
+1487,Gilberto,Hernandez Gil,7:12:00,15:10:00,2021/01/28,jueves,Colaborador,Mantenimiento,
+1488,Pedro de Jesus,Tuz Uc,7:40:00,19:40:00,2021/01/28,jueves,Colaborador,,Aire acondicionado
+1489,Neila Dessiree,Luzardo Lameda,7:50:00,15:05:00,2021/01/28,jueves,Colaborador,Jardineria,
+1490,Elizabeth,Chuc Tuc,7:55:00,12:00:00,2021/01/28,jueves,Colaborador,Limpieza,Interna
+1491,Fernando,Gonzalez Alarcon,8:05:00,14:10:00,2021/01/28,jueves,Colaborador,Gastronomia,
+1492,Maria Flor,Sanchez Gonzalez,8:10:00,14:38:00,2021/01/28,jueves,Colaborador,Limpieza,Interna
+1493,Silvio Manuel,Herrera Dzul,8:10:00,15:45:00,2021/01/28,jueves,Colaborador,Planeacion y Desarrollo,
+1494,Augusto,Can Ceme,9:05:00,18:00:00,2021/01/28,jueves,Visitante,,Sail (c)
+1495,Juan Carlos,Valdez,9:05:00,18:00:00,2021/01/28,jueves,Visitante,,Sail (c)
+1496,Viviana,Catzin Escamilla,9:05:00,14:30:00,2021/01/28,jueves,Colaborador,Sistemas,
+1497,Maria Rosa,Ochoa Avila,9:15:00,13:45:00,2021/01/28,jueves,Colaborador,Patronato,
+1498,Olga Guadalupe,Pech Pech,9:15:00,13:45:00,2021/01/28,jueves,Colaborador,Patronato,
+1499,Rodrigo,Morales Camara,9:33:00,17:10:00,2021/01/28,jueves,Colaborador,Planeacion y Desarrollo,
+1500,Ana Priscila,Sosa Ferreira,9:55:00,17:40:00,2021/01/28,jueves,Colaborador,Rectoria,
+1501,Alma,Gonzalez Campos,9:55:00,16:10:00,2021/01/28,jueves,Colaborador,Planeacion y Desarrollo,
+1502,Rodrigo,Guillen Breton,10:00:00,20:00:00,2021/01/28,jueves,Colaborador,Economia y Negocios,
+1503,Manuel Antonio,Rosales,10:05:00,14:10:00,2021/01/28,jueves,Colaborador,Contabilidad,
+1504,Pedro Antonio,Mex,10:05:00,12:10:00,2021/01/28,jueves,Estudiante,,Becario
+1505,Cristian Elizabeth,Rivera Romero,10:06:00,19:33:00,2021/01/28,jueves,Colaborador,Compras,
+1506,Enrique,Aviles,10:08:00,12:06:00,2021/01/28,jueves,Estudiante,,Becario
+1507,Miranda,Roche,10:08:00,12:05:00,2021/01/28,jueves,Estudiante,,Becario
+1508,Lesly,Garcia Barga,10:09:00,11:50:00,2021/01/28,jueves,Estudiante,Explanada,
+1509,Tania Asusena,De la Cruz,10:10:00,11:55:00,2021/01/28,jueves,Estudiante,Explanada,
+1510,Erika Yazmin,Chale,10:10:00,11:50:00,2021/01/28,jueves,Estudiante,Explanada,
+1511,Vicente Manuel,Pech Bacab,10:12:00,19:57:00,2021/01/28,jueves,Colaborador,Administracion,
+1512,Emma,Guevara Garcia Figueroa,10:12:00,18:50:00,2021/01/28,jueves,Colaborador,Infraestructura,
+1513,Claudia,Silverio Cabrera,10:20:00,18:55:00,2021/01/28,jueves,Colaborador,Contabilidad,
+1514,Zury Lizbeth,Perez Flores,10:30:00,18:10:00,2021/01/28,jueves,Colaborador,Compras,
+1515,Tomas,Gonzalez Canche,10:35:00,11:05:00,2021/01/28,jueves,Estudiante,,Becario
+1516,Joel,Garcia,10:35:00,11:05:00,2021/01/28,jueves,Estudiante,,Becario
+1517,Maria Cristina,Canul Pech,10:45:00,19:20:00,2021/01/28,jueves,Colaborador,Control Presupuestal,
+1518,Neyda,Riberol Lusardo,10:45:00,14:25:00,2021/01/28,jueves,Colaborador,Patronato,
+1519,Mirna,Torres Argaes,10:55:00,17:30:00,2021/01/28,jueves,Colaborador,Recursos Humanos,
+1520,Yessica Biridiana,Mendoza,10:55:00,13:25:00,2021/01/28,jueves,Colaborador,Servicios Escolares,
+1521,Diana Laura,Sanchez Camacho,10:58:00,19:40:00,2021/01/28,jueves,Colaborador,Administracion,
+1522,Gladis del Rosario,Cu,11:05:00,11:50:00,2021/01/28,jueves,Estudiante,,Becario
+1523,Jose Carlos,Avila,11:05:00,12:05:00,2021/01/28,jueves,Estudiante,Servicios Escolares,
+1524,Jose Guadalupe,Roque,11:05:00,12:02:00,2021/01/28,jueves,Estudiante,,Becario
+1525,Isabel,Tapia,11:05:00,12:02:00,2021/01/28,jueves,Colaborador,Planeacion y Desarrollo,
+1526,Elizabeth,Aranda Garcia,11:20:00,15:50:00,2021/01/28,jueves,Colaborador,Recursos Humanos,
+1527,Nayeli del Rosario,Pech May,10:50:00,18:25:00,2021/01/28,jueves,Colaborador,Recursos Humanos,
+1528,Hector,Romero Ibarra,10:50:00,18:40:00,2021/01/28,jueves,Colaborador,Gastronomia,
+1529,Carlos,Patricio,10:50:00,12:08:00,2021/01/28,jueves,Estudiante,Servicios Escolares,
+1530,Guillermina,Pech Pech,10:50:00,14:17:00,2021/01/28,jueves,Colaborador,Recursos Humanos,
+1531,Yessica,Hernandez,10:50:00,15:25:00,2021/01/28,jueves,Colaborador,Vinculacion,
+1532,Eric,Dominguez Segura,12:10:00,12:20:00,2021/01/28,jueves,Estudiante,Servicios Escolares,
+1533,Luis,Dzib Chuc,12:11:00,18:40:00,2021/01/28,jueves,Colaborador,Gastronomia,
+1534,Luci,Pech Gordillo,12:22:00,12:30:00,2021/01/28,jueves,Estudiante,Servicios Escolares,
+1535,Hussef,Ortiz Acebedo,13:08:00,13:00:00,2021/01/28,jueves,Estudiante,Servicios Escolares,
+1536,Ulises,Chavarria Santi,13:10:00,13:25:00,2021/01/28,jueves,Estudiante,Patronato,Compras
+1537,Alejandro,Perera Avalos,13:40:00,16:00:00,2021/01/28,jueves,Colaborador,Tesoreria,
+1538,Francisco,May Noh,13:55:00,18:00:00,2021/01/28,jueves,Colaborador,Planeacion y Desarrollo,
+1539,Jorge,Azueta Ruiz,14:30:00,20:41:00,2021/01/28,jueves,Colaborador,Apoyo a la docencia,
+1540,Jorge Luis,Perez Pool,14:35:00,20:41:00,2021/01/28,jueves,Colaborador,Apoyo a la docencia,
+1541,Manuel,Dominguez Santos,14:38:00,20:41:00,2021/01/28,jueves,Colaborador,Apoyo a la docencia,
+1542,Gaspar,Sansores Perez,15:06:00,21:00:00,2021/01/28,jueves,Colaborador,Mantenimiento,
+1543,Nathanael,Chi Chan,15:06:00,21:00:00,2021/01/28,jueves,Colaborador,Mantenimiento,
+1544,Eduard,Vazquez Rodriguez,15:07:00,21:00:00,2021/01/28,jueves,Colaborador,Mantenimiento,
+1545,Otilio,Guevara Diaz,6:30:00,15:00:00,2021/01/29,viernes,Colaborador,Mantenimiento,
+1546,Delio,Perez Silva,6:30:00,14:55:00,2021/01/29,viernes,Colaborador,Limpieza,Interna
+1547,Olga Lilia,Velazquez Santiago,6:47:00,15:00:00,2021/01/29,viernes,Colaborador,Limpieza,Interna
+1548,Carmen,Rodriguez,6:47:00,15:00:00,2021/01/29,viernes,Colaborador,Limpieza,Interna
+1549,Francisco,Zurita Sastre,6:49:00,14:35:00,2021/01/29,viernes,Colaborador,Apoyo a la docencia,
+1550,Gilberto,Martinez Vazquez,7:11:00,15:10:00,2021/01/29,viernes,Colaborador,Jardineria,
+1551,Neila Dessiree,Luzardo Lameda,7:15:00,14:55:00,2021/01/29,viernes,Colaborador,Jardineria,
+1552,Hermelindo,Can Chan,7:20:00,15:05:00,2021/01/29,viernes,Colaborador,Mantenimiento,
+1553,Yordi,Gomez Cali,7:25:00,15:10:00,2021/01/29,viernes,Colaborador,Jardineria,
+1554,Elizabeth,Chuc Tuc,7:52:00,14:42:00,2021/01/29,viernes,Colaborador,Limpieza,Interna
+1555,Pedro de Jesus,Tuz Uc,8:00:00,13:00:00,2021/01/29,viernes,Colaborador,Mantenimiento,
+1556,Fernanda,Gonzalez Alarcon,8:07:00,15:15:00,2021/01/29,viernes,Colaborador,Gastronomia,
+1557,Maria Flor,Sanchez Gonzalez,8:10:00,15:00:00,2021/01/29,viernes,Colaborador,Limpieza,Interna
+1558,Juan Carlos,Valdez Rodriguez,8:20:00,18:20:00,2021/01/29,viernes,Visitante,,Ing. Camacho
+1559,Augusto,Can Ceme,8:20:00,18:20:00,2021/01/29,viernes,Visitante,,Ing. Camacho
+1560,Abelardo,Castillo Galeano,8:20:00,8:37:00,2021/01/29,viernes,Colaborador,Economia y Negocios,Cita
+1561,Leticia,Betancour,8:30:00,14:40:00,2021/01/29,viernes,Colaborador,Practicas Profesionales,"Profesor, Recoger documentos"
+1562,Jorge,Josefra,9:05:00,11:40:00,2021/01/29,viernes,Colaborador,Servicio Social,
+1563,Fabiola,Poot Chan,9:05:00,15:15:00,2021/01/29,viernes,Colaborador,Servicio Social,
+1564,Laura,Moo Balam,9:07:00,15:15:00,2021/01/29,viernes,Colaborador,Servicio Social,
+1565,Jose Felipe,Lopez Uitzil,9:10:00,14:20:00,2021/01/29,viernes,Colaborador,Servicio Social,
+1566,Viviana,Catzin Escamilla,9:10:00,14:00:00,2021/01/29,viernes,Colaborador,Sistemas,
+1567,Leonildo,Tun Caamal,9:15:00,17:07:00,2021/01/29,viernes,Colaborador,Rectoria,
+1568,Emma,Guevara Garcia Figueroa,9:17:00,22:53:00,2021/01/29,viernes,Colaborador,,
+1569,Javier,Manzo Jimenez,9:25:00,15:00:00,2021/01/29,viernes,Colaborador,Sistemas,
+1570,Claudia,Silverio Cabrera,9:35:00,16:00:00,2021/01/29,viernes,Colaborador,,
+1571,Silvia Isabel,Navarro Yam,9:35:00,14:22:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1572,Juan Carlos,Estrada Roque,9:40:00,11:00:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1573,Julio Cesar,Alvarado,9:40:00,16:00:00,2021/01/29,viernes,Colaborador,Rectoria,
+1574,Luis Gerardo,Tec Sanchez,9:40:00,13:10:00,2021/01/29,viernes,Colaborador,Rectoria,
+1575,Gaspar,Sosa Cap,9:45:00,14:40:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1576,Bernardina,Cap Palomo,9:45:00,14:40:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1577,Maria Cristina,Canul Pech,9:45:00,21:30:00,2021/01/29,viernes,Colaborador,Control Presupuestal,
+1578,Rodrigo,Morales Camara,9:50:00,17:12:00,2021/01/29,viernes,Colaborador,Planeacion y Desarrollo,
+1579,Alma,Bautista Caamal,9:50:00,16:22:00,2021/01/29,viernes,Colaborador,Planeacion y Desarrollo,
+1580,Silvio Manuel,Herrera Dzul,10:00:00,10:20:00,2021/01/29,viernes,Colaborador,Planeacion y Desarrollo,
+1581,Manuel Alberto,Rosado,10:00:00,13:31:00,2021/01/29,viernes,Colaborador,,
+1582,Dulce,Leyva Dominguez,10:03:00,15:00:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1583,Sinai Yudith,Prado Godinez,10:07:00,18:10:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1584,Diana Lucia,Sanchez,10:08:00,17:00:00,2021/01/29,viernes,Colaborador,Rectoria,
+1585,Roxana,Rebolledo Espinoza,10:15:00,16:00:00,2021/01/29,viernes,Colaborador,Contabilidad,
+1586,Claudia,Martinez,10:15:00,11:00:00,2021/01/29,viernes,Colaborador,Administracion,
+1587,Cristian Elizabeth,Rivera Romero,10:15:00,23:02:00,2021/01/29,viernes,Colaborador,Compras,
+1588,Mirna,Torres Argaes,10:15:00,17:40:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1589,Edgar Alberto,Pech Pech,10:20:00,15:15:00,2021/01/29,viernes,Colaborador,Inventarios,
+1590,Rodrigo,Guillen Breton,10:25:00,22:04:00,2021/01/29,viernes,Colaborador,Secretaria Academica,
+1591,Zury Lizbeth,Perez Flores,10:37:00,16:00:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1592,Magdalena,Dzul Tuz,10:50:00,16:00:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1593,Gilberto,Hernandez Gil,10:51:00,15:17:00,2021/01/29,viernes,Colaborador,Mantenimiento,
+1594,Zoyla Maria,Garcia Cen,10:52:00,15:40:00,2021/01/29,viernes,Colaborador,Administracion,
+1595,Dulce Maria,Leon Barrera,10:52:00,15:40:00,2021/01/29,viernes,Colaborador,,
+1596,Lorena,Zublice,11:00:00,11:20:00,2021/01/29,viernes,,Recursos Humanos,Firmas Recursos Humanos
+1597,Elizabeth,Aranda Garcia,11:02:00,17:40:00,2021/01/29,viernes,Colaborador,Planeacion y Desarrollo,
+1598,Nayeli del Rosario,Pech May,11:05:00,17:38:00,2021/01/29,viernes,Colaborador,Recursos Humanos,
+1599,Eduard,Vazquez Rodriguez,8:00:00,13:00:00,2021/01/30,sábado,Colaborador,Mantenimiento,Oficina
+1600,Augusto,Can Ceme,8:19:00,14:20:00,2021/01/30,sábado,Visitante,,"Ing. Camacho, Explanada ""D"""
+1601,Juan Carlos,Valdez Rodriguez,8:19:00,14:20:00,2021/01/30,sábado,Visitante,,"Ing. Camacho, Explanada ""D"""
+1602,Gaspar,Sansores Perez,9:46:00,13:00:00,2021/01/30,sábado,Colaborador,Mantenimiento,Oficina
+1603,Maria Cristina,Canul Pech,10:15:00,15:35:00,2021/01/30,sábado,Colaborador,Control Presupuestal,Oficina
+1604,Vicente Manuel,Pech Bacab,10:22:00,18:40:00,2021/01/30,sábado,Colaborador,Control Presupuestal,Oficina
+1605,Rodrigo,Morales Camara,10:45:00,10:55:00,2021/01/30,sábado,Colaborador,Planeacion y Desarrollo,Oficina
+1606,Daniel,Osorio Huachin,10:55:00,13:30:00,2021/01/30,sábado,Visitante,,"Fumigacion, Control y plagas"
+1607,Amisael,Gonzalez,10:55:00,13:30:00,2021/01/30,sábado,Visitante,,"Fumigacion, Control y plagas"
+1608,Carlos,Lopez,10:55:00,13:30:00,2021/01/30,sábado,Visitante,,"Fumigacion, Control y plagas"
