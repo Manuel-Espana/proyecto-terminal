@@ -1,6 +1,7 @@
 from flask import Flask, render_template, url_for, redirect, flash, request, send_file
 from flask_mysqldb import MySQL
 import datetime
+import locale
 import time
 import pandas as pd
 from matplotlib.figure import Figure
@@ -13,12 +14,14 @@ date = datetime.date.today()
 
 #Ajusta automaticamente el tamaño de las graficas
 rcParams.update({'figure.autolayout': True})
+#Establece configuración para España en sistemas Windows
+locale.setlocale(locale.LC_ALL,'esp')
 
 app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_PASSWORD'] = '123456789'
 app.config['MYSQL_DB'] = 'bitacora'
 mysql = MySQL(app)
 
@@ -44,9 +47,10 @@ def horaE():
     fig = Figure()
     ax = fig.add_subplot(111)
     ax.bar(fhorae.he.apply(str), fhorae.frecuencia, color = 'dodgerblue')
-    ax.set_title('Horas con mas ingresos en el mes de enero')
-    ax.set_ylabel('Ingresos')
+    ax.set_title('Horas con más ingresos en el mes de enero')
+    ax.set_ylabel('Cantidad de ingresos')
 
+    #Guarda la grafica y se envia para mostrarse en HTML
     img = io.BytesIO()
     fig.savefig(img)
     img.seek(0)
@@ -67,9 +71,10 @@ def horaS():
     fig = Figure()
     ax2 = fig.add_subplot(111)
     ax2.bar(fhoras.hs.apply(str), fhoras.frecuencia, color = 'orangered')
-    ax2.set_title('Horas con mas salidas en el mes de enero')
-    ax2.set_ylabel('Salidas')
+    ax2.set_title('Horas con más salidas en el mes de enero')
+    ax2.set_ylabel('Cantidad de salidas')
 
+    #Guarda la grafica y se envia para mostrarse en HTML
     img = io.BytesIO()
     fig.savefig(img)
     img.seek(0)
@@ -90,6 +95,7 @@ def usuarios():
     ax3.set_title('Usuarios en el mes de enero')
     ax3.axis('equal')
 
+    #Guarda la grafica y se envia para mostrarse en HTML
     img = io.BytesIO()
     fig.savefig(img)
     img.seek(0)
@@ -108,11 +114,11 @@ def depa():
     fig = Figure()
     ax4 = fig.add_subplot(111)
     ax4.set_xticklabels(fdepa.departamento, rotation = 90, horizontalalignment = "center")
-    ax4.set_title('Departamentos mas visitados en el mes de enero')
-    ax4.set_ylabel('Visitas')
+    ax4.set_title('Departamentos más visitados en el mes de enero')
+    ax4.set_ylabel('Cantidad de visitas')
     ax4.bar(fdepa['departamento'], fdepa['frecuencia'], color = ('deepskyblue', 'darkorange', 'slateblue', 'gold', 'teal', 'hotpink', 'crimson'))
 
-    #ax4.tick_params(axis='x', labelrotation = 90) 
+    #Guarda la grafica y se envia para mostrarse en HTML
     img = io.BytesIO()
     fig.savefig(img)
     img.seek(0)
@@ -131,11 +137,11 @@ def fecha():
     fig = Figure()
     ax5 = fig.add_subplot(111)
     ax5.set_xticklabels(ffecha.fecha, rotation = 30, horizontalalignment = "center")
-    ax5.set_title('Dias con mas flujo en el mes de enero')
-    ax5.set_ylabel('Ingresos')
+    ax5.set_title('Días con más flujo en el mes de enero')
+    ax5.set_ylabel('Cantidad de ingresos')
     ax5.bar(ffecha['fecha'], ffecha['frecuencia'], color = 'royalblue')
 
-    #ax5.tick_params(axis='x', labelrotation = 90) 
+    #Guarda la grafica y se envia para mostrarse en HTML 
     img = io.BytesIO()
     fig.savefig(img)
     img.seek(0)
@@ -156,11 +162,11 @@ def dia():
     fig = Figure()
     ax6 = fig.add_subplot(111)
     ax6.set_xticklabels(dia.fecha, rotation = 30, horizontalalignment = "center")
-    ax6.set_title('Dias de la semana con mas flujo en el mes de enero')
-    ax6.set_ylabel('Ingresos')
+    ax6.set_title('Días de la semana con más flujo en el mes de enero')
+    ax6.set_ylabel('Cantidad de ingresos')
     ax6.bar(dia['fecha'], dia['frecuencia'], color = 'mediumseagreen')
     
-    #ax6.tick_params(axis='x', labelrotation = 90) 
+    #Guarda la grafica y se envia para mostrarse en HTML
     img = io.BytesIO()
     fig.savefig(img)
     img.seek(0)

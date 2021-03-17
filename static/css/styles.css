@@ -23,8 +23,14 @@
   background-color: white;
 }
 
-/* .resp-img
-  {
-    max-width: 100%;
-    height: auto;
-  } */
+h2::after{
+  content: '';
+  width: 80px;
+  height: 5px;
+  display: block;
+  bottom: 0;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background: #007bff;
+}
