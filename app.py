@@ -32,38 +32,13 @@ def index():
 
 @app.route('/resultados.html')
 def resultados():
-    return render_template('/resultados.html')
-
-@app.route('/horaE/')
-def horaE():
-    img = eH()
-    return send_file(img, mimetype='horaE/png')
-    
-@app.route('/horaS/')
-def horaS():
-    img = oH()
-    return send_file(img, mimetype='horaS/png')
-
-@app.route('/usuarios/')
-def usuarios():
-    img = users()
-    return send_file(img, mimetype='usuarios/png')
-
-@app.route('/depa/')
-def depa():
-    img = departament()
-    return send_file(img, mimetype='depa/png')
-
-@app.route('/fecha/')
-def fecha():
-    img = dates()
-    return send_file(img, mimetype='fecha/png')
-
-@app.route('/dia/')
-def dia():
-    img = dWeek()
-    return send_file(img, mimetype='dia/png')
-
+    eh = eH()
+    oh = oH()
+    usuario = users()
+    dep = departament()
+    fecha = dates()
+    dia = dWeek()
+    return render_template('/resultados.html', plot1 = eh, plot2 = oh, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia)
 
 @app.route('/visitantes.html', methods=['POST'])
 def visitantes():

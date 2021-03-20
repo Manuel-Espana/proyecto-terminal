@@ -3,7 +3,9 @@ from matplotlib.figure import Figure
 import numpy as np
 import base64
 import io
-
+import plotly
+import plotly.graph_objs as go
+import json
 
 def eH():
     #Lectura del csv
@@ -14,19 +16,14 @@ def eH():
     fhorae = data.groupby('he').size().reset_index(name = 'frecuencia')
     fhorae = fhorae.sort_values(by = 'frecuencia', ascending = False)
     fhorae = fhorae.head(6)
-    # #Grafica las horas con mas ingresos
-    fig = Figure()
-    ax = fig.add_subplot(111)
-    ax.bar(fhorae.he.apply(str), fhorae.frecuencia, color = 'dodgerblue')
-    ax.set_title('Horas con más ingresos en el mes de enero')
-    ax.set_ylabel('Cantidad de ingresos')
 
-    #Guarda la grafica y se envia para mostrarse en HTML
-    img = io.BytesIO()
-    fig.savefig(img)
-    img.seek(0)
-    return img
+    #Grafica las horas con mas ingresos
+    bar = [go.Bar(x = fhorae.he,  y = fhorae.frecuencia, marker_color='dodgerblue')]
+    data = go.Figure(bar)
+    data.update_layout(title = 'Horas con más ingresos en el mes de enero', xaxis_title = 'Horas', yaxis_title = 'Cantidad de ingresos')
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
 
+    return graphJSON
 
 def oH():
     #Lectura del csv
@@ -39,18 +36,12 @@ def oH():
     fhoras = fhoras.head(6)
 
     #Grafica las horas con mas salidas
-    fig = Figure()
-    ax2 = fig.add_subplot(111)
-    ax2.bar(fhoras.hs.apply(str), fhoras.frecuencia, color = 'orangered')
-    ax2.set_title('Horas con más salidas en el mes de enero')
-    ax2.set_ylabel('Cantidad de salidas')
+    bar = [go.Bar(x = fhoras.hs,  y = fhoras.frecuencia, marker_color='orangered')]
+    data = go.Figure(bar)
+    data.update_layout(title = 'Horas con más salidas en el mes de enero', xaxis_title = 'Horas', yaxis_title = 'Cantidad de salidas')
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
 
-    #Guarda la grafica y se envia para mostrarse en HTML
-    img = io.BytesIO()
-    fig.savefig(img)
-    img.seek(0)
-    return img
-
+    return graphJSON
 
 def users():
     #Lectura del csv
@@ -59,42 +50,29 @@ def users():
     fmotivo = data.groupby('motivo_ingreso').size().reset_index(name = 'frecuencia')
 
     #Grafica los usuarios
-    fig = Figure()
-    ax3 = fig.add_subplot(111)
-    labels = fmotivo['motivo_ingreso']
-    ax3.pie(fmotivo['frecuencia'], labels=labels, autopct='%1.1f%%')
-    ax3.set_title('Usuarios en el mes de enero')
-    ax3.axis('equal')
+    pie = [go.Pie(labels = fmotivo.motivo_ingreso, values = fmotivo.frecuencia)]
+    data = go.Figure(pie)
+    data.update_layout(title = 'Usuarios en el mes de enero')
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
 
-    #Guarda la grafica y se envia para mostrarse en HTML
-    img = io.BytesIO()
-    fig.savefig(img)
-    img.seek(0)
-    return img
-
+    return graphJSON
 
 def departament():
     #Lectura del csv
-    data = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
-    fdepa = data.groupby('departamento').size().reset_index(name = 'frecuencia')
+    df = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
+    fdepa = df.groupby('departamento').size().reset_index(name = 'frecuencia')
     #Orderna de mayor a menor y solo muestra los primeros 7
     fdepa = fdepa.sort_values(by = 'frecuencia', ascending = False)
     fdepa = fdepa.head(7)
 
-    #Grafica los departamento
-    fig = Figure()
-    ax4 = fig.add_subplot(111)
-    ax4.set_xticklabels(fdepa.departamento, rotation = 90, horizontalalignment = "center")
-    ax4.set_title('Departamentos más visitados en el mes de enero')
-    ax4.set_ylabel('Cantidad de visitas')
-    ax4.bar(fdepa['departamento'], fdepa['frecuencia'], color = ('deepskyblue', 'darkorange', 'slateblue', 'gold', 'teal', 'hotpink', 'crimson'))
+    # #Grafica los departamento
+    colors = ['deepskyblue', 'mediumpurple', 'darkorange', 'gold', 'teal', 'violet', 'crimson']
+    bar = [go.Bar(x = fdepa.departamento,  y = fdepa.frecuencia, marker_color = colors)]
+    data = go.Figure(bar)
+    data.update_layout(title = 'Departamentos más visitados en el mes de enero', xaxis_title = 'Departamentos', yaxis_title = 'Cantidad de visitas')
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
 
-    #Guarda la grafica y se envia para mostrarse en HTML
-    img = io.BytesIO()
-    fig.savefig(img)
-    img.seek(0)
-    return img
-
+    return graphJSON
 
 def dates():
     #Lectura del csv
@@ -105,19 +83,13 @@ def dates():
     ffecha = ffecha.head(7)
 
     #Grafica los departamento
-    fig = Figure()
-    ax5 = fig.add_subplot(111)
-    ax5.set_xticklabels(ffecha.fecha, rotation = 30, horizontalalignment = "center")
-    ax5.set_title('Días con más flujo en el mes de enero')
-    ax5.set_ylabel('Cantidad de ingresos')
-    ax5.bar(ffecha['fecha'], ffecha['frecuencia'], color = 'royalblue')
+    colors = ['darkred', 'seagreen', 'mediumslateblue', 'dodgerblue', 'sandybrown', 'mediumvioletred', 'cornflowerblue']
+    bar = [go.Bar(x = ffecha.fecha,  y = ffecha.frecuencia, marker_color = colors)]
+    data = go.Figure(bar)
+    data.update_layout(title = 'Fechas con más flujo en el mes de enero', xaxis_title = 'Fechas', yaxis_title = 'Cantidad de ingresos')
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
 
-    #Guarda la grafica y se envia para mostrarse en HTML 
-    img = io.BytesIO()
-    fig.savefig(img)
-    img.seek(0)
-    return img
-
+    return graphJSON
 
 def dWeek():
     #Lectura del csv
@@ -129,16 +101,11 @@ def dWeek():
     #Orderna de mayor a menor
     dia = dia.sort_values(by = 'frecuencia', ascending = False)
 
-    #Grafica los departamento
-    fig = Figure()
-    ax6 = fig.add_subplot(111)
-    ax6.set_xticklabels(dia.fecha, rotation = 30, horizontalalignment = "center")
-    ax6.set_title('Días de la semana con más flujo en el mes de enero')
-    ax6.set_ylabel('Cantidad de ingresos')
-    ax6.bar(dia['fecha'], dia['frecuencia'], color = 'mediumseagreen')
-    
-    #Guarda la grafica y se envia para mostrarse en HTML
-    img = io.BytesIO()
-    fig.savefig(img)
-    img.seek(0)
-    return img
+    #Grafica los dias de la semana
+    colors = ['darkorange', 'darkorchid', 'darkcyan', 'darksalmon', 'forestgreen', 'darkslateblue', 'brown']
+    bar = [go.Bar(x = dia.fecha,  y = dia.frecuencia, marker_color = colors)]
+    data = go.Figure(bar)
+    data.update_layout(title = 'Días de la semana con más flujo en el mes de enero', xaxis_title = 'Días', yaxis_title = 'Cantidad de ingresos')
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
+
+    return graphJSON
