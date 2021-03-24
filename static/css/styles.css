@@ -34,3 +34,7 @@ h2::after{
   margin-bottom: 0.5rem;
   background: #007bff;
 }
+
+.bg-gray{
+  background-color: #F0F0F0;
+}

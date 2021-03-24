@@ -10,6 +10,7 @@ from dashboard import departament
 from dashboard import dates
 from dashboard import dWeek
 from matplotlib import rcParams
+import json
 
 date = datetime.date.today()
 
@@ -29,6 +30,23 @@ mysql = MySQL(app)
 @app.route('/')
 def index():
     return render_template('index.html')
+       
+@app.route('/datosQR', methods = ['POST'])
+def postmethod():
+     if request.method == 'POST':
+        usuario = json.loads(request.get_json())
+        nombre = usuario["nombre"]
+        apellido = usuario["apellido"]
+        hora_e = time.strftime("%H:%M:%S")
+        tipo_usuario = 'Estudiante'
+        departamento = 'Comunidad Universitaria'
+        descripcion = None
+
+        cur = mysql.connection.cursor()
+        cur.execute('INSERT INTO registro (nombre,apellido,he,motivo_ingreso,departamento,descripcion,fecha) VALUES (%s,%s,%s,%s,%s,%s,%s)',
+                    (nombre, apellido, hora_e, tipo_usuario, departamento, descripcion, date))
+        mysql.connection.commit()
+        return 'OK', 200
 
 @app.route('/resultados.html')
 def resultados():

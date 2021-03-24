@@ -10,6 +10,7 @@ const btnScanQR = document.getElementById("btn-scan-qr");
 
 let scanning = false;
 
+//Callback que obtiene los datos del QR
 qrCode.callback = res => {
   if (res) {
     outputData.innerText = res;
@@ -22,9 +23,31 @@ qrCode.callback = res => {
     qrResult.hidden = false;
     canvasElement.hidden = true;
     btnScanQR.hidden = false;
+
+    fetch('/datosQR', {
+
+      // Declaramos los datos que se envian
+      headers: {
+        'Content-Type': 'application/json'
+      },
+
+      method: 'POST',
+
+      // El cuerpo es un JSON
+      body: JSON.stringify(outputData.innerText)
+    }).then(function (response) {
+      return response.text();
+    }).then(function (text) {
+
+      console.log('POST response: ');
+
+      // Mensaje de verificacion que todo salio bien
+      console.log(text);
+    });
   }
 };
 
+//Evento para activar la carmara
 btnScanQR.onclick = () => {
   navigator.mediaDevices
     .getUserMedia({ video: { facingMode: "environment" } })
@@ -33,7 +56,7 @@ btnScanQR.onclick = () => {
       qrResult.hidden = true;
       btnScanQR.hidden = true;
       canvasElement.hidden = false;
-      video.setAttribute("playsinline", true); // required to tell iOS safari we don't want fullscreen
+      video.setAttribute("playsinline", true);
       video.srcObject = stream;
       video.play();
       tick();
@@ -41,6 +64,7 @@ btnScanQR.onclick = () => {
     });
 };
 
+//Parametros de la ventana de la camara
 function tick() {
   canvasElement.height = video.videoHeight;
   canvasElement.width = video.videoWidth;
@@ -49,6 +73,7 @@ function tick() {
   scanning && requestAnimationFrame(tick);
 }
 
+//Funcion para decodificar el QR
 function scan() {
   try {
     qrCode.decode();
