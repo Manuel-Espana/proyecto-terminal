@@ -41,7 +41,7 @@ def postmethod():
         nombre = usuario["nombre"]
         apellido = usuario["apellido"]
         uuid = usuario['uuid']
-        hora_e = time.strftime("%H:%M:%S")
+        hora_e = time.strftime("%Y-%m-%d %H:%M:%S")
         departamento = 'Comunidad Universitaria'
         descripcion = None
         #Consulta del user id para obtener tipo de usuario
@@ -80,7 +80,7 @@ def busqueda():
 #Registro de usuario desde tabla de resultados de la búsqueda de usuario
 @app.route('/register/<id>')
 def busqueda_registro(id):
-    hora_e = time.strftime("%H:%M:%S")
+    hora_e = time.strftime("%Y-%m-%d %H:%M:%S")
     cur = mysql.connection.cursor()
     cur.execute('SELECT * FROM usuario WHERE uuid = %s',(id,))
     data = cur.fetchall()
@@ -112,7 +112,7 @@ def visitantes():
         #Obtiene los datos del usuario desde el método POST
         nombre = request.form['name']
         apellido = request.form['last_name']
-        hora_e = time.strftime("%H:%M:%S")
+        hora_e = time.strftime("%Y-%m-%d %H:%M:%S")
         tipo_usuario = request.form['tipo_usuario']
         if(tipo_usuario != 'Visitante'):
             departamento = 'Comunidad Universitaria'
@@ -136,7 +136,7 @@ def visitantes_get():
 @app.route('/bitacora.html')
 def bitacora():
     cur = mysql.connection.cursor()
-    cur.execute('SELECT * FROM registro WHERE fecha = %s',(date,))
+    cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid FROM registro WHERE fecha = %s", (date,))
     data = cur.fetchall()
     cur.close()
     return render_template('/bitacora.html', registros = data)
@@ -149,7 +149,7 @@ def bitacora_filtrar_fecha():
     fecha_fin = request.form['fecha-fin']
     if(fecha_fin == ""):
         fecha_fin = fecha_inicio
-    cur.execute('SELECT * FROM registro WHERE fecha BETWEEN %s AND %s',(fecha_inicio,fecha_fin))
+    cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid FROM registro WHERE fecha BETWEEN %s AND %s",(fecha_inicio,fecha_fin))
     data = cur.fetchall()
     cur.close()
     return render_template('/bitacora.html', registros = data)
@@ -157,7 +157,7 @@ def bitacora_filtrar_fecha():
 #Actualiza usuario mediante el id de registro, registra hora de salida
 @app.route('/exit/<id>')
 def registro_salida(id):
-    hora_s = time.strftime("%H:%M:%S")
+    hora_s = time.strftime("%Y-%m-%d %H:%M:%S")
     cur = mysql.connection.cursor()
     cur.execute("UPDATE registro SET hs = %s WHERE id_registro = %s", (hora_s, id))
     mysql.connection.commit()
