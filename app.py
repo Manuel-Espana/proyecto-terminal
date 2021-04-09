@@ -3,8 +3,6 @@ from flask_mysqldb import MySQL
 import datetime
 import locale
 import time
-from dashboard import oH
-from matplotlib import rcParams
 import pandas as pd
 import plotly
 import plotly.graph_objs as go
@@ -12,8 +10,6 @@ import json
 
 date = datetime.date.today()
 
-#Ajusta automaticamente el tamaño de las graficas
-rcParams.update({'figure.autolayout': True})
 #Establece configuración para España en sistemas Windows
 locale.setlocale(locale.LC_ALL,'esp')
 
@@ -103,16 +99,15 @@ def resultados():
     dia = dWeek()
     return render_template('/resultados.html', plot1 = eh, plot2 = oh, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia)
 
+#Funciones para la creacion de las graficas de Resultados
 def eH():
-    #Lectura del csv
-    df = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
     #Se crea la coneccion con la BD y se hace la consulta
-    # cur = mysql.connection.cursor()
-    # cur.execute('SELECT he FROM registro')
-    # data = cur.fetchall()
-    # cur.close()
-    # #La consulta se convierte a un DataFrame para su manipulacion
-    # df = pd.DataFrame(list(data), columns = ['he'])
+    cur = mysql.connection.cursor()
+    cur.execute('SELECT he FROM registro')
+    data = cur.fetchall()
+    cur.close()
+    df = pd.DataFrame(data, columns = ['he'])
+    df['he'] = df['he'].dt.strftime('%H:%M:%S')
     #Modificacion de la hora de entrada
     df.he = pd.to_datetime(df.he)
     df.he = df.he.dt.floor('H').dt.time
@@ -128,9 +123,30 @@ def eH():
 
     return graphJSON
 
+def oH():
+    #Consulta de los registros de la base de datos
+    cur = mysql.connection.cursor()
+    cur.execute('SELECT hs FROM registro')
+    data = cur.fetchall()
+    cur.close()
+    df = pd.DataFrame(data, columns = ['hs'])
+    df['hs'] = df['hs'].dt.strftime('%H:%M:%S')
+    #Modificacion de la hora de salida
+    df.hs = pd.to_datetime(df.hs)
+    df.hs = df.hs.dt.floor('H').dt.time
+    fhoras = df.groupby('hs').size().reset_index(name = 'frecuencia')
+    fhoras = fhoras.sort_values(by = 'frecuencia', ascending = False)
+    fhoras = fhoras.head(6)
+
+    #Grafica las horas con mas salidas, se guarda como JSON y se envia para graficar
+    bar = [go.Bar(x = fhoras.hs,  y = fhoras.frecuencia, marker_color='orangered')]
+    data = go.Figure(bar)
+    data.update_layout(title = '<b>Horas con más salidas (enero 2021)</b>', xaxis_title = 'Horas', yaxis_title = 'Cantidad de salidas', title_font_size = 15)
+    graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
+
+    return graphJSON
+
 def users():
-    # #Lectura del csv
-    # df = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT motivo_ingreso FROM registro')
@@ -151,8 +167,7 @@ def users():
     return graphJSON
 
 def departament():
-    # #Lectura del csv
-    # df = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
+    #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT departamento FROM registro')
     data = cur.fetchall()
@@ -175,8 +190,7 @@ def departament():
     return graphJSON
 
 def dates():
-    #Lectura del csv
-    #df = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
+    #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT fecha FROM registro')
     data = cur.fetchall()
@@ -201,8 +215,6 @@ def dates():
     return graphJSON
 
 def dWeek():
-    #Lectura del csv
-    #df = pd.read_csv("static/Base de datos (bitacora) - Copia de Total.csv")
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT fecha FROM registro')
