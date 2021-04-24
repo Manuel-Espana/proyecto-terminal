@@ -1,5 +1,6 @@
-from flask import Flask, render_template, url_for, redirect, flash, request, send_file
+from flask import Flask, render_template, url_for, redirect, flash, request, send_file, g, session
 from flask_mysqldb import MySQL
+from os import urandom
 import datetime
 import locale
 import time
@@ -14,18 +15,58 @@ date = datetime.date.today()
 locale.setlocale(locale.LC_ALL,'esp')
 
 app = Flask(__name__)
+app.secret_key = urandom(24)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '123456789'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'bitacora'
 mysql = MySQL(app)
+
+class User:
+    def __init__(self, id, username, password):
+        self.id = id
+        self.username = username
+        self.password = password
 
 #Muestra la sección de esscaneo de código QR
 @app.route('/')
 def index():
+    if not g.user:
+        return redirect(url_for('login'))
     return render_template('index.html')
-    
+
+@app.before_request
+def before_request():
+    g.user = None
+    if 'user_id' in session:
+        cur = mysql.connection.cursor()
+        cur.execute('SELECT * FROM cuenta WHERE id = %s',(session['user_id'][0],))
+        data = cur.fetchall()
+        g.user = data
+
+#Muestra la sección de login
+@app.route('/login.html', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        session.pop('user_id', None)
+        username = request.form['username']
+        password = request.form['password']
+        #Consulta del user id para obtener tipo de usuario
+        cur = mysql.connection.cursor()
+        cur.execute('SELECT * FROM cuenta WHERE usuario = %s AND password = %s',(username,password))
+        data = cur.fetchall()
+        if data:
+            session['user_id'] = data[0]
+            return redirect(url_for('index'))
+        return redirect(url_for('login'))
+    return render_template('login.html')
+
+@app.route('/logout')
+def sign_out():
+    session.pop('user_id', None)
+    return redirect(url_for('index'))
+
 #Inserción a la base de datos por escaneo de código QR
 @app.route('/datosQR', methods = ['POST'])
 def postmethod():
@@ -91,6 +132,10 @@ def busqueda_registro(id):
 #Despliegue de los dashboards en la sección de resultados
 @app.route('/resultados.html')
 def resultados():
+    if not g.user:
+        return redirect(url_for('login'))
+    if g.user[0][3] != 2:
+        return redirect(url_for('index'))
     eh = eH()
     oh = oH()
     usuario = users()
@@ -264,11 +309,15 @@ def visitantes():
 #Muestra la sección de visitantes
 @app.route('/visitantes.html', methods=['GET'])
 def visitantes_get():
+    if not g.user:
+        return redirect(url_for('login'))
     return render_template('/visitantes.html')
 
 #Muestra la sección de bitácora, por defecto despliega los registros del día actual
 @app.route('/bitacora.html')
 def bitacora():
+    if not g.user:
+        return redirect(url_for('login'))
     cur = mysql.connection.cursor()
     cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid FROM registro WHERE fecha = %s", (date,))
     data = cur.fetchall()
@@ -298,5 +347,4 @@ def registro_salida(id):
     return redirect(url_for('bitacora'))
 
 if __name__ == '__main__':
-    print()
     app.run(port=3000, debug=True)
