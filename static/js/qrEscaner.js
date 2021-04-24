@@ -9,38 +9,39 @@ const outputData = document.getElementById("outputData");
 const btnScanQR = document.getElementById("btn-scan-qr");
 
 let scanning = false;
+let data;
+let resp;
 
 //Callback que obtiene los datos del QR
 qrCode.callback = res => {
   if (res) {
-    outputData.innerText = res;
+    //Convertimos el contenido del QR a JSON y luego enseñamos los datos importantes
+    data = JSON.parse(res);
+    resp = JSON.stringify('Nombre: ' + data.nombre + ' ' + data.apellido + ', ' +  'Matricula: ' + data.uuid);
+    
+    outputData.innerText = resp;
     scanning = false;
 
     video.srcObject.getTracks().forEach(track => {
       track.stop();
     });
-
+    
     qrResult.hidden = false;
     canvasElement.hidden = true;
     btnScanQR.hidden = false;
-
+    
     fetch('/datosQR', {
-
       // Declaramos los datos que se envian
       headers: {
         'Content-Type': 'application/json'
       },
-
       method: 'POST',
-
       // El cuerpo es un JSON
-      body: JSON.stringify(outputData.innerText)
+      body: JSON.stringify(res)
     }).then(function (response) {
       return response.text();
     }).then(function (text) {
-
       console.log('POST response: ');
-
       // Mensaje de verificacion que todo salio bien
       console.log(text);
     });
