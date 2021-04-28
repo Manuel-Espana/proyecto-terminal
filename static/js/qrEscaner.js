@@ -1,36 +1,36 @@
-const qrCode = window.qrcode;
+const codigo_qr = window.qrcode;
 
 const video = document.createElement("video");
-const canvasElement = document.getElementById("qr-canvas");
-const canvas = canvasElement.getContext("2d");
+const qr_canvas = document.getElementById("qr-canvas");
+const canvas = qr_canvas.getContext("2d");
 
-const qrResult = document.getElementById("qr-result");
-const outputData = document.getElementById("outputData");
+const qr_res = document.getElementById("qr-res");
+const respuesta = document.getElementById("respuesta");
 const btnScanQR = document.getElementById("btn-scan-qr");
 
-let scanning = false;
+let escanear = false;
 let data;
 let resp;
 
 //Callback que obtiene los datos del QR
-qrCode.callback = res => {
+codigo_qr.callback = res => {
   if (res) {
     //Convertimos el contenido del QR a JSON y luego enseñamos los datos importantes
     data = JSON.parse(res);
     resp = JSON.stringify('Nombre: ' + data.nombre + ' ' + data.apellido + ', ' +  'Matricula: ' + data.uuid);
     
-    outputData.innerText = resp;
-    scanning = false;
+    respuesta.innerText = resp;
+    escanear = false;
 
     video.srcObject.getTracks().forEach(track => {
       track.stop();
     });
     
-    qrResult.hidden = false;
-    canvasElement.hidden = true;
+    qr_res.hidden = false;
+    qr_canvas.hidden = true;
     btnScanQR.hidden = false;
     
-    fetch('/datosQR', {
+    fetch('/datos_qr', {
       // Declaramos los datos que se envian
       headers: {
         'Content-Type': 'application/json'
@@ -53,10 +53,10 @@ btnScanQR.onclick = () => {
   navigator.mediaDevices
     .getUserMedia({ video: { facingMode: "environment" } })
     .then(function(stream) {
-      scanning = true;
-      qrResult.hidden = true;
+      escanear = true;
+      qr_res.hidden = true;
       btnScanQR.hidden = true;
-      canvasElement.hidden = false;
+      qr_canvas.hidden = false;
       video.setAttribute("playsinline", true);
       video.srcObject = stream;
       video.play();
@@ -67,17 +67,17 @@ btnScanQR.onclick = () => {
 
 //Parametros de la ventana de la camara
 function tick() {
-  canvasElement.height = video.videoHeight;
-  canvasElement.width = video.videoWidth;
-  canvas.drawImage(video, 0, 0, canvasElement.width, canvasElement.height);
+  qr_canvas.height = video.videoHeight;
+  qr_canvas.width = video.videoWidth;
+  canvas.drawImage(video, 0, 0, qr_canvas.width, qr_canvas.height);
 
-  scanning && requestAnimationFrame(tick);
+  escanear && requestAnimationFrame(tick);
 }
 
 //Funcion para decodificar el QR
 function scan() {
   try {
-    qrCode.decode();
+    codigo_qr.decode();
   } catch (e) {
     setTimeout(scan, 300);
   }

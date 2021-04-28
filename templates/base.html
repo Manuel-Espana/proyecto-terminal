@@ -11,11 +11,11 @@
     <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-    <div class="col-md-12 text-right">
-      <a class="btn btn-danger" href="/logout" role="button">Salir</a>
-    </div>
   </head>
   <body>
+    <div class="col-md-12 text-right py-2">
+      <a class="btn btn-outline-danger" href="/logout" role="button">Salir</a>
+    </div>
     {%block content%}{% endblock %}
     <nav class="navbar fixed-bottom navbar-light bg-primary" style="padding: 0;">
       <a href="/resultados.html" class="nav-item nav-link">

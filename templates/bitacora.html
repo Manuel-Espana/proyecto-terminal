@@ -2,13 +2,21 @@
 
 {% block content %}
   <h2 class="text-center">Bitácora</h2>
-  <div class="container text-center py-1">
+  <div class="container py-1">
     <form action="/filtrar_fecha" method="POST">
-      <label for="fecha-inicio">Fecha inicio:</label>
-      <input type="date" id="fecha-inicio" name="fecha-inicio" min="2021-01-01" required="true">
-      <label for="fecha-fin">Fecha fin:</label>
-      <input type="date" id="fecha-fin" name="fecha-fin" min="2021-01-01">
-      <button type="submit" class="btn btn-primary">Filtrar</button>
+      <div class="row justify-content-sm-center">
+        <div class="col-sm py-1">
+          <label for="fecha-inicio" class="font-weight-bold" >Fecha inicio:</label>
+          <input type="date" id="fecha-inicio" name="fecha-inicio" min="2021-01-01" required="true" class="form-control">
+        </div>
+        <div class="col-sm py-1">
+          <label for="fecha-fin" class="font-weight-bold" >Fecha fin:</label>
+          <input type="date" id="fecha-fin" name="fecha-fin" min="2021-01-01" class="form-control">
+        </div>
+        <div class="col-sm align-self-end text-center py-1">
+          <button type="submit" class="btn btn-primary form-control" style="width: 5rem;">Filtrar</button>
+        </div>
+      </div> 
     </form>
   </div>
   <div class="container" style="margin-bottom: 7rem;">

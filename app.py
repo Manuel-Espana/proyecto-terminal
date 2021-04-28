@@ -19,7 +19,7 @@ app.secret_key = urandom(24)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_PASSWORD'] = '123456789'
 app.config['MYSQL_DB'] = 'bitacora'
 mysql = MySQL(app)
 
@@ -63,13 +63,13 @@ def login():
     return render_template('login.html')
 
 @app.route('/logout')
-def sign_out():
+def logout():
     session.pop('user_id', None)
     return redirect(url_for('index'))
 
 #Inserción a la base de datos por escaneo de código QR
-@app.route('/datosQR', methods = ['POST'])
-def postmethod():
+@app.route('/datos_qr', methods = ['POST'])
+def datos_qr():
     if(request.method == 'POST'):
         #Obtiene JSON del código QR y se extraen los datos
         usuario = json.loads(request.get_json())
@@ -136,16 +136,16 @@ def resultados():
         return redirect(url_for('login'))
     if g.user[0][3] != 2:
         return redirect(url_for('index'))
-    eh = eH()
-    oh = oH()
-    usuario = users()
-    dep = departament()
-    fecha = dates()
-    dia = dWeek()
-    return render_template('/resultados.html', plot1 = eh, plot2 = oh, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia)
+    he = graf_he()
+    hs = graf_hs()
+    usuario = graf_usuarios()
+    dep = graf_depa()
+    fecha = graf_fecha()
+    dia = graf_dia()
+    return render_template('/resultados.html', plot1 = he, plot2 = hs, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia)
 
 #Funciones para la creacion de las graficas de Resultados
-def eH():
+def graf_he():
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT he FROM registro')
@@ -168,7 +168,7 @@ def eH():
 
     return graphJSON
 
-def oH():
+def graf_hs():
     #Consulta de los registros de la base de datos
     cur = mysql.connection.cursor()
     cur.execute('SELECT hs FROM registro')
@@ -191,7 +191,7 @@ def oH():
 
     return graphJSON
 
-def users():
+def graf_usuarios():
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT motivo_ingreso FROM registro')
@@ -211,7 +211,7 @@ def users():
 
     return graphJSON
 
-def departament():
+def graf_depa():
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT departamento FROM registro')
@@ -234,7 +234,7 @@ def departament():
 
     return graphJSON
 
-def dates():
+def graf_fecha():
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT fecha FROM registro')
@@ -259,7 +259,7 @@ def dates():
 
     return graphJSON
 
-def dWeek():
+def graf_dia():
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT fecha FROM registro')
@@ -289,8 +289,8 @@ def dWeek():
 def visitantes():
     if(request.method == 'POST'):
         #Obtiene los datos del usuario desde el método POST
-        nombre = request.form['name']
-        apellido = request.form['last_name']
+        nombre = request.form['nombre']
+        apellido = request.form['apellidos']
         hora_e = time.strftime("%Y-%m-%d %H:%M:%S")
         tipo_usuario = request.form['tipo_usuario']
         if(tipo_usuario != 'Visitante'):
