@@ -1,16 +1,16 @@
 {%extends 'base.html'%}
 
 {%block content%}
-<h2 class="text-center">Visitantes</h2>
+  <h2 class="text-center">Visitantes</h2>
   <div class="container">
     <form action="/visitantes.html" method="POST">
       <div class="card">
         <div class="card-body">
           <label for="nombre">Nombre</label>
-          <input type="text" class="form-control" name="nombre" placeholder="Inserte su nombre">
+          <input type="text" class="form-control" name="nombre" placeholder="Inserte su nombre" required pattern="[a-zA-Z]+[a-zA-Z ]+" title="Ingrese solo letras.">
   
           <label for="apellidos">Apellidos</label>
-          <input type="text" class="form-control" name="apellidos" placeholder="Inserte sus apellidos">
+          <input type="text" class="form-control" name="apellidos" placeholder="Inserte sus apellidos" required pattern="[a-zA-Z]+[a-zA-Z ]+" title="Ingrese solo letras.">
 
           <div class="form-group">
             <label for="tipoUsuario">Tipo de usuario</label>
