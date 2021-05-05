@@ -1,81 +1,81 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h2 class="text-center">Resultados</h2>
-  <nav class="navbar navbar-expand-lg navbar-light bg-ligh">
-    <div class="col-md-12 text-center">
-      <a class="btn btn-primary" href="/resultados.html" role="button">Resultados</a>
-      <a class="btn btn-primary" href="/bitacora.html" role="button">Modelos</a>
+<h2 class="text-center">Resultados</h2>
+<nav class="navbar navbar-expand-lg navbar-light bg-ligh">
+  <div class="col-md-12 text-center">
+    <a class="btn btn-primary" href="/resultados.html" role="button">Resultados</a>
+    <a class="btn btn-primary" href="/modelos.html" role="button">Modelos</a>
+  </div>
+</nav>
+<div class="container-fluid bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm" style= "margin-top: 2rem;">
+        <div class="chart" id="hora_e">
+          <script>
+            var graf1 
+            graf1 = {{plot1 | safe}};
+            Plotly.plot('hora_e', graf1, {});
+          </script>
+        </div>
+      </div>
     </div>
-  </nav>
-  <div class="container-fluid bg-gray">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm" style= "margin-top: 2rem;">
-          <div class="chart" id="hora_e">
-            <script>
-              var graf1 
-              graf1 = {{plot1 | safe}};
-              Plotly.plot('hora_e', graf1, {});
-            </script>
-          </div>
+    <div class="row">
+      <div class="col-sm" style= "margin-top: 2rem;">
+        <div class="chart" id="hora_s">
+          <script>
+            var graf2 
+            graf2 = {{plot2 | safe}};
+            Plotly.plot('hora_s', graf2, {});
+          </script>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm" style= "margin-top: 2rem;">
-          <div class="chart" id="hora_s">
-            <script>
-              var graf2 
-              graf2 = {{plot2 | safe}};
-              Plotly.plot('hora_s', graf2, {});
-            </script>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-sm" style= "margin-top: 2rem;">
+        <div class="chart" id="usuarios">
+          <script>
+            var graf3 
+            graf3 = {{plot3 | safe}};
+            Plotly.plot('usuarios', graf3, {});
+          </script>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm" style= "margin-top: 2rem;">
-          <div class="chart" id="usuarios">
-            <script>
-              var graf3 
-              graf3 = {{plot3 | safe}};
-              Plotly.plot('usuarios', graf3, {});
-            </script>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-sm" style= "margin-top: 2rem;">
+        <div class="chart" id="depa">
+          <script>
+            var graf4
+            graf4 = {{plot4 | safe}};
+            Plotly.plot('depa', graf4, {});
+          </script>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm" style= "margin-top: 2rem;">
-          <div class="chart" id="depa">
-            <script>
-              var graf4
-              graf4 = {{plot4 | safe}};
-              Plotly.plot('depa', graf4, {});
-            </script>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-sm" style= "margin-top: 2rem;">
+        <div class="chart" id="fecha">
+          <script>
+            var graf5
+            graf5 = {{plot5 | safe}};
+            Plotly.plot('fecha', graf5, {});
+          </script>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm" style= "margin-top: 2rem;">
-          <div class="chart" id="fecha">
-            <script>
-              var graf5
-              graf5 = {{plot5 | safe}};
-              Plotly.plot('fecha', graf5, {});
-            </script>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm" style= "margin-top: 2rem; margin-bottom: 7rem;">
-          <div class="chart" id="dia">
-            <script>
-              var graf6
-              graf6 = {{plot6 | safe}};
-              Plotly.plot('dia', graf6, {});
-            </script>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-sm" style= "margin-top: 2rem; margin-bottom: 7rem;">
+        <div class="chart" id="dia">
+          <script>
+            var graf6
+            graf6 = {{plot6 | safe}};
+            Plotly.plot('dia', graf6, {});
+          </script>
         </div>
       </div>
     </div>
   </div>
+</div>
 {%endblock%}
