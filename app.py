@@ -29,7 +29,7 @@ app.secret_key = urandom(24)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_PASSWORD'] = '123456789'
 app.config['MYSQL_DB'] = 'bitacora'
 mysql = MySQL(app)
 
@@ -51,7 +51,7 @@ def before_request():
     g.user = None
     if 'user_id' in session:
         cur = mysql.connection.cursor()
-        cur.execute('SELECT * FROM cuenta WHERE id = %s',(session['user_id'][0],))
+        cur.execute('SELECT * FROM cuenta WHERE id = %s', (session['user_id'][0],))
         data = cur.fetchall()
         g.user = data
 
@@ -64,7 +64,7 @@ def login():
         password = request.form['password']
         #Consulta del user id para obtener tipo de usuario
         cur = mysql.connection.cursor()
-        cur.execute('SELECT * FROM cuenta WHERE usuario = %s AND password = %s',(username,password))
+        cur.execute('SELECT * FROM cuenta WHERE usuario = %s AND password = %s', (username, password))
         data = cur.fetchall()
         if data:
             session['user_id'] = data[0]
@@ -91,11 +91,11 @@ def datos_qr():
         descripcion = None
         #Consulta del user id para obtener tipo de usuario
         cur = mysql.connection.cursor()
-        cur.execute('SELECT * FROM usuario WHERE uuid = %s',(uuid,))
+        cur.execute('SELECT * FROM usuario WHERE uuid = %s', (uuid,))
         data = cur.fetchall()
         tipo_usuario = data[0][3]
         #Busca si el usuario se encuentra dentro de la institución en la tabla de registros
-        cur.execute('SELECT * FROM registro WHERE uuid = %s AND fecha = %s AND hs IS NULL',(uuid,date))
+        cur.execute('SELECT * FROM registro WHERE uuid = %s AND fecha = %s AND hs IS NULL', (uuid, date))
         flag = cur.fetchall()
         #Si no está dentro de la institución, inserta registro
         if(not flag):
@@ -111,10 +111,10 @@ def busqueda():
         cur = mysql.connection.cursor()
         uuid = request.form['uuid']
         #Consulta del user id para obtener datos del usuario
-        cur.execute('SELECT * FROM usuario WHERE uuid = %s',(uuid,))
+        cur.execute('SELECT * FROM usuario WHERE uuid = %s', (uuid,))
         data = cur.fetchall()
         #Busca si el usuario se encuentra dentro de la institución en la tabla de registros
-        cur.execute('SELECT * FROM registro WHERE uuid = %s AND fecha = %s AND hs IS NULL',(uuid,date))
+        cur.execute('SELECT * FROM registro WHERE uuid = %s AND fecha = %s AND hs IS NULL', (uuid, date))
         consult = cur.fetchall()
         flag = False
         if(consult):
@@ -127,7 +127,7 @@ def busqueda():
 def busqueda_registro(id):
     hora_e = time.strftime("%Y-%m-%d %H:%M:%S")
     cur = mysql.connection.cursor()
-    cur.execute('SELECT * FROM usuario WHERE uuid = %s',(id,))
+    cur.execute('SELECT * FROM usuario WHERE uuid = %s', (id,))
     data = cur.fetchall()
     nombre = data[0][1]
     apellido = data[0][2]
@@ -152,7 +152,35 @@ def resultados():
     dep = graf_depa()
     fecha = graf_fecha()
     dia = graf_dia()
-    return render_template('/resultados.html', plot1 = he, plot2 = hs, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia)
+    personas = pers_activas()
+    total = personas_mes()
+    return render_template('/resultados.html', plot1 = he, plot2 = hs, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia, pers = personas, total = total)
+
+#Funcion para mostrar a las personas dentro de la universidad en el dia
+def pers_activas():
+    #Consulta para obtener las personas del dia de hoy
+    cur = mysql.connection.cursor()
+    cur.execute('SELECT hs FROM registro WHERE fecha = %s', (date,))
+    data = cur.fetchall()
+    cur.close()
+    df = pd.DataFrame(data, columns = ['hs'])
+    #Filtro para obtener a las personas que no han salido
+    pers = df.hs.isnull().sum()
+    return pers
+
+def personas_mes():
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
+    #Consulta para obtener las personas del mes
+    cur = mysql.connection.cursor()
+    cur.execute('SELECT he FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
+    data = cur.fetchall()
+    cur.close()
+    df = pd.DataFrame(data, columns = ['he'])
+    #Suma de las personas en el mes
+    dataframe = df.groupby('he').size().reset_index(name = 'frecuencia')
+    total_mes = dataframe.frecuencia.sum()
+    return total_mes
 
 #Despliegue de los dashboards en la sección de resultados
 @app.route('/modelos.html')
@@ -561,4 +589,4 @@ def registro_salida(id):
     return redirect(url_for('bitacora'))
 
 if __name__ == '__main__':
-    app.run(port=3000, debug=True)
+    app.run(port = 3000, debug = True)
