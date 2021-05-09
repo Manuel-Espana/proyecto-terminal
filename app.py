@@ -29,7 +29,7 @@ app.secret_key = urandom(24)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '123456789'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'bitacora'
 mysql = MySQL(app)
 
@@ -189,10 +189,10 @@ def modelos():
         return redirect(url_for('login'))
     if g.user[0][3] != 2:
         return redirect(url_for('index'))
-    dia_sig = graf_modelo_diaSig()
-    mantenimiento = graf_modelo_mantenimiento()
-    colaborador = graf_modelo_colaborador()
-    return render_template('/modelos.html', plot1 = dia_sig, plot2 = mantenimiento, plot3 = colaborador)
+    frecuencia, rmse1 = graf_modelo_frecuencia()
+    mantenimiento, rmse2 = graf_modelo_mantenimiento()
+    estudiante, rmse3 = graf_modelo_estudiantes()
+    return render_template('/modelos.html', plot1 = frecuencia, plot2 = mantenimiento, plot3 = estudiante, error1 = rmse1, error2 = rmse2, error3 = rmse3)
 
 #Funciones para la creacion de las graficas de Resultados
 def graf_he():
@@ -334,28 +334,25 @@ def graf_dia():
 
     return graphJSON
 
-def graf_modelo_diaSig():
+def graf_modelo_frecuencia():
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
-    cur.execute('SELECT he,hs FROM registro')
+    cur.execute('SELECT fecha FROM registro WHERE fecha BETWEEN %s AND %s',(mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     #La consulta se convierte a un DataFrame para su manipulacion
-    df = pd.DataFrame(list(data), columns = ['he','hs'])
-    df['he'] = pd.to_datetime(df['he'])
-    df['hs'] = pd.to_datetime(df['hs'])
-    df['h_diff'] = (df.hs - df.he).dt.total_seconds() / 3600.0
-    df['he'] = df['he'].dt.floor('H').dt.time
-    df['hs'] = df['hs'].dt.floor('H').dt.time
-    dia_sig = df[['h_diff']]
-    dia_sig['h_yesterday'] = dia_sig.h_diff.shift()
-    dia_sig['h_yesterday_diff'] = dia_sig.h_yesterday.diff()
-    dia_sig['h_yesterday-1'] = dia_sig.h_yesterday.shift()
-    dia_sig['h_yesterday-1_diff'] = dia_sig['h_yesterday-1'].diff()
-    dia_sig = dia_sig.dropna()
-    dia_sig = dia_sig.reset_index(drop=True)
+    df = pd.DataFrame(list(data), columns = ['fecha'])
+    ffecha = df.groupby('fecha').size().reset_index(name = 'h_diff')
+    ffecha['h_yesterday'] = ffecha.h_diff.shift()
+    ffecha['h_yesterday_diff'] = ffecha.h_yesterday.diff()
+    ffecha['h_yesterday-1'] = ffecha.h_yesterday.shift()
+    ffecha['h_yesterday-1_diff'] = ffecha['h_yesterday-1'].diff()
+    ffecha = ffecha.dropna()
+    ffecha = ffecha.reset_index(drop=True)
     
-    X_train, X_test, y_train, y_test = Preparacion(dia_sig)
+    X_train, X_test, y_train, y_test = Preparacion(ffecha)
     rmse_score = make_scorer(rmse, greater_is_better = False)
     model = LinearRegression()
     param_search = {
@@ -369,12 +366,12 @@ def graf_modelo_diaSig():
     gsearch.fit(X_train, y_train)
     best_model = gsearch.best_estimator_
 
-    y_true = y_test.values
-    y_pred = best_model.predict(X_test)
+    y_true = ffecha.h_diff.values
+    y_pred = best_model.predict(ffecha[['h_yesterday','h_yesterday_diff', 'h_yesterday-1','h_yesterday-1_diff']])
 
     linea1 = go.Scatter(
         x = list(range(len(y_true))),
-        y = y_test,
+        y = y_true,
         name = 'Valores reales'
     )
 
@@ -384,9 +381,9 @@ def graf_modelo_diaSig():
         name = 'Valores predichos'
     )
     data = go.Figure([linea1,linea2])
-    data.update_layout(title = '<b>Predicción de tiempo de estadía para el siguiente día</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
+    data.update_layout(title = '<b>Predicción de frecuencia de personas en la Universidad</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
-    return graphJSON
+    return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)))
 
 def graf_modelo_mantenimiento():
     #Se crea la coneccion con la BD y se hace la consulta
@@ -401,16 +398,16 @@ def graf_modelo_mantenimiento():
     df['h_diff'] = (df.hs - df.he).dt.total_seconds() / 3600.0
     df['he'] = df['he'].dt.floor('H').dt.time
     df['hs'] = df['hs'].dt.floor('H').dt.time
-    rh = df[df['departamento'] == 'Mantenimiento']
-    rh = rh[['departamento','h_diff']]
-    rh['h_yesterday'] = rh.h_diff.shift()
-    rh['h_yesterday_diff'] = rh.h_yesterday.diff()
-    rh['h_yesterday-1'] = rh.h_yesterday.shift()
-    rh['h_yesterday-1_diff'] = rh['h_yesterday-1'].diff()
-    rh = rh.dropna()
-    rh = rh.reset_index(drop=True)
+    mantenimiento = df[df['departamento'] == 'Mantenimiento']
+    mantenimiento = mantenimiento[['departamento','h_diff']]
+    mantenimiento['h_yesterday'] = mantenimiento.h_diff.shift()
+    mantenimiento['h_yesterday_diff'] = mantenimiento.h_yesterday.diff()
+    mantenimiento['h_yesterday-1'] = mantenimiento.h_yesterday.shift()
+    mantenimiento['h_yesterday-1_diff'] = mantenimiento['h_yesterday-1'].diff()
+    mantenimiento = mantenimiento.dropna()
+    mantenimiento = mantenimiento.reset_index(drop=True)
 
-    X_train, X_test, y_train, y_test = Preparacion(rh)
+    X_train, X_test, y_train, y_test = Preparacion(mantenimiento)
     rmse_score = make_scorer(rmse, greater_is_better = False)
     model = LinearRegression()
     param_search = {
@@ -424,12 +421,12 @@ def graf_modelo_mantenimiento():
     gsearch.fit(X_train, y_train)
     best_model = gsearch.best_estimator_
 
-    y_true = y_test.values
-    y_pred = best_model.predict(X_test)
+    y_true = mantenimiento.h_diff.values
+    y_pred = best_model.predict(mantenimiento[['h_yesterday','h_yesterday_diff', 'h_yesterday-1','h_yesterday-1_diff']])
 
     linea1 = go.Scatter(
         x = list(range(len(y_true))),
-        y = y_test,
+        y = y_true,
         name = 'Valores reales'
     )
 
@@ -441,9 +438,9 @@ def graf_modelo_mantenimiento():
     data = go.Figure([linea1,linea2])
     data.update_layout(title = '<b>Predicción de tiempo de estadía para el departamento de Mantenimiento</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
-    return graphJSON
+    return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)),3)
 
-def graf_modelo_colaborador():
+def graf_modelo_estudiantes():
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
     cur.execute('SELECT he,hs,motivo_ingreso FROM registro')
@@ -456,16 +453,16 @@ def graf_modelo_colaborador():
     df['h_diff'] = (df.hs - df.he).dt.total_seconds() / 3600.0
     df['he'] = df['he'].dt.floor('H').dt.time
     df['hs'] = df['hs'].dt.floor('H').dt.time
-    colaborador = df[df['motivo_ingreso'] == 'Colaborador']
-    colaborador = colaborador[['motivo_ingreso','h_diff']]
-    colaborador['h_yesterday'] = colaborador.h_diff.shift()
-    colaborador['h_yesterday_diff'] = colaborador.h_yesterday.diff()
-    colaborador['h_yesterday-1'] = colaborador.h_yesterday.shift()
-    colaborador['h_yesterday-1_diff'] = colaborador['h_yesterday-1'].diff()
-    colaborador = colaborador.dropna()
-    colaborador = colaborador.reset_index(drop=True)
+    estudiante = df[df['motivo_ingreso'] == 'Estudiante']
+    estudiante = estudiante[['motivo_ingreso','h_diff']]
+    estudiante['h_yesterday'] = estudiante.h_diff.shift()
+    estudiante['h_yesterday_diff'] = estudiante.h_yesterday.diff()
+    estudiante['h_yesterday-1'] = estudiante.h_yesterday.shift()
+    estudiante['h_yesterday-1_diff'] = estudiante['h_yesterday-1'].diff()
+    estudiante = estudiante.dropna()
+    estudiante = estudiante.reset_index(drop=True)
 
-    X_train, X_test, y_train, y_test = Preparacion(colaborador)
+    X_train, X_test, y_train, y_test = Preparacion(estudiante)
     rmse_score = make_scorer(rmse, greater_is_better = False)
     model = LinearRegression()
     param_search = {
@@ -479,12 +476,12 @@ def graf_modelo_colaborador():
     gsearch.fit(X_train, y_train)
     best_model = gsearch.best_estimator_
 
-    y_true = y_test.values
-    y_pred = best_model.predict(X_test)
+    y_true = estudiante.h_diff.values
+    y_pred = best_model.predict(estudiante[['h_yesterday','h_yesterday_diff', 'h_yesterday-1','h_yesterday-1_diff']])
 
     linea1 = go.Scatter(
         x = list(range(len(y_true))),
-        y = y_test,
+        y = y_true,
         name = 'Valores reales'
     )
 
@@ -494,20 +491,17 @@ def graf_modelo_colaborador():
         name = 'Valores predichos'
     )
     data = go.Figure([linea1,linea2])
-    data.update_layout(title = '<b>Predicción de tiempo de estadía para Colaboradores</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
+    data.update_layout(title = '<b>Predicción de tiempo de estadía para Estudiantes</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
-    return graphJSON
+    return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)),3)
 
-def Resultados_Regresion(y_true, y_pred):
-    #Métricas de regresión
-    mae = mean_absolute_error(y_true, y_pred) 
-    mse = mean_squared_error(y_true, y_pred) 
-    r2 = r2_score(y_true, y_pred)
-    print('R2: ', round(r2,4))
-    print('MAE: ', round(mae,4))
-    print('RMSE: ', round(np.sqrt(mse),4))
-    print('Promedio valor real', round(mean(y_true), 3))
-    print('Promedio valor predicho', round(mean(y_pred), 3))
+def Preparacion(df):
+    X = df[['h_yesterday','h_yesterday_diff', 'h_yesterday-1','h_yesterday-1_diff']]
+    y = df.h_diff
+    train_size = int(len(df) * 0.80)
+    X_train, X_test = X[0:train_size], X[train_size:len(X)]
+    y_train, y_test = y[0:train_size], y[train_size:len(X)]
+    return X_train, X_test, y_train, y_test
 
 def rmse(actual, predict):
     predict = np.array(predict)
@@ -517,14 +511,6 @@ def rmse(actual, predict):
     mean_square_distance = square_distance.mean()
     score = np.sqrt(mean_square_distance)
     return score
-
-def Preparacion(df):
-    X = df[['h_yesterday','h_yesterday_diff', 'h_yesterday-1','h_yesterday-1_diff']]
-    y = df.h_diff
-    train_size = int(len(df) * 0.80)
-    X_train, X_test = X[0:train_size], X[train_size:len(X)]
-    y_train, y_test = y[0:train_size], y[train_size:len(X)]
-    return X_train, X_test, y_train, y_test
 
 #Registro de visitantes en la sección de visitantes
 @app.route('/visitantes.html', methods=['POST'])

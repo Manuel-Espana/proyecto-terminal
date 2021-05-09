@@ -7,10 +7,10 @@
     <div class="card">
       <div class="card-body">
         <label for="nombre">Nombre</label>
-        <input type="text" class="form-control" name="nombre" placeholder="Inserte su nombre" required pattern="[a-zA-Z]+[a-zA-Z ]+" title="Ingrese solo letras.">
+        <input type="text" class="form-control" name="nombre" placeholder="Inserte su nombre" required pattern="[a-zA-Z\u00C0-\u00FF]+[a-zA-Z\u00C0-\u00FF ]+" title="Ingrese solo letras.">
 
         <label for="apellidos">Apellidos</label>
-        <input type="text" class="form-control" name="apellidos" placeholder="Inserte sus apellidos" required pattern="[a-zA-Z]+[a-zA-Z ]+" title="Ingrese solo letras.">
+        <input type="text" class="form-control" name="apellidos" placeholder="Inserte sus apellidos" required pattern="[a-zA-Z\u00C0-\u00FF]+[a-zA-Z\u00C0-\u00FF ]+" title="Ingrese solo letras.">
 
         <div class="form-group">
           <label for="tipoUsuario">Tipo de usuario</label>
