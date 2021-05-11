@@ -29,7 +29,7 @@ app.secret_key = urandom(24)
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_PASSWORD'] = '123456789'
 app.config['MYSQL_DB'] = 'bitacora'
 mysql = MySQL(app)
 
@@ -86,6 +86,7 @@ def datos_qr():
         nombre = usuario["nombre"]
         apellido = usuario["apellido"]
         uuid = usuario['uuid']
+        tipo_entrada = usuario["tipo_entrada"]
         hora_e = time.strftime("%Y-%m-%d %H:%M:%S")
         departamento = 'Comunidad Universitaria'
         descripcion = None
@@ -99,8 +100,8 @@ def datos_qr():
         flag = cur.fetchall()
         #Si no está dentro de la institución, inserta registro
         if(not flag):
-            cur.execute('INSERT INTO registro (nombre,apellido,he,motivo_ingreso,departamento,descripcion,fecha,uuid) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)', 
-                        (nombre, apellido, hora_e, tipo_usuario, departamento, descripcion, date, uuid))
+            cur.execute('INSERT INTO registro (nombre,apellido,he,motivo_ingreso,departamento,descripcion,fecha,uuid,tipo_entrada) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)', 
+                        (nombre, apellido, hora_e, tipo_usuario, departamento, descripcion, date, uuid, tipo_entrada))
         mysql.connection.commit()
         return 'OK', 200
 
@@ -151,10 +152,10 @@ def resultados():
     usuario = graf_usuarios()
     dep = graf_depa()
     fecha = graf_fecha()
-    dia = graf_dia()
+    entrada = graf_entrada()
     personas = pers_activas()
     total = personas_mes()
-    return render_template('/resultados.html', plot1 = he, plot2 = hs, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = dia, pers = personas, total = total)
+    return render_template('/resultados.html', plot1 = he, plot2 = hs, plot3 = usuario, plot4 = dep, plot5 = fecha, plot6 = entrada, pers = personas, total = total)
 
 #Funcion para mostrar a las personas dentro de la universidad en el dia
 def pers_activas():
@@ -169,6 +170,7 @@ def pers_activas():
     return pers
 
 def personas_mes():
+    #Filtro de fechas
     mes_inicio = '2021-01-01'
     mes_fin ='2021-01-31'
     #Consulta para obtener las personas del mes
@@ -196,9 +198,12 @@ def modelos():
 
 #Funciones para la creacion de las graficas de Resultados
 def graf_he():
+    #Filtro de fechas
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
-    cur.execute('SELECT he FROM registro')
+    cur.execute('SELECT he FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     df = pd.DataFrame(data, columns = ['he'])
@@ -219,9 +224,12 @@ def graf_he():
     return graphJSON
 
 def graf_hs():
+    #Filtro de fechas
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
     #Consulta de los registros de la base de datos
     cur = mysql.connection.cursor()
-    cur.execute('SELECT hs FROM registro')
+    cur.execute('SELECT hs FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     df = pd.DataFrame(data, columns = ['hs'])
@@ -242,9 +250,12 @@ def graf_hs():
     return graphJSON
 
 def graf_usuarios():
+    #Filtro de fechas
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
-    cur.execute('SELECT motivo_ingreso FROM registro')
+    cur.execute('SELECT motivo_ingreso FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     #La consulta se convierte a un DataFrame para su manipulacion
@@ -262,9 +273,12 @@ def graf_usuarios():
     return graphJSON
 
 def graf_depa():
+    #Filtro de fechas
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
-    cur.execute('SELECT departamento FROM registro')
+    cur.execute('SELECT departamento FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     #La consulta se convierte a un DataFrame para su manipulacion
@@ -285,9 +299,12 @@ def graf_depa():
     return graphJSON
 
 def graf_fecha():
+    #Filtro de fechas
+    mes_inicio = '2021-01-01'
+    mes_fin ='2021-01-31'
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
-    cur.execute('SELECT fecha FROM registro')
+    cur.execute('SELECT fecha FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     #La consulta se convierte a un DataFrame para su manipulacion
@@ -309,29 +326,27 @@ def graf_fecha():
 
     return graphJSON
 
-def graf_dia():
+def graf_entrada():
+    #Filtro de fechas
+    mes_inicio = '2021-05-01'
+    mes_fin ='2021-05-31'
     #Se crea la coneccion con la BD y se hace la consulta
     cur = mysql.connection.cursor()
-    cur.execute('SELECT fecha FROM registro')
+    cur.execute('SELECT tipo_entrada FROM registro WHERE fecha BETWEEN %s AND %s', (mes_inicio, mes_fin))
     data = cur.fetchall()
     cur.close()
     #La consulta se convierte a un DataFrame para su manipulacion
-    df = pd.DataFrame(list(data), columns = ['fecha'])
+    df = pd.DataFrame(list(data), columns = ['tipo_entrada'])
 
-    #Conversion a tipo fecha y a dia de la semana
-    df.fecha = pd.to_datetime(df.fecha)
-    df.fecha = df.fecha.dt.strftime('%A')
-    dia = df.groupby('fecha').size().reset_index(name = 'frecuencia')
-    #Orderna de mayor a menor
-    dia = dia.sort_values(by = 'frecuencia', ascending = False)
+    #Modificacion de los tipos de entrada
+    fentrada = df.groupby('tipo_entrada').size().reset_index(name = 'frecuencia')
 
-    #Grafica los dias de la semana, se guarda como JSON y se envia para graficar
-    colors = ['darkorange', 'darkorchid', 'darkcyan', 'darksalmon', 'forestgreen', 'darkslateblue', 'brown']
-    bar = [go.Bar(x = dia.fecha,  y = dia.frecuencia, marker_color = colors)]
-    data = go.Figure(bar)
-    data.update_layout(title = '<b>Días de la semana con más ingresos (enero 2021)</b>', xaxis_title = 'Días', yaxis_title = 'Cantidad de ingresos', title_font_size = 15)
+    #Grafica los usuarios, se guarda como JSON y se envia para graficar
+    etiquetas = ['A pie', 'Vehículo']
+    pie = [go.Pie(labels = etiquetas, values = fentrada.frecuencia)]
+    data = go.Figure(pie)
+    data.update_layout(title = '<b>Tipos de entrada en el mes de mayo 2021</b>', title_font = dict(size = 15))
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
-
     return graphJSON
 
 def graf_modelo_frecuencia():
@@ -436,7 +451,7 @@ def graf_modelo_mantenimiento():
         name = 'Valores predichos'
     )
     data = go.Figure([linea1,linea2])
-    data.update_layout(title = '<b>Predicción de tiempo de estadía para el departamento de Mantenimiento</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
+    data.update_layout(title = '<b>Predicción de tiempo de estadía para el depto. de Mantenimiento</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
     return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)),3)
 
@@ -547,7 +562,7 @@ def bitacora():
     if not g.user:
         return redirect(url_for('login'))
     cur = mysql.connection.cursor()
-    cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid FROM registro WHERE fecha = %s", (date,))
+    cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid,tipo_entrada FROM registro WHERE fecha = %s", (date,))
     data = cur.fetchall()
     cur.close()
     return render_template('/bitacora.html', registros = data)
@@ -560,7 +575,7 @@ def bitacora_filtrar_fecha():
     fecha_fin = request.form['fecha-fin']
     if(fecha_fin == ""):
         fecha_fin = fecha_inicio
-    cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid FROM registro WHERE fecha BETWEEN %s AND %s",(fecha_inicio,fecha_fin))
+    cur.execute("SELECT id_registro,nombre,apellido,DATE_FORMAT(he,'%%H:%%i:%%s'),DATE_FORMAT(hs,'%%H:%%i:%%s'),motivo_ingreso,departamento,descripcion,fecha,uuid,tipo_entrada FROM registro WHERE fecha BETWEEN %s AND %s",(fecha_inicio,fecha_fin))
     data = cur.fetchall()
     cur.close()
     return render_template('/bitacora.html', registros = data)

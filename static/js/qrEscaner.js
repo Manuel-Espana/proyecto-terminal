@@ -1,9 +1,7 @@
 const codigo_qr = window.qrcode;
-
 const video = document.createElement("video");
 const qr_canvas = document.getElementById("qr-canvas");
 const canvas = qr_canvas.getContext("2d");
-
 const qr_res = document.getElementById("qr-res");
 const respuesta = document.getElementById("respuesta");
 const btnScanQR = document.getElementById("btn-scan-qr");

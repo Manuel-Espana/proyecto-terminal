@@ -31,6 +31,7 @@
           <th>H.S.</th>
           <th>Motivo ing.</th>
           <th>Dep. visitado</th>
+          <th>Tipo entrada</th>
           <th>Opciones</th>
         </tr>
       </thead>
@@ -44,6 +45,7 @@
           <td>{{registro.4}}</td>
           <td>{{registro.5}}</td>
           <td>{{registro.6}}</td>
+          <td> {% if registro.10 == 1 %} <p>Vehículo</p> {% endif %} {% if registro.10 == 0 %} <p>A pie</p> {% endif %} </td>
           <td> {% if registro.4 == None%} <a href="/exit/{{registro.0}}" class="btn btn-danger btn-delete">Salida</a> {% else %} - {% endif %} </td>
         </tr>
         {% endfor %}
