@@ -345,7 +345,7 @@ def graf_entrada():
     etiquetas = ['A pie', 'Vehículo']
     pie = [go.Pie(labels = etiquetas, values = fentrada.frecuencia)]
     data = go.Figure(pie)
-    data.update_layout(title = '<b>Tipos de entrada en el mes de mayo 2021</b>', title_font = dict(size = 15))
+    data.update_layout(title = '<b>Tipos de entrada (mayo 2021)</b>', title_font = dict(size = 15))
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
     return graphJSON
 
@@ -396,7 +396,7 @@ def graf_modelo_frecuencia():
         name = 'Valores predichos'
     )
     data = go.Figure([linea1,linea2])
-    data.update_layout(title = '<b>Predicción de frecuencia de personas en la Universidad</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
+    data.update_layout(title = '<b>Pred. de frec. de personas en la Universidad</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
     return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)))
 
@@ -451,7 +451,7 @@ def graf_modelo_mantenimiento():
         name = 'Valores predichos'
     )
     data = go.Figure([linea1,linea2])
-    data.update_layout(title = '<b>Predicción de tiempo de estadía para el depto. de Mantenimiento</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
+    data.update_layout(title = '<b>Pred. de tiempo de estadía (depto. Mant.)</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
     return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)),3)
 
@@ -506,7 +506,7 @@ def graf_modelo_estudiantes():
         name = 'Valores predichos'
     )
     data = go.Figure([linea1,linea2])
-    data.update_layout(title = '<b>Predicción de tiempo de estadía para Estudiantes</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
+    data.update_layout(title = '<b>Pred. de tiempo de estadía para Estudiantes</b>', xaxis_title = 'Número de predicción', yaxis_title = 'Tiempo de estadía en horas', title_font_size = 15)
     graphJSON = json.dumps(data, cls = plotly.utils.PlotlyJSONEncoder)
     return graphJSON, round(np.sqrt(mean_squared_error(y_true, y_pred)),3)
 
