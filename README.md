@@ -13,6 +13,7 @@ Actualmente, la Universidad del Caribe enfrenta dos principales problemas refere
 + Flask
 + HTML
 + CSS
++ Bootstrap
 + JavaScript
 + Jinja
 + MySQL
